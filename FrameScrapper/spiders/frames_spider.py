@@ -9,11 +9,16 @@ class FrameSpider(Spider):
     start_urls =[
             "http://www.39dollarglasses.com/mens-eyeglasses.html",
             ]
+    items = []
 
     def parse(self, response):
         sel = Selector(response)
         sites = sel.xpath('//div[@class="product_box"]')
         for site in sites:
+            item = FramescrapperItem()
             color = sel.xpath('//div[@class="product_btext"]').extract()
             price = sel.xpath('//div[@class="product_bprice"]').extract()
+            items.apped(item)
+        return items
+
 
