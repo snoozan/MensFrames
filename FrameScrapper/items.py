@@ -9,6 +9,8 @@ class FramescrapperItem(Item):
     # define the fields for your item here like:
     # name = Field()
     brand = Field()
-    color = Field()
+    url = Field()
+    colors = Field()
     price = Field()
+    retail_price = Field()
 

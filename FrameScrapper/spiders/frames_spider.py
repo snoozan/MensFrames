@@ -16,8 +16,11 @@ class FrameSpider(Spider):
         items = []
         for site in sites:
             item = FramescrapperItem()
-            color = sel.xpath('//div[@class="product_btext"]').extract()
-            price = sel.xpath('//div[@class="product_bprice"]').extract()
+            item['brand'] = sel.xpath('//h5/a/text()').extract()
+            item['url'] = sel.xpath('//h5/a/@href').extract()
+            item['colors'] = sel.xpath('//div[@class="available_colors"]//img/text()').extract()
+            item['price'] = sel.xpath('//div[@class="product_bprice"]/text()').extract()
+            item['retail_price']= sel.xpath('//div[@class="product_btext"]/text()').extract()
             items.append(item)
         return items
 
