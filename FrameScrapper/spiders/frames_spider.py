@@ -12,15 +12,15 @@ class FrameSpider(Spider):
 
     def parse(self, response):
         sel = Selector(response)
-        sites = sel.xpath('//div[@class="product_box"]')
+        sites = sel.xpath('//div[@class="product_box"]/div')
         items = []
         for site in sites:
             item = FramescrapperItem()
-            item['brand'] = sel.xpath('//h5/a/text()').extract()
-            item['url'] = sel.xpath('//h5/a/@href').extract()
-            item['colors'] = sel.xpath('//div[@class="available_colors"]//img/text()').extract()
-            item['price'] = sel.xpath('//div[@class="product_bprice"]/text()').extract()
-            item['retail_price']= sel.xpath('//div[@class="product_btext"]/text()').extract()
+            item['brand'] = site.xpath('//h5/a/text()').extract()
+            item['url'] = site.xpath('//h5/a/@href').extract()
+            item['colors'] = site.xpath('//div[@class="available_colors"]//img/text()').extract()
+            item['price'] = site.xpath('//div[@class="product_bprice"]/text()').extract()
+            item['retail_price']= site.xpath('//div[@class="product_btext"]/text()').extract()
             items.append(item)
         return items
 
