@@ -12,7 +12,7 @@ class FrameSpider(Spider):
 
     def parse(self, response):
         sel = Selector(response)
-        sites = sel.xpath('//div[@class="product_box"]/div')
+        sites = sel.xpath('//div[@class="product_box"]//div')
         items = []
         for site in sites:
             item = FramescrapperItem()
