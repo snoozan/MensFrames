@@ -5,7 +5,25 @@
 
 from sqlalchemy.orm import sessionmaker
 from models import Frames, db_connect, create_frames_table
+
 class FramescrapperPipeline(object):
+
+    @functools.wraps(process_item_method)
+    def wrapper(self, item, spider):
+
+        msg = '%%s %s pipeline step' %(self.Session__class__.__name__)
+
+        if self.__class__ in spider.pipeline:
+            spider.log(msg % 'executing', level=log.DEBUG)
+            return process_item_method(self, item, spider)
+
+        else:
+            spider.log(msg % 'skipping', level=log.DEBUG)
+
+
+
+
+
 
     def __init__(self):
         """
