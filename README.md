@@ -1,4 +1,3 @@
-edited: started new repo after deciding to use scrapy instead of pyramid
+Run autorun.py to update json file
 
-scope: make spider that crawls through pages, grabs html, dumps it into beautiful soup script
-
+urls then piped into list and fed to info spiders
