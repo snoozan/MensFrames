@@ -1,6 +1,7 @@
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.engine.url import URL
 from sqlalchemy import create_engine, Column, Integer, Float, String, PickleType
+from sqlalchemy import scoped_session, sessionmaker
 
 import settings
 
@@ -13,6 +14,7 @@ def db_connect():
     return create_engine(URL(**settings.DATABASE))
 
 DeclarativeBase = declarative_base()
+DBSession = scoped_session(sessionmaker(extension=ZopeTransactionExtention()))
 
 def create_frames_table(engine):
 
@@ -36,5 +38,5 @@ class FramesInfo(DeclarativeBase):
     product_name = Column(String)
     price = Column(Integer)
     color = Column(PickleType)
-    shape = Column(String)
-    width = Column(Integer)
+
+
