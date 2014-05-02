@@ -1,6 +1,8 @@
 from scrapy.spider import Spider
+from scrapy.selector import HtmlXPathSelector
+from scrapy.contrib.loader import XPathItemLoader
+from scrapy.contrib.loader.processor import Join, MapCompose
 
-from scrapy.selector import Selector
 from FrameScrapper.items import FramescrapperItem
 
 class MezzmerSpider(Spider):
@@ -9,13 +11,19 @@ class MezzmerSpider(Spider):
     start_urls =[
         "http://www.mezzmer.com/mens/mens-optical",
             ]
+    urls_list_xpath = '//*[@id="galleria"]/ul[@class="product_content"]/li/figure/a'
+    items_fields = {'url': './@href'}
 
     def parse(self, response):
-        sel = Selector(response)
-        sites = sel.xpath('//*[@id="galleria"]/ul[@class="product_content"]/li/figure/a')
-        items = []
-        for site in sites:
-            item = FramescrapperItem()
-            item['url'] = site.xpath('./@href').extract()
-            items.append(item)
-        return items
+        sel = HtmlXPathSelector(response)
+
+        for site in sel.select(self.urls_list_xpath):
+            loader = XPathItemLoader(FramescrapperItem(), selector=site)
+
+            #define processes
+            loader.dafault_input_processor = MapCompose(unicode.strip)
+            loader.default_output_processor = Join()
+
+            for field, xpath in self.item_fields.iteritems():
+                loader.add_xpath(field, xpath)
+            yield loader.load_item()
