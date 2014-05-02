@@ -16,7 +16,7 @@ DATABASE = {'drivername': 'postgres',
             'host': 'haruko.csh.rit.edu',
             'port': '5432',
             'username': 'susan',
-            'password': 'pythoniscool',
+            'password': 'notactuallythepassword',
             'database': 'scrapyproject'}
 
 ITEM_PIPELINES = ['FrameScrapper.pipelines.FramescrapperPipeline']
