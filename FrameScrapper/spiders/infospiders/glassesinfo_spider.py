@@ -3,21 +3,21 @@ from scrapy.spider import Spider
 from scrapy.selector import HtmlXPathSelector
 from scrapy.contrib.loader import XPathItemLoader
 from scrapy.contrib.loader.processor import Join, MapCompose
-from models import DBSession, framesInfo
+#from models import DBSession, framesInfo
 
 from FrameScrapper.items import FramescrapperItem
 
 class GlassesInfoSpider(Spider):
     name = "glassesinfo"
-    allowed_domains=["http://www.eyefly.com/"]
-    start_urls=[""]
+    allowed_domains=["http://www.glasses.com/"]
+    start_urls=["http://www.glasses.com/women-glasses/ray-ban-rx5228-large/4595.html?dwvar_4595_color=tortoise2"]
 
-    urls_list_xpath = ''
-    item_fields = {'url': '',
-                   'brand': '',
-                   'product_name': '',
-                   'price': '',
-                   'color': ''
+    urls_list_xpath = '//*[@id="pdpMain"]'
+    item_fields = {'url': '/html/head/link[5]/@href',
+                   'brand': '//*[@id="brand-name"]/text()',
+                   'product_name': '//*[@id="frame-name"]/text()',
+                   'price': '//*[@id="frame-price"]/text()',
+                   'colors': '//*[@id="color-selector-container"]/ul/li/a/title'
     }
 
     def parse(self, response):

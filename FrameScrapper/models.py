@@ -36,6 +36,7 @@ class FramesInfo(DeclarativeBase):
     url = Column(String, primary_key=True)
     brand = Column(String)
     product_name = Column(String)
+    product_img = Column(String)
     price = Column(Integer)
     color = Column(PickleType)
 

@@ -4,20 +4,23 @@ from scrapy.selector import HtmlXPathSelector
 from scrapy.contrib.loader import XPathItemLoader
 from scrapy.contrib.loader.processor import Join, MapCompose
 
-from models import DBSession, framesInfo
+#from models import DBSession, framesInfo
 from FrameScrapper.items import FramescrapperItem
+
 
 class CoastalInfoSpider(Spider):
     name = "coastalinfo"
     allowed_domains=["http://www.coastal.com/"]
-    start_urls=[""]
+    start_urls=['http://www.coastal.com/r-hardy-9013-black?rsView=1&ga=M|F|K']
 
-    urls_list_xpath = ''
-    item_fields = {'url': '',
-                   'brand': '',
-                   'product_name': '',
-                   'price': '',
-                   'color': ''
+    urls_list_xpath = '//*[@id="product-content-right-container"]'
+    item_fields = {'url': '/html/head/link[@rel="canonical"]/@href',
+                   'brand': '//*[@id="product-brand-container"]/a/@href',
+                   'product_name': '//*[@id="product-name-container"]/h1/text()',
+                   'product_img': '//*[@id="product-main-image-container"]/a/@href',
+                   'colors': '//*[@id="product-details-panes"]/div[1]/div/div[2]/ul/li[6]/span/text()',
+                   'width': '//*[@id="product-details-panes"]/div[1]/div/div[3]/ul[3]/li[1]/text()',
+                   'price': '//*[@id="price-amount"]/text()',
     }
 
     def parse(self, response):

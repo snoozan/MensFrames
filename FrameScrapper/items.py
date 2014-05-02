@@ -7,10 +7,12 @@ from scrapy.item import Item, Field
 
 class FramescrapperItem(Item):
     # define the fields for your item here like:
-    # name = Field()
-    brand = Field()
+
     url = Field()
+    brand = Field()
+    product_name = Field()
+    product_img = Field()
     colors = Field()
+    width = Field()
     price = Field()
-    retail_price = Field()
 

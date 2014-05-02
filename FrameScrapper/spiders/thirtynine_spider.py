@@ -12,7 +12,7 @@ class ThirtyNineSpider(Spider):
             "http://www.39dollarglasses.com/mens-eyeglasses.html",
             ]
     urls_list_xpath = '//div[@class="product_box"]'
-    items_fields = {'url': './/a[@class="order_now"]/@href'}
+    item_fields = {'url': './/a[@class="order_now"]/@href'}
 
     def parse(self, response):
         sel = HtmlXPathSelector(response)
