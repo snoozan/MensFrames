@@ -1,5 +1,7 @@
 from scrapy.spider import Spider
-from scrapy.selector import Selector
+from scrapy.selector import HtmlXPathSelector
+from scrapy.contrib.loader import XPathItemLoader
+from scrapy.contrib.loader.processor import Join, MapCompose
 
 from FrameScrapper.items import FramescrapperItem
 
@@ -8,13 +10,20 @@ class CoastalSpider(Spider):
     allowed_domains=["http://www.coastal.com/"]
     start_urls = ["http://www.coastal.com/mens-frames?ilid=tnav#ui=cnd"]
 
-    def parse(self, response):
-        sel = Selector(response)
-        sites = sel.xpath('//*[@id="browsed-product"]/div[1]/div')
-        items = []
+    urls_list_xpath = '//*[@id="browsed-product"]/div[1]/div'
+    item_fields = {'url': './@rel'}
 
-        for site in sites:
-            item = FramescrapperItem()
-            item['url'] = site.xpath('./@rel').extract()
-            items.append(item)
-        return items
+
+    def parse(self, response):
+        sel = HtmlXPathSelector(response)
+
+        for site in sel.select(self.urls_list_xpath):
+            loader = XPathItemLoader(FramescrapperItem(), selector=site)
+
+            #define processes
+            loader.dafault_input_processor = MapCompose(unicode.strip)
+            loader.default_output_processor = Join()
+
+            for field, xpath in self.item_fields.iteritems():
+                loader.add_xpath(field, xpath)
+            yield loader.load_item()

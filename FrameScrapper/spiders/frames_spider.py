@@ -1,6 +1,9 @@
 from scrapy.spider import Spider
 
-from scrapy.selector import Selector
+from scrapy.selector import HtmlXPathSelector
+from scrapy.contrib.loader import XPathItemLoader
+from scrapy.contrib.loader.processor import Join, MapCompose
+
 from FrameScrapper.items import FramescrapperItem
 
 class FrameSpider(Spider):
@@ -9,19 +12,20 @@ class FrameSpider(Spider):
     start_urls =[
             "http://www.39dollarglasses.com/mens-eyeglasses.html",
             ]
+    urls_list_xpath = '//div[@class="product_box"]//div'
+    item_fields = {'url': './/h5/a/@href'}
+
 
     def parse(self, response):
-        sel = Selector(response)
-        sites = sel.xpath('//div[@class="product_box"]//div')
-        items = []
-        for site in sites:
-            item = FramescrapperItem()
-            item['brand'] = site.xpath('//h5/a/text()').extract()
-            item['url'] = site.xpath('//h5/a/@href').extract()
-            item['colors'] = site.xpath('//div[@class="available_colors"]//img/text()').extract()
-            item['price'] = site.xpath('//div[@class="product_bprice"]/text()').extract()
-            item['retail_price']= site.xpath('//div[@class="product_btext"]/text()').extract()
-            items.append(item)
-        return items
+        sel = HtmlXPathSelector(response)
 
+        for site in sel.select(self.urls_list_xpath):
+            loader = XPathItemLoader(FramescrapperItem(), selector=site)
 
+            #define processes
+            loader.dafault_input_processor = MapCompose(unicode.strip)
+            loader.default_output_processor = Join()
+
+            for field, xpath in self.item_fields.iteritems():
+                loader.add_xpath(field, xpath)
+            yield loader.load_item()
