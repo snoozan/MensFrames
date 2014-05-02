@@ -8,6 +8,7 @@ from models import Frames, db_connect, create_frames_table
 
 class FramescrapperPipeline(object):
 
+    """
     @functools.wraps(process_item_method)
     def wrapper(self, item, spider):
 
@@ -19,7 +20,7 @@ class FramescrapperPipeline(object):
 
         else:
             spider.log(msg % 'skipping', level=log.DEBUG)
-
+    """
 
 
 

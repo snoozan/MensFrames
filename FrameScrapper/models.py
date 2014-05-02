@@ -18,16 +18,23 @@ def create_frames_table(engine):
 
     DeclarativeBase.metadata.create_all(engine)
 
-class Frames(DeclarativeBase):
+class FramesURL(DeclarativeBase):
     """
     sqlalchemy's db model for men's frames
     """
 
-    __tablename__ = "frames"
+    __tablename__ = "frames_url"
 
-    brand = Column('brand', String)
     url = Column(String, primary_key=True)
-    colors = Column('colors', PickleType, nullable=True)
-    price = Column('price', Float)
-    retail_price = Column('retail price', Float)
 
+class FramesInfo(DeclarativeBase):
+
+    __tablename__ = "frames_info"
+
+    url = Column(String, primary_key=True)
+    brand = Column(String)
+    product_name = Column(String)
+    price = Column(Integer)
+    color = Column(PickleType)
+    shape = Column(String)
+    width = Column(Integer)

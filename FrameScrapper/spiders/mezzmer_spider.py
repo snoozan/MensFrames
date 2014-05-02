@@ -12,7 +12,7 @@ class MezzmerSpider(Spider):
         "http://www.mezzmer.com/mens/mens-optical",
             ]
     urls_list_xpath = '//*[@id="galleria"]/ul[@class="product_content"]/li/figure/a'
-    items_fields = {'url': './@href'}
+    item_fields = {'url': './@href'}
 
     def parse(self, response):
         sel = HtmlXPathSelector(response)

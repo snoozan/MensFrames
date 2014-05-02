@@ -11,7 +11,7 @@ class WarByParkerSpider(Spider):
     start_urls = ["http://www.warbyparker.com/eyeglasses/men"]
 
     urls_list_xpath = '//ul[@class="products-grid"]/li/a'
-    items_fields = {'url': './@href'}
+    item_fields = {'url': './@href'}
 
     def parse(self, response):
         sel = HtmlXPathSelector(response)
