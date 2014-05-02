@@ -10,14 +10,14 @@ from FrameScrapper.items import FramescrapperItem
 class MezzmerSpider(Spider):
     name = "mezzmerinfo"
     allowed_domains=["http://www.mezzmer.com/"]
-    start_urls=[""]
+    start_urls=["http://www.mezzmer.com/big-easy-eyewear-black-fade-eyeglass-frame"]
 
-    urls_list_xpath = ''
-    item_fields = {'url': '',
-                   'brand': '',
-                   'product_name': '',
-                   'price': '',
-                   'color': ''
+    urls_list_xpath = '//*[@id="container"]/div[2]'
+    item_fields = {'url': '/html/head/link[9]/@href',
+                   'brand': '//*[@id="container"]/div[2]/div[2]/div[1]/aside/h1/text()',
+                   'product_name': '//*[@id="container"]/div[2]/div[2]/div[1]/aside/h1/text()',
+                   'price': '//*[@id="container"]/div[2]/div[2]/div[1]/aside/h1/div/span/text()',
+                   'colors': '//*[@id="container"]/div[2]/div[2]/div[2]/div/div/ul/li/h3/text()'
     }
 
     def parse(self, response):

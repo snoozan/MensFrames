@@ -9,14 +9,15 @@ from FrameScrapper.items import FramescrapperItem
 class WarByParkerInfoSpider(Spider):
     name = "warbyparkerinfo"
     allowed_domains=["http://www.warbyparker.com/"]
-    start_urls=[""]
+    start_urls=["http://www.warbyparker.com/eyeglasses/men/wilkie#whiskey-tortoise"]
 
-    urls_list_xpath = ''
-    item_fields = {'url': '',
-                   'brand': '',
-                   'product_name': '',
-                   'price': '',
-                   'color': ''
+    urls_list_xpath = '//*[@id="pdp"]/div[4]/div[1]'
+    item_fields = {'url': '/html/head/link[1]/@href',
+                   'brand': '//*[@id="js-product-purchase-section"]/div/h3[1]/text()',
+                   'product_name': '//*[@id="js-product-purchase-section"]/div/h3[1]/text()',
+                   'price': '//*[@id="js-product-purchase-section"]/div/p/span/span/text()',
+                   'colors': '//*[@id="pdp"]/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li/div/p/a/text()',
+                   'width': '//*[@id="pdp"]/div[4]/div[1]/div[2]/ul[1]/li[1]/p/text()'
     }
 
     def parse(self, response):
