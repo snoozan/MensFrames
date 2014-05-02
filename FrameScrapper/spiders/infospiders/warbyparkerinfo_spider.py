@@ -8,8 +8,14 @@ from FrameScrapper.items import FramescrapperItem
 
 class WarByParkerInfoSpider(Spider):
     name = "warbyparkerinfo"
+
+
+    def __init__(self, url=None, *args, **kwargs):
+        super(WarByParkerInfoSpider, self).__init__(*args, **kwargs)
+        self.start_urls=[url]
+
+
     allowed_domains=["http://www.warbyparker.com/"]
-    start_urls=["http://www.warbyparker.com/eyeglasses/men/wilkie#whiskey-tortoise"]
 
     urls_list_xpath = '//*[@id="pdp"]/div[4]/div[1]'
     item_fields = {'url': '/html/head/link[1]/@href',

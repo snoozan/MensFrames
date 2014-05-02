@@ -15,10 +15,14 @@ from FrameScrapper.items import FramescrapperItem
 class GlassesInfoSpider(Spider):
     name = "glassesinfo"
 
+
+    def __init__(self, url=None, *args, **kwargs):
+        super(GlassesInfoSpider, self).__init__(*args, **kwargs)
+        self.start_urls=[url]
+
     #rules = ( Rule(SgmlLinkExtractor(allow=('\.html', )), callback='parse_page',follow=True),         )
 
     allowed_domains=["http://www.glasses.com/"]
-    start_urls=["http://www.glasses.com/women-glasses/ray-ban-rx5228-large/4595.html?dwvar_4595_color=tortoise2"]
 
     urls_list_xpath = '//*[@id="pdpMain"]'
     item_fields = {'url': '/html/head/link[5]/@href',

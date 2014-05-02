@@ -9,9 +9,14 @@ from FrameScrapper.items import FramescrapperItem
 
 class MezzmerSpider(Spider):
     name = "mezzmerinfo"
-    allowed_domains=["http://www.mezzmer.com/"]
-    start_urls=["http://www.mezzmer.com/big-easy-eyewear-black-fade-eyeglass-frame"]
 
+
+    def __init__(self, url=None, *args, **kwargs):
+        super(MezzmerSpider, self).__init__(*args, **kwargs)
+        self.start_urls=[url]
+
+
+    allowed_domains=["http://www.mezzmer.com/"]
     urls_list_xpath = '//*[@id="container"]/div[2]'
     item_fields = {'url': '/html/head/link[9]/@href',
                    'brand': '//*[@id="container"]/div[2]/div[2]/div[1]/aside/h1/text()',

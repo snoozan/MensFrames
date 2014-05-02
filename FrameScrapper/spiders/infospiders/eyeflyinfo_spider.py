@@ -9,8 +9,15 @@ from FrameScrapper.items import FramescrapperItem
 
 class EyeFlyInfoSpider(Spider):
     name = "eyeflyinfo"
+
+
+
+    def __init__(self, url=None, *args, **kwargs):
+        super(EyeFlyInfoSpider, self).__init__(*args, **kwargs)
+        self.start_urls=[url]
+
+
     allowed_domains=["http://www.eyefly.com/"]
-    start_urls=["http://www.eyefly.com/las-ramblas-8.html#Matte_Black"]
 
     urls_list_xpath = '//*[@id="body-wrapper"]/div/div[4]/div'
     item_fields = {

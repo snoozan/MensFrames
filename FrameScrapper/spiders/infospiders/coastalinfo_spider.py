@@ -10,6 +10,15 @@ from FrameScrapper.items import FramescrapperItem
 
 class CoastalInfoSpider(Spider):
     name = "coastalinfo"
+
+
+
+    def __init__(self, url=None, *args, **kwargs):
+        super(CoastalInfoSpider, self).__init__(*args, **kwargs)
+        self.start_urls=[url]
+
+
+
     allowed_domains=["http://www.coastal.com/"]
     start_urls=['http://www.coastal.com/r-hardy-9013-black?rsView=1&ga=M|F|K']
 

@@ -8,8 +8,13 @@ from FrameScrapper.items import FramescrapperItem
 
 class ThirtyNineInfoSpider(Spider):
     name = "thirtynineinfo"
+
+
+    def __init__(self, url=None, *args, **kwargs):
+        super(ThirtyNineInfoSpider, self).__init__(*args, **kwargs)
+        self.start_urls=[url]
+
     allowed_domains=["http://www.39dollarglasses.com/"]
-    start_urls=["http://www.39dollarglasses.com/3588_Black.html"]
 
     urls_list_xpath = '//*[@id="orderform"]/div'
     item_fields = {'url': '/html/head/link[@rel="canonical"]/@href',
