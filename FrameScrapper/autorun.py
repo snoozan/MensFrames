@@ -24,6 +24,7 @@ class AutoRunURLs():
 
 
     if __name__ == "__main__":
+        deletejson()
 
         spiders = ['eyefly', 'coastal', 'mezzmer', 'glasses', 'thirtynine', 'warbyparker']
         for spider in spiders:
@@ -41,34 +42,50 @@ class AutoRunURLs():
         for url in urls:
             newurls.append(jsonsplitter(url))
 
+        deletejson()
+
         for url in newurls:
             if "http://www.coastal.com" in url:
+                urlstripped = url.split("http://")
+                urlstripped = urlstripped[1].strip('\"')
 
-                bashCommand = "scrapy crawl coastalinfo -a url='http://www.coastal.com/r-hardy-9016-black?rsView=1&ga=M|F|Ki'"
-                #-a url={0}".format(url.strip())
-
-                process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
-                output = process.communicate()[0]
-                process.wait()
+                bashspider("coastalinfo -a url=%s" % urlstripped)
 
 
-            elif "http://eyefly.com" in url:
-                #bashspider("eyeflyinfo -a url=" + jsonsplitter(url))
-                print("eyefly")
+            elif "eyefly" in url:
+                urlstripped = url.split("http://")
+                urlstripped = urlstripped[1].strip('\"')
 
-            elif "http://mezzmer.com" in url:
-                #bashspider("mezzmerinfo -a url=" + jsonsplitter(url))
+                bashspider("eyeflyinfo -a url=%s" % urlstripped)
+
+            elif "mezzmer" in url:
+                urlstripped = url.split("http://")
+                urlstripped = urlstripped[1].strip('\"')
+
+                bashspider("mezzmerinfo -a url=%s" % urlstripped)
                 print("mezzmer")
 
-            elif "http://glasses.com" in url:
-                #bashspider("glassesinfo -a url=" + jsonsplitter(url))
-                print("glasses")
+            elif "39dollarglasses" in url:
+                urlstripped = url.split("http://")
+                urlstripped = urlstripped[1].strip('\"')
 
-            elif "http://39dollarglasses.com" in url:
-                #bashspider("thirtynineinfo -a url=" + jsonsplitter(url))
+                bashspider("thirtynineinfo -a url=%s" % urlstripped)
                 print("thirtynine")
 
-            elif "http://warbyparker.com" in url:
-                #bashspider("warbyparkerinfo -a url=" + jsonsplitter(url))
+            elif "warbyparker" in url:
+                urlstripped = url.split("http://")
+                urlstripped = urlstripped[1].strip('\"')
+
+                bashspider("warbyparkerinfo -a url=%s" % urlstripped)
                 print("warbyparker")
+
+            """
+            elif "glasses" in url:
+                urlstripped = url.split("http://")
+                urlstripped = urlstripped[1].strip('\"')
+
+                bashspider("glassesinfo -a url=%s" % urlstripped)
+                print("glasses")
+            """
+
 

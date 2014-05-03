@@ -10,9 +10,15 @@ class ThirtyNineInfoSpider(Spider):
     name = "thirtynineinfo"
 
 
-    def __init__(self,  *args, **kwargs):
-        super(ThirtyNineInfoSpider, self).__init__(*args, **kwargs)
-        self.start_urls=[kwargs.get('url')]
+    def __init__(self,  **kwargs):
+        super(ThirtyNineInfoSpider, self).__init__(**kwargs)
+        url = kwargs.get('url') or kwargs.get('domain')
+        format(url.strip('"'))
+        if not url.startswith('http://') and not url.startswith('https://'):
+            url = 'http://%s/' % url
+        urls = []
+        urls.append(url)
+        self.start_urls = urls
 
     allowed_domains=["http://www.39dollarglasses.com/"]
 

@@ -11,16 +11,23 @@ class EyeFlyInfoSpider(Spider):
     name = "eyeflyinfo"
 
 
+    def __init__(self, **kwargs):
+        super(EyeFlyInfoSpider, self).__init__(**kwargs)
+        url = kwargs.get('url') or kwargs.get('domain')
+        format(url.strip('"'))
+        if not url.startswith('http://') and not url.startswith('https://'):
+            url = 'http://%s/' % url
+        urls = []
+        urls.append(url)
+        self.start_urls = urls
 
-    def __init__(self, url=None, *args, **kwargs):
-        super(EyeFlyInfoSpider, self).__init__(*args, **kwargs)
-        self.start_urls=[url]
 
 
     allowed_domains=["http://www.eyefly.com/"]
 
     urls_list_xpath = '//*[@id="body-wrapper"]/div/div[4]/div'
     item_fields = {
+                   'url': '//*[@id="pdp-list-prd-like"]/div[1]/@onclick',
                    'brand': '//*[@id="pdp-title"]/h1/text()',
                    'product_name': '//*[@id="pdp-title"]/h1/text()',
                    'price': '//*[@id="pdp-add-to-cart-prd-price"]/*[@id="pdp-price-block"]/text()',

@@ -3,7 +3,7 @@ from selenium import selenium
 from scrapy.spider import Spider
 from scrapy.contrib.spiders import CrawlSpider, Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
-from scrapy.selector import HtmlXPathSelector
+from scrapy.selector import Selector, HtmlXPathSelector
 from scrapy.contrib.loader import XPathItemLoader
 from scrapy.contrib.loader.processor import Join, MapCompose
 from scrapy.http import Request
@@ -16,14 +16,19 @@ class GlassesInfoSpider(Spider):
     name = "glassesinfo"
 
 
-    """
     def __init__(self,  *args, **kwargs):
-        super(GlassesInfoSpider, self).__init__(*args, **kwargs)
-        self.start_urls=[kwargs.get('url')]
-    """
+        super(GlassesInfoSpider, self).__init__(**kwargs)
+        url = kwargs.get('url') or kwargs.get('domain')
+        format(url.strip('"'))
+        if not url.startswith('http://') and not url.startswith('https://'):
+            url = 'http://%s/' % url
+        urls = []
+        urls.append(url)
+        self.start_urls = urls
     #rules = ( Rule(SgmlLinkExtractor(allow=('\.html', )), callback='parse_page',follow=True),         )
 
     allowed_domains=["http://www.glasses.com/"]
+    start_urls=["http://www.glasses.com/women-glasses/ray-ban-rx5228-large/4595.html?dwvar_4595_color=black3"]
 
     urls_list_xpath = '//*[@id="pdpMain"]'
     item_fields = {'url': '/html/head/link[5]/@href',
@@ -48,9 +53,11 @@ class GlassesInfoSpider(Spider):
     def parse(self, response):
         item = FramescrapperItem()
 
-        hxs = HtmlXPathSelector(response)
+        sel = Selector(response)
 
-        hxs.select('//*[@id="brand-name"]/text()').extract()
+
+        text = sel.xpath('/html/head/link[5]/@href').extract()
+        print text
 
         sel = self.selenium
         try:
@@ -60,8 +67,10 @@ class GlassesInfoSpider(Spider):
             time.sleep(100)
 
 
-        print(sel.get_text('//*[@id="brand-name"]/text()'))
+        print(sel.get_text('/html/head/link[5]/@href'))
+
         yield item
+
     """
     def parse(self, response):
         sel = HtmlXPathSelector(response)
