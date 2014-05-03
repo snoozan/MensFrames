@@ -11,9 +11,9 @@ class MezzmerSpider(Spider):
     name = "mezzmerinfo"
 
 
-    def __init__(self, url=None, *args, **kwargs):
+    def __init__(self,  *args, **kwargs):
         super(MezzmerSpider, self).__init__(*args, **kwargs)
-        self.start_urls=[url]
+        self.start_urls=[kwargs.get('url')]
 
 
     allowed_domains=["http://www.mezzmer.com/"]

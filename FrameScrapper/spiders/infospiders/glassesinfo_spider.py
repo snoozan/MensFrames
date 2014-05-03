@@ -16,10 +16,11 @@ class GlassesInfoSpider(Spider):
     name = "glassesinfo"
 
 
-    def __init__(self, url=None, *args, **kwargs):
+    """
+    def __init__(self,  *args, **kwargs):
         super(GlassesInfoSpider, self).__init__(*args, **kwargs)
-        self.start_urls=[url]
-
+        self.start_urls=[kwargs.get('url')]
+    """
     #rules = ( Rule(SgmlLinkExtractor(allow=('\.html', )), callback='parse_page',follow=True),         )
 
     allowed_domains=["http://www.glasses.com/"]
@@ -59,7 +60,7 @@ class GlassesInfoSpider(Spider):
             time.sleep(100)
 
 
-        sel.get_text('//*[@id="brand-name"]/text()')
+        print(sel.get_text('//*[@id="brand-name"]/text()'))
         yield item
     """
     def parse(self, response):

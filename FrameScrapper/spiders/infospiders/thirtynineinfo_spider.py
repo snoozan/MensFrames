@@ -10,9 +10,9 @@ class ThirtyNineInfoSpider(Spider):
     name = "thirtynineinfo"
 
 
-    def __init__(self, url=None, *args, **kwargs):
+    def __init__(self,  *args, **kwargs):
         super(ThirtyNineInfoSpider, self).__init__(*args, **kwargs)
-        self.start_urls=[url]
+        self.start_urls=[kwargs.get('url')]
 
     allowed_domains=["http://www.39dollarglasses.com/"]
 

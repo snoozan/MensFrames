@@ -1,2 +1,2 @@
 #!/bin/bash
-rm items.json
+rm ~/work/FrameScrapper/items.json

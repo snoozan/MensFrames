@@ -13,14 +13,13 @@ class CoastalInfoSpider(Spider):
 
 
 
-    def __init__(self, url=None, *args, **kwargs):
+    def __init__(self, *args, **kwargs):
         super(CoastalInfoSpider, self).__init__(*args, **kwargs)
-        self.start_urls=[url]
+        self.start_urls= [kwargs.get('url')]
 
 
 
     allowed_domains=["http://www.coastal.com/"]
-    start_urls=['http://www.coastal.com/r-hardy-9013-black?rsView=1&ga=M|F|K']
 
     urls_list_xpath = '//*[@id="product-content-right-container"]'
     item_fields = {'url': '/html/head/link[@rel="canonical"]/@href',
