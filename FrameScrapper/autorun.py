@@ -2,6 +2,7 @@ import subprocess
 import sys
 import os
 import json
+import xml
 
 class AutoRunURLs():
 
@@ -11,10 +12,11 @@ class AutoRunURLs():
         output = process.communicate()[0]
 
 
-    def bashspider(spider):
-        bashCommand = "scrapy crawl " + spider + " -o items.json -t json"
+    def bashspider(spider, dump):
+        bashCommand = "scrapy crawl " + spider + " -o items.%s -t %s" % (dump, dump)
         process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
         output = process.communicate()[0]
+
 
     def jsonsplitter(url):
         temp = url.split('url":')
@@ -28,7 +30,7 @@ class AutoRunURLs():
 
         spiders = ['eyefly', 'coastal', 'mezzmer', 'glasses', 'thirtynine', 'warbyparker']
         for spider in spiders:
-            bashspider(spider)
+            bashspider(spider, "json")
 
         __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(sys.argv[0])))
 
@@ -49,34 +51,34 @@ class AutoRunURLs():
                 urlstripped = url.split("http://")
                 urlstripped = urlstripped[1].strip('\"')
 
-                bashspider("coastalinfo -a url=%s" % urlstripped)
+                bashspider("coastalinfo -a url=%s" % urlstripped, "xml")
 
 
             elif "eyefly" in url:
                 urlstripped = url.split("http://")
                 urlstripped = urlstripped[1].strip('\"')
 
-                bashspider("eyeflyinfo -a url=%s" % urlstripped)
+                bashspider("eyeflyinfo -a url=%s" % urlstripped, "xml")
 
             elif "mezzmer" in url:
                 urlstripped = url.split("http://")
                 urlstripped = urlstripped[1].strip('\"')
 
-                bashspider("mezzmerinfo -a url=%s" % urlstripped)
+                bashspider("mezzmerinfo -a url=%s" % urlstripped, "xml")
                 print("mezzmer")
 
             elif "39dollarglasses" in url:
                 urlstripped = url.split("http://")
                 urlstripped = urlstripped[1].strip('\"')
 
-                bashspider("thirtynineinfo -a url=%s" % urlstripped)
+                bashspider("thirtynineinfo -a url=%s" % urlstripped, "xml")
                 print("thirtynine")
 
             elif "warbyparker" in url:
                 urlstripped = url.split("http://")
                 urlstripped = urlstripped[1].strip('\"')
 
-                bashspider("warbyparkerinfo -a url=%s" % urlstripped)
+                bashspider("warbyparkerinfo -a url=%s" % urlstripped, "xml")
                 print("warbyparker")
 
             """
