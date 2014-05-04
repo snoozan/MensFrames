@@ -6,8 +6,8 @@ import xml
 
 class AutoRunURLs():
 
-    def deletejson():
-        bashCommand = "rm items.json"
+    def deletejson(dump):
+        bashCommand = "rm items.%s" % dump
         process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
         output = process.communicate()[0]
 
@@ -26,9 +26,9 @@ class AutoRunURLs():
 
 
     if __name__ == "__main__":
-        deletejson()
+        deletejson("xml")
 
-        spiders = ['eyefly', 'coastal', 'mezzmer', 'glasses', 'thirtynine', 'warbyparker']
+        spiders = ['eyefly', 'coastal', 'mezzmer', 'glasses', 'thirtynine', 'warbyparker', 'lenscrafters', 'lookmatic']
         for spider in spiders:
             bashspider(spider, "json")
 
@@ -44,7 +44,7 @@ class AutoRunURLs():
         for url in urls:
             newurls.append(jsonsplitter(url))
 
-        deletejson()
+        deletejson("json")
 
         for url in newurls:
             if "http://www.coastal.com" in url:
@@ -81,13 +81,11 @@ class AutoRunURLs():
                 bashspider("warbyparkerinfo -a url=%s" % urlstripped, "xml")
                 print("warbyparker")
 
-            """
             elif "glasses" in url:
                 urlstripped = url.split("http://")
                 urlstripped = urlstripped[1].strip('\"')
 
-                bashspider("glassesinfo -a url=%s" % urlstripped)
+                bashspider("glassesinfo -a url=%s" % urlstripped, "xml")
                 print("glasses")
-            """
 
 

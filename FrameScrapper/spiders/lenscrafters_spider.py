@@ -19,7 +19,7 @@ class LensCraftersSpider(InitSpider):
     allowed_domains = ['linkedin.com']
     start_urls = ["http://www.lenscrafters.com/lc-us/mens-frames?sid=ProdStylDDNL2-MENALL-US-112413"]
 
-    urls_list_xpath = '//*[@id="product_list_container"]/div[2]/div[1]'
+    urls_list_xpath ='//*[@id="product_list_container"]/div[2]/div[@class="item_container"]/div/div[1]/div[@class="names"]/a'
     item_fields = {'url': './@href'}
 
     def __init__(self):
@@ -34,12 +34,8 @@ class LensCraftersSpider(InitSpider):
         CrawlSpider.__del__(self)
 
     def parse(self, response):
-        """
         hxs = HtmlXPathSelector(response)
 
-        sel = self.selenium
-        sel.get(response.url)
-        sel.implicitly_wait(10)
         for site in hxs.select(self.urls_list_xpath):
             loader = XPathItemLoader(FramescrapperItem(), selector=site)
 
@@ -63,3 +59,4 @@ class LensCraftersSpider(InitSpider):
             item['url'] = site.select('./@href').extract()
             items.append(item)
         return items
+        """

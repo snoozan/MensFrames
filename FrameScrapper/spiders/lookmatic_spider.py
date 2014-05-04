@@ -1,23 +1,48 @@
-from scrapy.spider import Spider
+ #Using Scrapy with Selenium to scape a rendered page [Updated]
 
-from scrapy.selector import Selector
+from scrapy.contrib.spiders.init import InitSpider
+from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
+from scrapy.contrib.spiders import CrawlSpider, Rule
+
+from scrapy.http import Request, FormRequest
+from scrapy.spider import BaseSpider
+from scrapy.selector import HtmlXPathSelector
+
+from selenium import selenium, webdriver
+from scrapy.contrib.loader import XPathItemLoader
+from scrapy.contrib.loader.processor import Join, MapCompose
+
 from FrameScrapper.items import FramescrapperItem
 
-class LookmaticSpider(Spider):
+class LookmaticSpider(InitSpider):
     name = "lookmatic"
     allowed_domains = ["http://lookmatic.com/"]
     start_urls =[
         "http://lookmatic.com/collections/men",
             ]
 
+    def __init__(self):
+        InitSpider.__init__(self)
+        self.verificationErrors = []
+        profile = webdriver.FirefoxProfile(profile_directory="/Applications/Firefox.app/Contents/MacOS")
+        self.selenium = webdriver.Firefox(profile)
+
+    def __del__(self):
+        self.selenium.quit()
+        print self.verificationErrors
+        CrawlSpider.__del__(self)
+
     def parse(self, response):
-        sel = Selector(response)
-        sites = sel.xpath('//div[@id="wrapper-overall"]/div[@class="page-content-container"]/div[@class="page-collection"]/div[@id="collection-container"]/ul[@class="product-view"]/li[@class="hoverable"]')
+
+        hxs = HtmlXPathSelector(response)
+        sel = self.selenium
+        sel.get(response.url)
+        sel.implicitly_wait(10)
+        sites = sel.find_elements_by_xpath('//*[@class="hoverable"]/div[@class="prod-image-wrap"]/a')
+        print(sites)
         items = []
         for site in sites:
             item = FramescrapperItem()
-            #item['url'] = site.xpath('./li/div[@class="prod-image-wrap"]/a/@href').extract()
-            item['url'] = site.xpath('./a/@href').extract()
+            item['url'] = site.get_attribute("href")
             items.append(item)
-        print(items)
-        print(sites.extract())
+        return items
