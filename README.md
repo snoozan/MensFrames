@@ -1,3 +1,5 @@
-Run autorun.py to update json file
+Run:
 
-urls then piped into list and fed to info spiders
+$: python autorun.py
+
+resulting XML file contains all information
