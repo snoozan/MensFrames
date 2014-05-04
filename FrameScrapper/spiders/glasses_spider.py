@@ -1,11 +1,18 @@
-from scrapy.spider import Spider
+from scrapy.contrib.spiders.init import InitSpider
+from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
+from scrapy.contrib.spiders import CrawlSpider, Rule
+
+from scrapy.http import Request, FormRequest
+from scrapy.spider import BaseSpider
 from scrapy.selector import HtmlXPathSelector
+
+from selenium import selenium, webdriver
 from scrapy.contrib.loader import XPathItemLoader
 from scrapy.contrib.loader.processor import Join, MapCompose
 
 from FrameScrapper.items import FramescrapperItem
 
-class GlassesSpider(Spider):
+class GlassesSpider(InitSpider):
     name = "glasses"
     allowed_domains=["http://www.glasses.com/"]
     start_urls=["http://www.glasses.com/men-glasses"]
@@ -14,10 +21,25 @@ class GlassesSpider(Spider):
     item_fields = {'url': './@href'
     }
 
-    def parse(self, response):
-        sel = HtmlXPathSelector(response)
+    def __init__(self):
+        InitSpider.__init__(self)
+        self.verificationErrors = []
+        profile = webdriver.FirefoxProfile(profile_directory="/Applications/Firefox.app/Contents/MacOS")
+        self.selenium = webdriver.Firefox(profile)
 
-        for site in sel.select(self.urls_list_xpath):
+    def __del__(self):
+        self.selenium.quit()
+        print self.verificationErrors
+        CrawlSpider.__del__(self)
+
+    def parse(self, response):
+        hxs = HtmlXPathSelector(response)
+
+        sel = self.selenium
+        sel.get(response.url)
+        sel.implicitly_wait(10)
+
+        for site in hxs.select(self.urls_list_xpath):
             loader = XPathItemLoader(FramescrapperItem(), selector=site)
 
             #define processes

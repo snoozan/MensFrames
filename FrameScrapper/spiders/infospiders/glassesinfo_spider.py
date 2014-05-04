@@ -25,7 +25,7 @@ class GlassesInfoSpider(Spider):
         urls = []
         urls.append(url)
         self.start_urls = urls
-    #rules = ( Rule(SgmlLinkExtractor(allow=('\.html', )), callback='parse_page',follow=True),         )
+    rules = ( Rule(SgmlLinkExtractor(allow=('\.html', )), callback='parse_page',follow=True),         )
 
     allowed_domains=["http://www.glasses.com/"]
     start_urls=["http://www.glasses.com/women-glasses/ray-ban-rx5228-large/4595.html?dwvar_4595_color=black3"]
