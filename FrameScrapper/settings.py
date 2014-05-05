@@ -11,15 +11,5 @@ BOT_NAME = 'FrameScrapper'
 SPIDER_MODULES = ['FrameScrapper.spiders']
 NEWSPIDER_MODULE = 'FrameScrapper.spiders'
 
-"""
-DATABASE = {'drivername': 'postgres',
-            'host': 'haruko.csh.rit.edu',
-            'port': '5432',
-            'username': 'susan',
-            'password': 'notactuallythepassword',
-            'database': 'scrapyproject'}
-
-ITEM_PIPELINES = ['FrameScrapper.pipelines.FramescrapperPipeline']
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'FrameScrapper (+http://www.yourdomain.com)'
-"""
