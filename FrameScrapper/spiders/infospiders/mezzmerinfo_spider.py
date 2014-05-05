@@ -1,8 +1,14 @@
 
+from selenium import selenium, webdriver
+
+from scrapy.contrib.spiders.init import InitSpider
 from scrapy.spider import Spider
-from scrapy.selector import HtmlXPathSelector
+from scrapy.contrib.spiders import CrawlSpider, Rule
+from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
+from scrapy.selector import Selector, HtmlXPathSelector
 from scrapy.contrib.loader import XPathItemLoader
 from scrapy.contrib.loader.processor import Join, MapCompose
+from scrapy.http import Request
 #from models import DBSession, framesInfo
 
 from FrameScrapper.items import FramescrapperItem
@@ -59,3 +65,5 @@ class MezzmerSpider(Spider):
             for field, xpath in self.item_fields.iteritems():
                 loader.add_xpath(field, xpath)
             yield loader.load_item()
+
+        self.selenium.quit()

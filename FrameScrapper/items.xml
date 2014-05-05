@@ -1,26 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <items>
-<items><item><url>setLocation('http://www.eyefly.com/grafton-street-6.html')</url><brand>Grafton Street            </brand><price>94</price><colors>#Gunmetal #Black #Walnut</colors><product_name>Grafton Street            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/blackburn-cove-5.html')</url><brand>Watling Street            </brand><price>94</price><colors>#Black_Crystal #Light_Tortoise #Grey_Crystal #Dark_Tortoise #Purple_Crystal #Nude</colors><product_name>Watling Street            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/blackburn-cove-5.html')</url><brand>Abbey Road            </brand><price>94</price><colors>#Black #Grey_Crystal #Light_Tortoise #Dark_Tortoise #Blue_Crystal</colors><product_name>Abbey Road            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/watling-street.html')</url><brand>Woodward Avenue            </brand><price>94</price><colors>#Light_Tortoise #Black #Dark_Tortoise #Grey_Crystal #Honey</colors><product_name>Woodward Avenue            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/rue-saint-catherine.html')</url><brand>The Ridgeway            </brand><price>94</price><colors>#Black #Dark_Tortoise #Light_Tortoise #Nude #Honey #Grey_Crystal</colors><product_name>The Ridgeway            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/watling-street.html')</url><brand>Mensah Jomo            </brand><price>94</price><colors>#Eggplant #Yellow_Crystal #Olive_Crystal #Black</colors><product_name>Mensah Jomo            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/blackburn-cove-5.html')</url><brand>Blackburn Cove            </brand><price>94</price><colors>#Black #Dark_Tortoise #Blue_Crystal #Light_Tortoise #Aqua_Crystal #Red_Horn #Olive_Gradient</colors><product_name>Blackburn Cove            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/oak-street-6.html')</url><brand>Oak Street            </brand><price>94</price><colors>#Black_/_Tortoise #Matte_Black #Bark #Grey_Crystal #Yellow_Crystal</colors><product_name>Oak Street            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/kalverstraat-6.html')</url><brand>Kalverstraat            </brand><price>94</price><colors>#Black_/_Tortoise #Topaz #Matte_Black #Light_Tortoise #Blue_Crystal #Crystal_Green</colors><product_name>Kalverstraat            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/marvin-gardens-4.html')</url><brand>Marvin Gardens            </brand><price>94</price><colors>#Black #Tortoise #Light_Tortoise #Blue_Crystal</colors><product_name>Marvin Gardens            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/corso-como-6.html')</url><brand>Corso Como            </brand><price>94</price><colors>#Tortoise_Green #Black #Tortoise</colors><product_name>Corso Como            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/calle-de-serrano-6.html')</url><brand>Calle de Serrano            </brand><price>94</price><colors>#Tortoise #Matte_Black #Nude #Rose_Crystal #Purple_Crystal #Matte_Topaz</colors><product_name>Calle de Serrano            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/boulevard-saint-michel-6.html')</url><brand>Boul Saint-Michel            </brand><price>94</price><colors>#Matte_Black #Matte_Tortoise #Bark</colors><product_name>Boul Saint-Michel            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/charing-cross-road-6.html')</url><brand>Charing Cross Rd            </brand><price>94</price><colors>#Black #Smoke #Bark</colors><product_name>Charing Cross Rd            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/petrovka-street-4.html')</url><brand>Petrovka Street            </brand><price>94</price><colors>#Green_Tortoise #Matte_Tortoise #Black</colors><product_name>Petrovka Street            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/alexanderplatz-5.html')</url><brand>Alexanderplatz            </brand><price>94</price><colors>#Olive #Red_Tortoise #Bark</colors><product_name>Alexanderplatz            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/mott-street-6.html')</url><brand>Mott Street            </brand><price>94</price><colors>#Black #Gunmetal #Walnut</colors><product_name>Mott Street            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/rampart-street-8.html')</url><brand>Rampart Street            </brand><price>94</price><colors>#Olive #Black #Ink #Matte_Brown</colors><product_name>Rampart Street            </product_name></item></items>
-<items><item><price>94</price><brand>Avenida da Liberdade            </brand><colors>#Matte_Mint_Green #Matte_Black #Matte_Gold</colors><product_name>Avenida da Liberdade            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/the-ginza-6.html')</url><brand>The Ginza            </brand><price>94</price><colors>#Silver #Black #Brown</colors><product_name>The Ginza            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/central-park-west-6.html')</url><brand>Central Park West            </brand><price>94</price><colors>#Matte_Mint_Green #Matte_Gun #Matte_Gold</colors><product_name>Central Park West            </product_name></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/grafton-street-6.html')</url><brand>Grafton Street            </brand><product_name>Grafton Street            </product_name><width>
+                        SIZE: 51 - 19 - 145 · WIDTH: Array                    </width><colors>#Gunmetal #Black #Walnut</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/blackburn-cove-5.html')</url><brand>Watling Street            </brand><product_name>Watling Street            </product_name><width>
+                        SIZE: 49 - 22.5 - 145 · WIDTH: Medium                    </width><colors>#Black_Crystal #Light_Tortoise #Grey_Crystal #Dark_Tortoise #Purple_Crystal #Nude</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/blackburn-cove-5.html')</url><brand>Abbey Road            </brand><product_name>Abbey Road            </product_name><width>
+                        SIZE: 50 - 19 - 145 · WIDTH: Medium                    </width><colors>#Black #Grey_Crystal #Light_Tortoise #Dark_Tortoise #Blue_Crystal</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/watling-street.html')</url><brand>Woodward Avenue            </brand><product_name>Woodward Avenue            </product_name><width>
+                        SIZE: 46 - 21 - 140 · WIDTH: Medium                    </width><colors>#Light_Tortoise #Black #Dark_Tortoise #Grey_Crystal #Honey</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/rue-saint-catherine.html')</url><brand>The Ridgeway            </brand><product_name>The Ridgeway            </product_name><width>
+                        SIZE: 50 - 20 - 140 · WIDTH: Medium                    </width><colors>#Black #Dark_Tortoise #Light_Tortoise #Nude #Honey #Grey_Crystal</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/watling-street.html')</url><brand>Mensah Jomo            </brand><product_name>Mensah Jomo            </product_name><width>
+                        SIZE: 50 - 19 - 143 · WIDTH: Medium                    </width><colors>#Eggplant #Yellow_Crystal #Olive_Crystal #Black</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/blackburn-cove-5.html')</url><brand>Blackburn Cove            </brand><product_name>Blackburn Cove            </product_name><width>
+                        SIZE: 48 - 21 - 150 · WIDTH: Medium                    </width><colors>#Black #Dark_Tortoise #Blue_Crystal #Light_Tortoise #Aqua_Crystal #Red_Horn #Olive_Gradient</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/oak-street-6.html')</url><brand>Oak Street            </brand><product_name>Oak Street            </product_name><width>
+                        SIZE: 48 - 19 - 145 · WIDTH: Narrow                    </width><colors>#Black_/_Tortoise #Matte_Black #Bark #Grey_Crystal #Yellow_Crystal</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/kalverstraat-6.html')</url><brand>Kalverstraat            </brand><product_name>Kalverstraat            </product_name><width>
+                        SIZE: 53 - 20 - 145 · WIDTH: Wide                    </width><colors>#Black_/_Tortoise #Topaz #Matte_Black #Light_Tortoise #Blue_Crystal #Crystal_Green</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/marvin-gardens-4.html')</url><brand>Marvin Gardens            </brand><product_name>Marvin Gardens            </product_name><width>
+                        SIZE: 53 - 16 - 145 · WIDTH: Wide                    </width><colors>#Black #Tortoise #Light_Tortoise #Blue_Crystal</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/corso-como-6.html')</url><brand>Corso Como            </brand><product_name>Corso Como            </product_name><width>
+                        SIZE: 53 - 19 - 145 · WIDTH: Wide                    </width><colors>#Tortoise_Green #Black #Tortoise</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/calle-de-serrano-6.html')</url><brand>Calle de Serrano            </brand><product_name>Calle de Serrano            </product_name><width>
+                        SIZE: 47 - 21 - 140 · WIDTH: Narrow                    </width><colors>#Tortoise #Matte_Black #Nude #Rose_Crystal #Purple_Crystal #Matte_Topaz</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/boulevard-saint-michel-6.html')</url><brand>Boul Saint-Michel            </brand><product_name>Boul Saint-Michel            </product_name><width>
+                        SIZE: 54 - 16 - 145 · WIDTH: Wide                    </width><colors>#Matte_Black #Matte_Tortoise #Bark</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/charing-cross-road-6.html')</url><brand>Charing Cross Rd            </brand><product_name>Charing Cross Rd            </product_name><width>
+                        SIZE: 54 - 15 - 140 · WIDTH: Wide                    </width><colors>#Black #Smoke #Bark</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/petrovka-street-4.html')</url><brand>Petrovka Street            </brand><product_name>Petrovka Street            </product_name><width>
+                        SIZE: 54 - 17 - 145 · WIDTH: Wide                    </width><colors>#Green_Tortoise #Matte_Tortoise #Black</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/alexanderplatz-5.html')</url><brand>Alexanderplatz            </brand><product_name>Alexanderplatz            </product_name><width>
+                        SIZE: 44 - 22 - 140 · WIDTH: Narrow                    </width><colors>#Olive #Red_Tortoise #Bark</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/mott-street-6.html')</url><brand>Mott Street            </brand><product_name>Mott Street            </product_name><width>
+                        SIZE: 55 - 15 - 140 · WIDTH: Wide                    </width><colors>#Black #Gunmetal #Walnut</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/rampart-street-8.html')</url><brand>Rampart Street            </brand><product_name>Rampart Street            </product_name><width>
+                        SIZE: 53 - 19 - 140 · WIDTH: Wide                    </width><colors>#Olive #Black #Ink #Matte_Brown</colors><price>94</price></item></items>
+<items><item><width>
+                        SIZE: 49 - 17 - 135 · WIDTH: Narrow                    </width><price>94</price><colors>#Matte_Mint_Green #Matte_Black #Matte_Gold</colors><brand>Avenida da Liberdade            </brand><product_name>Avenida da Liberdade            </product_name></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/the-ginza-6.html')</url><brand>The Ginza            </brand><product_name>The Ginza            </product_name><width>
+                        SIZE: 44 - 21 - 140 · WIDTH: Narrow                    </width><colors>#Silver #Black #Brown</colors><price>94</price></item></items>
+<items><item><url>setLocation('http://www.eyefly.com/central-park-west-6.html')</url><brand>Central Park West            </brand><product_name>Central Park West            </product_name><width>
+                        SIZE: 43 - 20 - 140 · WIDTH: Narrow                    </width><colors>#Matte_Mint_Green #Matte_Gun #Matte_Gold</colors><price>94</price></item></items>
 <items><item><url>http://www.coastal.com/r-hardy-9016-black</url><brand>http://www.coastal.com/glasses/catalog/refinedSearch?brand=Hardy</brand><product_name>R. Hardy 9016 Black</product_name><width>55 mm</width><colors>Black</colors><price>$98.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/r-hardy/r-hardy-9016-black+me++productPageXtraLarge.jpg</product_img></item></items>
 <items><item><url>http://www.coastal.com/r-hardy-9014-black</url><brand>http://www.coastal.com/glasses/catalog/refinedSearch?brand=Hardy</brand><product_name>R. Hardy 9014 Black</product_name><width>54 mm</width><colors>Black</colors><price>$98.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/r-hardy/r-hardy-9014-black+me++productPageXtraLarge.jpg</product_img></item></items>
 <items><item><url>http://www.coastal.com/trevor-linden-102-brown-n9k</url><brand>http://www.coastal.com/trevor-linden-glasses</brand><product_name>Trevor Linden 102 Brown N9K</product_name><width>54 mm</width><colors>Brown</colors><price>$69.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/trevor-linden/trevor-linden-102-brown-n9k+me++productPageXtraLarge.jpg</product_img></item></items>
@@ -50,7 +71,7 @@
 
 
 </brand><price>
-                    $69                </price><colors>Brown Fade Black Honey</colors><product_name>The Host
+                    $69                </price><colors>Honey Brown Fade Black</colors><product_name>The Host
 
 
 
@@ -338,7 +359,7 @@
 
 
 </brand><price>
-                    $69                </price><colors>Grey Amber</colors><product_name>Audition
+                    $69                </price><colors>Amber Grey</colors><product_name>Audition
 
 
 
@@ -424,283 +445,59 @@
 <items>
 <items>
 <items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/burke</url><brand>
-Burke
-</brand><product_name>
-Burke
-</product_name><width>Medium</width><colors>tennessee whiskey sugar maple</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/bensen</url><brand>
-Bensen
-</brand><product_name>
-Bensen
-</product_name><width>Wide</width><colors>whiskey tortoise olivewood greystone</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/walker</url><brand>
-Walker
-</brand><product_name>
-Walker
-</product_name><width>Medium</width><colors>canton blue whiskey tortoise</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/crane</url><brand>
-Crane
-</brand><product_name>
-Crane
-</product_name><width>Wide</width><colors>sugar maple whiskey tortoise mallard green</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/ramsay</url><brand>
-Ramsay
-</brand><product_name>
-Ramsay
-</product_name><width>Wide</width><colors>jet silver brushed bark</colors><price>145</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/ames</url><brand>
-Ames
-</brand><product_name>
-Ames
-</product_name><width>Wide</width><colors>whiskey tortoise graphite fog</colors><price>145</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/sibley</url><brand>
-Sibley
-</brand><product_name>
-Sibley
-</product_name><width>Medium</width><colors>revolver black amber whiskey tortoise matte catalina blue</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/durand</url><brand>
-Durand
-</brand><product_name>
-Durand
-</product_name><width>Wide</width><colors>saddle russet woodland tortoise</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/felton</url><brand>
-Felton
-</brand><product_name>
-Felton
-</product_name><width>Medium</width><colors>striped maple old fashioned fade revolver black</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/watts</url><brand>
-Watts
-</brand><product_name>
-Watts
-</product_name><width>Medium</width><colors>newsprint grey sugar maple blue sapphire</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/seymour</url><brand>
-Seymour
-</brand><product_name>
-Seymour
-</product_name><width>Medium</width><colors>whiskey tortoise sage tennessee whiskey</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/chamberlain</url><brand>
-Chamberlain
-</brand><product_name>
-Chamberlain
-</product_name><width>Medium</width><colors>saddle sage whiskey tortoise</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/winston</url><brand>
-Winston
-</brand><product_name>
-Winston
-</product_name><width>Medium</width><colors>lunar fade old fashioned fade revolver black</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/aslin</url><brand>
-Aslin
-</brand><product_name>
-Aslin
-</product_name><width>Medium</width><colors>oak barrel english oak</colors><price>145</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/fillmore</url><brand>
-Fillmore
-</brand><product_name>
-Fillmore
-</product_name><width>Medium</width><colors>tennessee whiskey redwood ash revolver black</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/ryder</url><brand>
-Ryder
-</brand><product_name>
-Ryder
-</product_name><width>Medium</width><colors>obsidian brushed bark</colors><price>145</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/reynold</url><brand>
-Reynold
-</brand><product_name>
-Reynold
-</product_name><width>Medium</width><colors>revolver black striped evergreen</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/nash</url><brand>
-Nash
-</brand><product_name>
-Nash
-</product_name><width>Wide</width><colors>greystone whiskey tortoise</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/wiloughby</url><brand>
-Wiloughby
-</brand><product_name>
-Wiloughby
-</product_name><width>Medium</width><colors>tennessee whiskey striped chestnut revolver black</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/chandler</url><brand>
-Chandler
-</brand><product_name>
-Chandler
-</product_name><width>Medium</width><colors>whiskey tortoise pinot noir olivewood</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/langhorne</url><brand>
-Langhorne
-</brand><product_name>
-Langhorne
-</product_name><width>Wide</width><colors>striped evergreen whiskey tortoise</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/theo</url><brand>
-Theo
-</brand><product_name>
-Theo
-</product_name><width>Medium</width><colors>blue marblewood whiskey tortoise</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/beckett</url><brand>
-Beckett
-</brand><product_name>
-Beckett
-</product_name><width>Medium</width><colors>striped evergreen revolver black matte striped chestnut newsprint grey driftwood</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/percey</url><brand>
-Percey
-</brand><product_name>
-Percey
-</product_name><width>Medium</width><colors>charcoal fade striped sassafras</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/duckworth</url><brand>
-Duckworth
-</brand><product_name>
-Duckworth
-</product_name><width>Medium</width><colors>oak barrel marine slate revolver black matte</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/roosevelt</url><brand>
-Roosevelt
-</brand><product_name>
-Roosevelt
-</product_name><width>Wide</width><colors>chocolate soda revolver black matte striped chestnut bondi blue cedar tortoise</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/fitz</url><brand>
-Fitz
-</brand><product_name>
-Fitz
-</product_name><width>Medium</width><colors>whiskey tortoise blonde tortoise walnut tortoise</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/preston</url><brand>
-Preston
-</brand><product_name>
-Preston
-</product_name><width>Medium</width><colors>blue marblewood whiskey tortoise gimlet tortoise</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/rowan</url><brand>
-Rowan
-</brand><product_name>
-Rowan
-</product_name><width>Medium</width><colors>graphite fog whiskey tortoise</colors><price>145</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/arthur</url><brand>
-Arthur
-</brand><product_name>
-Arthur
-</product_name><width>Medium</width><colors>green spruce sugar maple gimlet tortoise</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/linwood</url><brand>
-Linwood
-</brand><product_name>
-Linwood
-</product_name><width>Medium</width><colors>striped chestnut revolver black violet magnolia</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/ripley</url><brand>
-Ripley
-</brand><product_name>
-Ripley
-</product_name><width>Medium</width><colors>oak barrel whiskey tortoise</colors><price>145</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/huxley</url><brand>
-Huxley
-</brand><product_name>
-Huxley
-</product_name><width>Medium</width><colors>revolver black tennessee whiskey whiskey tortoise</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/northcote</url><brand>
-Northcote
-</brand><product_name>
-Northcote
-</product_name><width>Wide</width><colors>whiskey tortoise catalina blue</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/baxter</url><brand>
-Baxter
-</brand><product_name>
-Baxter
-</product_name><width>Medium</width><colors>striped sassafras catalina blue pinot noir</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/pierce</url><brand>
-Pierce
-</brand><product_name>
-Pierce
-</product_name><width>Medium</width><colors>greystone oakwood brown revolver black</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/crosby</url><brand>
-Crosby
-</brand><product_name>
-Crosby
-</product_name><width>Wide</width><colors>burgundy fade greystone</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/thompson</url><brand>
-Thompson
-</brand><product_name>
-Thompson
-</product_name><width>Medium</width><colors>whiskey tortoise revolver black</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/kimball</url><brand>
-Kimball
-</brand><product_name>
-Kimball
-</product_name><width>Medium</width><colors>whiskey tortoise marzipan tortoise</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/edgeworth</url><brand>
-Edgeworth
-</brand><product_name>
-Edgeworth
-</product_name><width>Medium</width><colors>whiskey tortoise sage</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/begley</url><brand>
-Begley
-</brand><product_name>
-Begley
-</product_name><width>Medium</width><colors>whiskey tortoise cedar tortoise midnight blue greystone</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/japhy</url><brand>
-Japhy
-</brand><product_name>
-Japhy
-</product_name><width>Medium</width><colors>revolver black crystal whiskey tortoise sandalwood matte</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/holt</url><brand>
-Holt
-</brand><product_name>
-Holt
-</product_name><width>Medium</width><colors>striped sassafras blue slate fade</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/stewart</url><brand>
-Stewart
-</brand><product_name>
-Stewart
-</product_name><width>Wide</width><colors>brushed ink obsidian</colors><price>145</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/miles</url><brand>
-Miles
-</brand><product_name>
-Miles
-</product_name><width>Medium</width><colors>sandalwood matte amber revolver black</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/zagg</url><brand>
-Zagg
-</brand><product_name>
-Zagg
-</product_name><width>Medium</width><colors>tennessee whiskey striped sassafras striped chestnut revolver black matte</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/owen</url><brand>
-Owen
-</brand><product_name>
-Owen
-</product_name><width>Medium</width><colors>striped chestnut revolver black matte</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/langston</url><brand>
-Langston
-</brand><product_name>
-Langston
-</product_name><width>Medium</width><colors>whiskey tortoise matte revolver black crystal</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/downing</url><brand>
-Downing
-</brand><product_name>
-Downing
-</product_name><width>Medium</width><colors>walnut tortoise revolver black</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/webb</url><brand>
-Webb
-</brand><product_name>
-Webb
-</product_name><width>Medium</width><colors>saddle russet revolver black crystal whiskey tortoise matte amber</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/raleigh</url><brand>
-Raleigh
-</brand><product_name>
-Raleigh
-</product_name><width>Medium</width><colors>brushed bark jet silver</colors><price>145</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/nedwin</url><brand>
-Nedwin
-</brand><product_name>
-Nedwin
-</product_name><width>Narrow</width><colors>revolver black crystal cedar tortoise amber summer green</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/lyle</url><brand>
-Lyle
-</brand><product_name>
-Lyle
-</product_name><width>Narrow</width><colors>english oak plum marblewood</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/sinclair</url><brand>
-Sinclair
-</brand><product_name>
-Sinclair
-</product_name><width>Medium</width><colors>burgundy fade midnight blue greystone</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/colton</url><brand>
-Colton
-</brand><product_name>
-Colton
-</product_name><width>Narrow</width><colors>sandalwood matte tangerine whiskey tortoise revolver black crystal</colors><price>95</price></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/dixon</url><brand>
-Dixon
-</brand><product_name>
-Dixon
-</product_name><width>Wide</width><colors>jet silver brushed ink</colors><price>145</price></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/burke</url><brand>Burke</brand><product_name>Burke</product_name><width>Medium</width><colors><value>Tennessee Whiskey</value><value>Sugar Maple</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/891e16a641a6712bb0f60352333d6310f207b2d2/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/bensen</url><brand>Bensen</brand><product_name>Bensen</product_name><width>Wide</width><colors><value>Whiskey Tortoise</value><value>Olivewood</value><value>Greystone</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/677aee1c64b673b024869a5b13111dd20cf03a8d/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/walker</url><brand>Walker</brand><product_name>Walker</product_name><width>Medium</width><colors><value>Canton Blue</value><value>Whiskey Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/87ab187e4c9150ab8c6e4d31b4359254f24d3023/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/crane</url><brand>Crane</brand><product_name>Crane</product_name><width>Wide</width><colors><value>Sugar Maple</value><value>Whiskey Tortoise</value><value>Mallard Green</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/ef3cd42fd2eb2e4917742a3b7eb3ca2c685bc5a6/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/ramsay</url><brand>Ramsay</brand><product_name>Ramsay</product_name><width>Wide</width><colors><value>Jet Silver</value><value>Brushed Bark</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/831dfb2bfbe3291860d7c1ce367f49f86c9e98d2/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/ames</url><brand>Ames</brand><product_name>Ames</product_name><width>Wide</width><colors><value>Whiskey Tortoise</value><value>Graphite Fog</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/4fba39694a46654b7b6c40e08b264f0fce8d4c19/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/sibley</url><brand>Sibley</brand><product_name>Sibley</product_name><width>Medium</width><colors><value>Revolver Black</value><value>Amber</value><value>Whiskey Tortoise Matte</value><value>Catalina Blue</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/6a1d2aad863c940d34ae1afb12373d9c6c0b58b2/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/durand</url><brand>Durand</brand><product_name>Durand</product_name><width>Wide</width><colors><value>Saddle Russet</value><value>Woodland Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/4009f1bbe98d7934a51df811801c8a35c66cbdd8/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/felton</url><brand>Felton</brand><product_name>Felton</product_name><width>Medium</width><colors><value>Striped Maple</value><value>Old Fashioned Fade</value><value>Revolver Black</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/454e47932dca9f813e400ce1dd2e03edd7bbe2c9/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/watts</url><brand>Watts</brand><product_name>Watts</product_name><width>Medium</width><colors><value>Newsprint Grey</value><value>Sugar Maple</value><value>Blue Sapphire</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/07248749b8d610865c7f9c69a8896dc20b04f277/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/seymour</url><brand>Seymour</brand><product_name>Seymour</product_name><width>Medium</width><colors><value>Whiskey Tortoise</value><value>Sage</value><value>Tennessee Whiskey</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/fdfc69c60a41aeb2247a66fa16890ddac325e663/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/chamberlain</url><brand>Chamberlain</brand><product_name>Chamberlain</product_name><width>Medium</width><colors><value>Saddle Sage</value><value>Whiskey Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/06e7d20932a2b056076ce70e51392849c3f0d495/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/winston</url><brand>Winston</brand><product_name>Winston</product_name><width>Medium</width><colors><value>Lunar Fade</value><value>Old Fashioned Fade</value><value>Revolver Black</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/63e27f1ae57ff948f4e76372a2d557491c2eaa9d/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/aslin</url><brand>Aslin</brand><product_name>Aslin</product_name><width>Medium</width><colors><value>Oak Barrel</value><value>English Oak</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/5ea74e3435402775ad0020ac6a81843bcd2e5a27/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/fillmore</url><brand>Fillmore</brand><product_name>Fillmore</product_name><width>Medium</width><colors><value>Tennessee Whiskey</value><value>Redwood Ash</value><value>Revolver Black</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/61e55c96fe458b980aa9e010320897a0c52f3cc0/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/ryder</url><brand>Ryder</brand><product_name>Ryder</product_name><width>Medium</width><colors><value>Obsidian</value><value>Brushed Bark</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/5ff8c5e69b169ee490f93c9aceb737fb10235bbc/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/reynold</url><brand>Reynold</brand><product_name>Reynold</product_name><width>Medium</width><colors><value>Revolver Black</value><value>Striped Evergreen</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/a8c116e6d198fc564622ac3ec2c9002f88e602fe/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/nash</url><brand>Nash</brand><product_name>Nash</product_name><width>Wide</width><colors><value>Greystone</value><value>Whiskey Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/cfc4707a3be495f04f8c2bc4d099eebfe11b3d56/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/wiloughby</url><brand>Wiloughby</brand><product_name>Wiloughby</product_name><width>Medium</width><colors><value>Tennessee Whiskey</value><value>Striped Chestnut</value><value>Revolver Black</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/0d7ebe33ad7cd170091d51e0dcd2db430c715cc7/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/chandler</url><brand>Chandler</brand><product_name>Chandler</product_name><width>Medium</width><colors><value>Whiskey Tortoise</value><value>Pinot Noir</value><value>Olivewood</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/e1473c0e82ef6b53d896db7a40899050e850ec08/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/langhorne</url><brand>Langhorne</brand><product_name>Langhorne</product_name><width>Wide</width><colors><value>Striped Evergreen</value><value>Whiskey Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/867433568f3bf157e2a6ec8e431fdf2e72cc089b/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/theo</url><brand>Theo</brand><product_name>Theo</product_name><width>Medium</width><colors><value>Blue Marblewood</value><value>Whiskey Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/892456649537eaf6e6cc1829f2270d81e1c7e76e/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/beckett</url><brand>Beckett</brand><product_name>Beckett</product_name><width>Medium</width><colors><value>Striped Evergreen</value><value>Revolver Black Matte</value><value>Striped Chestnut</value><value></value><value></value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/16452cd13d9c624308084aaa65c3afaa03902fbd/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/percey</url><brand>Percey</brand><product_name>Percey</product_name><width>Medium</width><colors><value>Charcoal Fade</value><value>Striped Sassafras</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/8eb8ec260f3328490d3b82b8fad166a9f9e87999/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/duckworth</url><brand>Duckworth</brand><product_name>Duckworth</product_name><width>Medium</width><colors><value>Oak Barrel</value><value>Marine Slate</value><value>Revolver Black Matte</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/9dfaed5eb144673e4ec777ade0a7f773d250526c/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/roosevelt</url><brand>Roosevelt</brand><product_name>Roosevelt</product_name><width>Wide</width><colors><value>Chocolate Soda</value><value>Revolver Black Matte</value><value>Striped Chestnut</value><value>Bondi Blue</value><value>Cedar Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/e3714bb83a3749546141d43a186544fc043e7b47/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/fitz</url><brand>Fitz</brand><product_name>Fitz</product_name><width>Medium</width><colors><value>Whiskey Tortoise</value><value>Blonde Tortoise</value><value>Walnut Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/a25b0bd639bcfb73b2a33e3ed6e9fe337edde385/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/preston</url><brand>Preston</brand><product_name>Preston</product_name><width>Medium</width><colors><value>Blue Marblewood</value><value>Whiskey Tortoise</value><value>Gimlet Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/66012776f1a6d680d334ca7698fbce91d5daa342/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/rowan</url><brand>Rowan</brand><product_name>Rowan</product_name><width>Medium</width><colors><value>Graphite Fog</value><value>Whiskey Tortoise</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/d477ab97ade4513b29121e3e98af9fd14375ec4b/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/arthur</url><brand>Arthur</brand><product_name>Arthur</product_name><width>Medium</width><colors><value>Green Spruce</value><value>Sugar Maple</value><value>Gimlet Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/a915daa9adb960ee992e84fa17064cc44d53de2d/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/linwood</url><brand>Linwood</brand><product_name>Linwood</product_name><width>Medium</width><colors><value>Striped Chestnut</value><value>Revolver Black</value><value>Violet Magnolia</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/8f62b0f446c0e471ad2a91a85f6c806c47f1db17/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/ripley</url><brand>Ripley</brand><product_name>Ripley</product_name><width>Medium</width><colors><value>Oak Barrel</value><value>Whiskey Tortoise</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/b30f4d60dd60d502052716670d548ab7eb3a58f7/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/huxley</url><brand>Huxley</brand><product_name>Huxley</product_name><width>Medium</width><colors><value>Revolver Black</value><value>Tennessee Whiskey</value><value>Whiskey Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/78334144d81770c06fb1ba62df6ea2b34256066d/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/northcote</url><brand>Northcote</brand><product_name>Northcote</product_name><width>Wide</width><colors><value>Whiskey Tortoise</value><value>Catalina Blue</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/18e55de2acc94926b1c5f5260ff230c2d724b444/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/baxter</url><brand>Baxter</brand><product_name>Baxter</product_name><width>Medium</width><colors><value>Striped Sassafras</value><value>Catalina Blue</value><value>Pinot Noir</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/200000a18a2a6d5fc376efe9432fe869f7ee3a8a/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/pierce</url><brand>Pierce</brand><product_name>Pierce</product_name><width>Medium</width><colors><value>Greystone</value><value>Oakwood Brown</value><value>Revolver Black</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/a9e1d5663ecca6fd98e9951f83fe4ae4c2163757/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/crosby</url><brand>Crosby</brand><product_name>Crosby</product_name><width>Wide</width><colors><value>Burgundy Fade</value><value>Greystone</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/6718b7e883af45670368a8d8d39fd251a32b55d4/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/thompson</url><brand>Thompson</brand><product_name>Thompson</product_name><width>Medium</width><colors><value>Whiskey Tortoise</value><value>Revolver Black</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/1bb6b2dfd59a7723ecdb7621ba69983e1c92c9e3/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/kimball</url><brand>Kimball</brand><product_name>Kimball</product_name><width>Medium</width><colors><value>Whiskey Tortoise</value><value>Marzipan Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/f28557d3ab4385b81cc4cf8a58f37c821de0303b/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/edgeworth</url><brand>Edgeworth</brand><product_name>Edgeworth</product_name><width>Medium</width><colors><value>Whiskey Tortoise</value><value>Sage</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/2478be4492606713f85623b7d377fe7b1dbf125a/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/begley</url><brand>Begley</brand><product_name>Begley</product_name><width>Medium</width><colors><value>Whiskey Tortoise</value><value>Cedar Tortoise</value><value>Midnight Blue</value><value>Greystone</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/9791b6184a69b31a3c23915ce7ee3a060342b01c/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/japhy</url><brand>Japhy</brand><product_name>Japhy</product_name><width>Medium</width><colors><value>Revolver Black Crystal</value><value>Whiskey Tortoise</value><value>Sandalwood Matte</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/0cf7fbd0bd09b27469c1c94e152bac3ea39b2e9f/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/holt</url><brand>Holt</brand><product_name>Holt</product_name><width>Medium</width><colors><value>Striped Sassafras</value><value>Blue Slate Fade</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/81c4131da53a71c13cff43ed83a42980e9acee86/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/stewart</url><brand>Stewart</brand><product_name>Stewart</product_name><width>Wide</width><colors><value>Brushed Ink</value><value>Obsidian</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/3ad595b98da32fdede58b3250cc4470cd2e2a11d/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/miles</url><brand>Miles</brand><product_name>Miles</product_name><width>Medium</width><colors><value>Sandalwood Matte</value><value>Amber</value><value>Revolver Black</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/96e61841f40f0563de0ac49908b02aa67f0f0da5/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/zagg</url><brand>Zagg</brand><product_name>Zagg</product_name><width>Medium</width><colors><value>Tennessee Whiskey</value><value>Striped Sassafras</value><value>Striped Chestnut</value><value>Revolver Black Matte</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/bbc147232dd3e32f370a6ebb09a54233bb4ec576/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/owen</url><brand>Owen</brand><product_name>Owen</product_name><width>Medium</width><colors><value>Striped Chestnut</value><value>Revolver Black Matte</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/2717abb75f4984bfa2a5ace91f7612937d5592f7/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/langston</url><brand>Langston</brand><product_name>Langston</product_name><width>Medium</width><colors><value>Whiskey Tortoise Matte</value><value>Revolver Black Crystal</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/480b42803ffed968605862ca25eeddd9f4509f26/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/downing</url><brand>Downing</brand><product_name>Downing</product_name><width>Medium</width><colors><value>Walnut Tortoise</value><value>Revolver Black</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/bdcd17f284c2cbd8d92e22a93884f1f222226dfd/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/webb</url><brand>Webb</brand><product_name>Webb</product_name><width>Medium</width><colors><value>Saddle Russet</value><value>Revolver Black Crystal</value><value>Whiskey Tortoise Matte</value><value>Amber</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/fde970677d5ccefd3091004b36ef0cb2d53b0966/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/raleigh</url><brand>Raleigh</brand><product_name>Raleigh</product_name><width>Medium</width><colors><value>Brushed Bark</value><value>Jet Silver</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/3559aec2734c4f156235d402315fc8c30c3e6fb4/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/nedwin</url><brand>Nedwin</brand><product_name>Nedwin</product_name><width>Narrow</width><colors><value>Revolver Black Crystal</value><value>Cedar Tortoise</value><value>Amber</value><value>Summer Green</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/ded3cda46bb4f83fb6ee2c037b18b98b419ca05c/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/lyle</url><brand>Lyle</brand><product_name>Lyle</product_name><width>Narrow</width><colors><value>English Oak</value><value>Plum Marblewood</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/d4437def04fdf539aa810644ba2b0b08a67be6fd/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/sinclair</url><brand>Sinclair</brand><product_name>Sinclair</product_name><width>Medium</width><colors><value>Burgundy Fade</value><value>Midnight Blue</value><value>Greystone</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/f2ab0c2cf64242edd5e0ede80b73354a2b49dbd3/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/colton</url><brand>Colton</brand><product_name>Colton</product_name><width>Narrow</width><colors><value>Sandalwood Matte</value><value>Tangerine</value><value>Whiskey Tortoise</value><value>Revolver Black Crystal</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/c6ba29e922e9f9045caa8e46aaf9cb6ec8dc7d33/1000x500</product_img></item></items>
+<items><item><url>http://www.warbyparker.com/eyeglasses/men/dixon</url><brand>Dixon</brand><product_name>Dixon</product_name><width>Wide</width><colors><value>Jet Silver</value><value>Brushed Ink</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/ce289c7a49544ebd09d3935a2b407d5b45912808/1000x500</product_img></item></items>
