@@ -1,4 +1,4 @@
- <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <items>
 <items><item><url>setLocation('http://www.eyefly.com/grafton-street-6.html')</url><brand>Grafton Street            </brand><product_name>Grafton Street            </product_name><width>
                         SIZE: 51 - 19 - 145 · WIDTH: Array                    </width><colors>#Gunmetal #Black #Walnut</colors><price>94</price></item></items>
@@ -422,29 +422,6 @@
 <items><item><url>http://www.glasses.com/men-glasses/nike-6032/3857.html</url><brand></brand><product_name></product_name><colors><value>Shiny Chrome</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=marchon_nike_6032_brown_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/men-glasses/oakley-currency/172.html</url><brand></brand><product_name></product_name><colors><value>Polished Black</value><value>Satin Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_currency_brown_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/men-glasses/polo-ralph-lauren-ph2065/4520.html</url><brand></brand><product_name></product_name><colors><value>Black Red</value><value>Blue</value><value>Havana</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_poloralphlauren_ph2065_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
-<items>
 <items><item><url>http://www.warbyparker.com/eyeglasses/men/burke</url><brand>Burke</brand><product_name>Burke</product_name><width>Medium</width><colors><value>Tennessee Whiskey</value><value>Sugar Maple</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/891e16a641a6712bb0f60352333d6310f207b2d2/1000x500</product_img></item></items>
 <items><item><url>http://www.warbyparker.com/eyeglasses/men/bensen</url><brand>Bensen</brand><product_name>Bensen</product_name><width>Wide</width><colors><value>Whiskey Tortoise</value><value>Olivewood</value><value>Greystone</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/677aee1c64b673b024869a5b13111dd20cf03a8d/1000x500</product_img></item></items>
 <items><item><url>http://www.warbyparker.com/eyeglasses/men/walker</url><brand>Walker</brand><product_name>Walker</product_name><width>Medium</width><colors><value>Canton Blue</value><value>Whiskey Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/87ab187e4c9150ab8c6e4d31b4359254f24d3023/1000x500</product_img></item></items>
@@ -472,8 +449,6 @@
 <items><item><url>http://www.warbyparker.com/eyeglasses/men/duckworth</url><brand>Duckworth</brand><product_name>Duckworth</product_name><width>Medium</width><colors><value>Oak Barrel</value><value>Marine Slate</value><value>Revolver Black Matte</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/9dfaed5eb144673e4ec777ade0a7f773d250526c/1000x500</product_img></item></items>
 <items><item><url>http://www.warbyparker.com/eyeglasses/men/roosevelt</url><brand>Roosevelt</brand><product_name>Roosevelt</product_name><width>Wide</width><colors><value>Chocolate Soda</value><value>Revolver Black Matte</value><value>Striped Chestnut</value><value></value><value></value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/e3714bb83a3749546141d43a186544fc043e7b47/1000x500</product_img></item></items>
 <items><item><url>http://www.warbyparker.com/eyeglasses/men/fitz</url><brand>Fitz</brand><product_name>Fitz</product_name><width>Medium</width><colors><value>Whiskey Tortoise</value><value>Blonde Tortoise</value><value>Walnut Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/a25b0bd639bcfb73b2a33e3ed6e9fe337edde385/1000x500</product_img></item></items>
-<items>
-<items>
 <items><item><url>http://www.warbyparker.com/eyeglasses/men/arthur</url><brand>Arthur</brand><product_name>Arthur</product_name><width>Medium</width><colors><value>Green Spruce</value><value>Sugar Maple</value><value>Gimlet Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/a915daa9adb960ee992e84fa17064cc44d53de2d/1000x500</product_img></item></items>
 <items><item><url>http://www.warbyparker.com/eyeglasses/men/linwood</url><brand>Linwood</brand><product_name>Linwood</product_name><width>Medium</width><colors><value>Striped Chestnut</value><value>Revolver Black</value><value>Violet Magnolia</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/8f62b0f446c0e471ad2a91a85f6c806c47f1db17/1000x500</product_img></item></items>
 <items><item><url>http://www.warbyparker.com/eyeglasses/men/ripley</url><brand>Ripley</brand><product_name>Ripley</product_name><width>Medium</width><colors><value>Oak Barrel</value><value>Whiskey Tortoise</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/b30f4d60dd60d502052716670d548ab7eb3a58f7/1000x500</product_img></item></items>
@@ -501,3 +476,4 @@
 <items><item><url>http://www.warbyparker.com/eyeglasses/men/sinclair</url><brand>Sinclair</brand><product_name>Sinclair</product_name><width>Medium</width><colors><value>Burgundy Fade</value><value>Midnight Blue</value><value>Greystone</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/f2ab0c2cf64242edd5e0ede80b73354a2b49dbd3/1000x500</product_img></item></items>
 <items><item><url>http://www.warbyparker.com/eyeglasses/men/colton</url><brand>Colton</brand><product_name>Colton</product_name><width>Narrow</width><colors><value>Sandalwood Matte</value><value>Tangerine</value><value>Whiskey Tortoise</value><value>Revolver Black Crystal</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/c6ba29e922e9f9045caa8e46aaf9cb6ec8dc7d33/1000x500</product_img></item></items>
 <items><item><url>http://www.warbyparker.com/eyeglasses/men/dixon</url><brand>Dixon</brand><product_name>Dixon</product_name><width>Wide</width><colors><value>Jet Silver</value><value>Brushed Ink</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/ce289c7a49544ebd09d3935a2b407d5b45912808/1000x500</product_img></item></items>
+</items>
