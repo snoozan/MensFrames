@@ -22,8 +22,7 @@ class MezzmerSpider(Spider):
 
 
         self.verificationErrors = []
-        profile = webdriver.FirefoxProfile(profile_directory="/Applications/Firefox.app/Contents/MacOS")
-        self.selenium = webdriver.Firefox(profile)
+        self.selenium = webdriver.PhantomJS()
 
         url = kwargs.get('url') or kwargs.get('domain')
         format(url.strip('"'))

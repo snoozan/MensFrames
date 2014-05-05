@@ -22,8 +22,7 @@ class WarByParkerInfoSpider(Spider):
         super(WarByParkerInfoSpider, self).__init__(**kwargs)
 
         self.verificationErrors = []
-        profile = webdriver.FirefoxProfile(profile_directory="/Applications/Firefox.app/Contents/MacOS")
-        self.selenium = webdriver.Firefox(profile)
+        self.selenium = webdriver.PhantomJS()
 
         url = kwargs.get('url') or kwargs.get('domain')
         format(url.strip('"'))
@@ -57,7 +56,6 @@ class WarByParkerInfoSpider(Spider):
         sel.get(response.url)
         sel.implicitly_wait(10)
         sites = sel.find_elements_by_xpath('//*[@id="pdp"]/div[@class="product-optical"]')
-        print(sites)
         items = []
         for site in sites:
             item = FramescrapperItem()

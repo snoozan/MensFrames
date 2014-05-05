@@ -24,8 +24,7 @@ class GlassesSpider(InitSpider):
     def __init__(self):
         InitSpider.__init__(self)
         self.verificationErrors = []
-        profile = webdriver.FirefoxProfile(profile_directory="/Applications/Firefox.app/Contents/MacOS")
-        self.selenium = webdriver.Firefox(profile)
+        self.selenium = webdriver.PhantomJS()
 
     def __del__(self):
         self.selenium.quit()
@@ -49,3 +48,4 @@ class GlassesSpider(InitSpider):
             for field, xpath in self.item_fields.iteritems():
                 loader.add_xpath(field, xpath)
             yield loader.load_item()
+        self.selenium.quit()

@@ -21,8 +21,8 @@ class GlassesInfoSpider(Spider):
         super(GlassesInfoSpider, self).__init__(**kwargs)
 
         self.verificationErrors = []
-        profile = webdriver.FirefoxProfile(profile_directory="/Applications/Firefox.app/Contents/MacOS")
-        self.selenium = webdriver.Firefox(profile)
+        #profile = webdriver.FirefoxProfile(profile_directory="/Applications/Firefox.app/Contents/MacOS")
+        self.selenium = webdriver.PhantomJS()
 
         url = kwargs.get('url') or kwargs.get('domain')
         format(url.strip('"'))
