@@ -13,6 +13,12 @@ class MezzmerSpider(Spider):
 
     def __init__(self, **kwargs):
         super(MezzmerSpider, self).__init__(**kwargs)
+
+
+        self.verificationErrors = []
+        profile = webdriver.FirefoxProfile(profile_directory="/Applications/Firefox.app/Contents/MacOS")
+        self.selenium = webdriver.Firefox(profile)
+
         url = kwargs.get('url') or kwargs.get('domain')
         format(url.strip('"'))
         if not url.startswith('http://') and not url.startswith('https://'):
@@ -21,6 +27,7 @@ class MezzmerSpider(Spider):
         urls.append(url)
         self.start_urls = urls
 
+    rules = ( Rule(SgmlLinkExtractor(allow=('\.html', )), callback='parse_page',follow=True),         )
 
     allowed_domains=["http://www.mezzmer.com/"]
     urls_list_xpath = '//*[@id="container"]/div[2]'
@@ -31,10 +38,18 @@ class MezzmerSpider(Spider):
                    'colors': '//*[@id="container"]/div[2]/div[2]/div[2]/div/div/ul/li/h3/text()'
     }
 
-    def parse(self, response):
-        sel = HtmlXPathSelector(response)
+    def __del__(self):
+        self.selenium.quit()
+        print self.verificationErrors
+        CrawlSpider.__del__(self)
 
-        for site in sel.select(self.urls_list_xpath):
+    def parse(self, response):
+        hxs = HtmlXPathSelector(response)
+        sel = self.selenium
+        sel.get(response.url)
+        sel.implicitly_wait(10)
+
+        for site in hxs.select(self.urls_list_xpath):
             loader = XPathItemLoader(FramescrapperItem(), selector=site)
 
             #define processes

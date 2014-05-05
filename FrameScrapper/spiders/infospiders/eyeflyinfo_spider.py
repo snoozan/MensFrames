@@ -30,8 +30,10 @@ class EyeFlyInfoSpider(Spider):
                    'url': '//*[@id="pdp-list-prd-like"]/div[1]/@onclick',
                    'brand': '//*[@id="pdp-title"]/h1/text()',
                    'product_name': '//*[@id="pdp-title"]/h1/text()',
+                   'product_img': '//*[@id="carrousel-1210-wrapper"]/ul/li[1]/div/div[3]/img/@src',
+                   'width': '//*[@id="pdp-motion-description"]/text()[4]',
                    'price': '//*[@id="pdp-add-to-cart-prd-price"]/*[@id="pdp-price-block"]/text()',
-                   'colors': '//*[@id="body-prd-colors"]/a/@href'
+                   'colors': '//*[@id="body-prd-colors"]/a/@href',
     }
 
     def parse(self, response):

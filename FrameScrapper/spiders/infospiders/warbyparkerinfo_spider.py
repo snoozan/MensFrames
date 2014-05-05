@@ -1,3 +1,11 @@
+from selenium import selenium, webdriver
+
+from scrapy.contrib.spiders.init import InitSpider
+
+from scrapy.contrib.spiders import CrawlSpider, Rule
+from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
+from scrapy.http import Request
+
 from scrapy.spider import Spider
 from scrapy.selector import HtmlXPathSelector
 from scrapy.contrib.loader import XPathItemLoader
@@ -12,6 +20,11 @@ class WarByParkerInfoSpider(Spider):
 
     def __init__(self, **kwargs):
         super(WarByParkerInfoSpider, self).__init__(**kwargs)
+
+        self.verificationErrors = []
+        profile = webdriver.FirefoxProfile(profile_directory="/Applications/Firefox.app/Contents/MacOS")
+        self.selenium = webdriver.Firefox(profile)
+
         url = kwargs.get('url') or kwargs.get('domain')
         format(url.strip('"'))
         if not url.startswith('http://') and not url.startswith('https://'):
@@ -32,6 +45,37 @@ class WarByParkerInfoSpider(Spider):
                    'width': '//*[@id="pdp"]/div[4]/div[1]/div[2]/ul[1]/li[1]/p/text()'
     }
 
+    def __del__(self):
+        self.selenium.quit()
+        print self.verificationErrors
+        CrawlSpider.__del__(self)
+
+    def parse(self, response):
+
+        hxs = HtmlXPathSelector(response)
+        sel = self.selenium
+        sel.get(response.url)
+        sel.implicitly_wait(10)
+        sites = sel.find_elements_by_xpath('//*[@id="pdp"]/div[@class="product-optical"]')
+        print(sites)
+        items = []
+        for site in sites:
+            item = FramescrapperItem()
+            item['url'] = site.find_element_by_xpath('/html/head/link[1]').get_attribute("href")
+            item['brand'] = site.find_element_by_xpath('//*[@id="js-product-purchase-section"]/div/h3[1]').text
+            item['product_name'] = site.find_element_by_xpath('//*[@id="js-product-purchase-section"]/div/h3[1]').text
+            item['price'] = site.find_element_by_xpath('//*[@id="js-product-purchase-section"]/div/p/span/span').text
+            colors = []
+            for color in site.find_elements_by_xpath('//*[@id="pdp"]/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li/div/p/a'):
+                colors.append(color.text)
+            item['colors'] = colors
+            item['product_img'] = site.find_element_by_xpath('//*[@id="pdp"]/div[4]/div[1]/div[1]/div[1]/div/div[1]/div/img').get_attribute("src")
+            item['width'] = site.find_element_by_xpath('//*[@id="pdp"]/div[4]/div[1]/div[2]/ul[1]/li[1]/p').text
+            items.append(item)
+
+        self.selenium.quit()
+        return items
+    """
     def parse(self, response):
         sel = HtmlXPathSelector(response)
 
@@ -45,3 +89,5 @@ class WarByParkerInfoSpider(Spider):
             for field, xpath in self.item_fields.iteritems():
                 loader.add_xpath(field, xpath)
             yield loader.load_item()
+    """
+
