@@ -49,20 +49,26 @@ class MezzmerSpider(Spider):
         CrawlSpider.__del__(self)
 
     def parse(self, response):
+
         hxs = HtmlXPathSelector(response)
         sel = self.selenium
         sel.get(response.url)
         sel.implicitly_wait(10)
-
-        for site in hxs.select(self.urls_list_xpath):
-            loader = XPathItemLoader(FramescrapperItem(), selector=site)
-
-            #define processes
-            loader.dafault_input_processor = MapCompose(unicode.strip)
-            loader.default_output_processor = Join()
-
-            for field, xpath in self.item_fields.iteritems():
-                loader.add_xpath(field, xpath)
-            yield loader.load_item()
+        sites = sel.find_elements_by_xpath('//*[@id="container"]/div[2]')
+        items = []
+        for site in sites:
+            item = FramescrapperItem()
+            item['url'] = self.start_urls[0]
+            item['brand'] = site.find_element_by_xpath('/html/body/header/div[1]/a').get_attribute('href')
+            item['product_name'] = site.find_element_by_xpath('//*[@id="container"]/div[2]/div[2]/div[1]/aside/h1').text
+            item['price'] = site.find_element_by_xpath('//*[@id="container"]/div[2]/div[2]/div[1]/aside/h1/div/span').text
+            colors = []
+            for color in site.find_elements_by_xpath('//*[@id="container"]/div[2]/div[2]/div[2]/div/div/ul/li/h3'):
+                colors.append(color.text)
+            item['colors'] = colors
+            item['product_img'] = site.find_element_by_xpath('//*[@id="MagicToolboxSelectorsContainer"]/div/div/ul/li[1]/a/img').get_attribute("src")
+            item['width'] = site.find_element_by_xpath('//*[@id="container"]/div[2]/article[1]/aside/div[1]/dl/dd[1]/strong').text
+            items.append(item)
 
         self.selenium.quit()
+        return items

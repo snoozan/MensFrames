@@ -30,7 +30,7 @@ class CoastalInfoSpider(Spider):
 
     urls_list_xpath = '//*[@id="product-content-right-container"]'
     item_fields = {'url': '/html/head/link[@rel="canonical"]/@href',
-                   'brand': '//*[@id="product-brand-container"]/a/@href',
+                   'brand': '//*[@id="left-logo-container"]/a/img/@alt',
                    'product_name': '//*[@id="product-name-container"]/h1/text()',
                    'product_img': '//*[@id="product-main-image-container"]/a/@href',
                    'colors': '//*[@id="product-details-panes"]/div[1]/div/div[2]/ul/li[6]/span/text()',

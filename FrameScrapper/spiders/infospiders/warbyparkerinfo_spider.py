@@ -60,7 +60,7 @@ class WarByParkerInfoSpider(Spider):
         for site in sites:
             item = FramescrapperItem()
             item['url'] = site.find_element_by_xpath('/html/head/link[1]').get_attribute("href")
-            item['brand'] = site.find_element_by_xpath('//*[@id="js-product-purchase-section"]/div/h3[1]').text
+            item['brand'] = sel.find_element_by_xpath('//*[@id="top-nav-logo"]/img').get_attribute("alt")
             item['product_name'] = site.find_element_by_xpath('//*[@id="js-product-purchase-section"]/div/h3[1]').text
             item['price'] = site.find_element_by_xpath('//*[@id="js-product-purchase-section"]/div/p/span/span').text
             colors = []

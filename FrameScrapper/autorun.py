@@ -3,11 +3,12 @@ import sys
 import os
 import json
 import xml
+import fileinput
 
 class AutoRunURLs():
 
     def deletejson(dump):
-        bashCommand = "rm items.%s" % dump
+        bashCommand = "rm items.%s" % (dump)
         process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
         output = process.communicate()[0]
 
@@ -26,10 +27,10 @@ class AutoRunURLs():
 
 
     if __name__ == "__main__":
-        deletejson("xml")
 
         spiders = ['eyefly', 'coastal', 'mezzmer', 'glasses', 'thirtynine', 'warbyparker', 'lenscrafters', 'lookmatic']
         for spider in spiders:
+            deletejson("xml")
             bashspider(spider, "json")
 
         __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(sys.argv[0])))
@@ -64,7 +65,7 @@ class AutoRunURLs():
                 urlstripped = url.split("http://")
                 urlstripped = urlstripped[1].strip('\"')
 
-                bashspider("mezzmerinfo -a url=%s" % urlstripped, "xml")
+                bashspider("mezzmerinfo -a url=%s" % urlstripped,"xml")
                 print("mezzmer")
 
             elif "39dollarglasses" in url:
@@ -85,7 +86,14 @@ class AutoRunURLs():
                 urlstripped = url.split("http://")
                 urlstripped = urlstripped[1].strip('\"')
 
-                bashspider("glassesinfo -a url=%s" % urlstripped, "xml")
+                bashspider("glassesinfo -a url=%s" % urlstripped,"xml")
                 print("glasses")
+
+            elif "lenscrafters" in url:
+                urlstripped = url.split("http://")
+                urlstripped = urlstripped[1].strip('\"')
+
+                bashspider("lenscraftersinfo -a url=%s" % urlstripped,"xml")
+                print("lenscrafters")
 
 
