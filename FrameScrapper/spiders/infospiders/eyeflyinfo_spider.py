@@ -67,7 +67,7 @@ class EyeFlyInfoSpider(Spider):
             for color in site.find_elements_by_xpath('//*[@id="body-prd-colors"]/a'):
                 colors.append(color.get_attribute("href"))
             item['colors'] = colors
-            item['product_img'] = site.find_element_by_xpath('//*[@id="carrousel-1210-wrapper"]/ul/li[1]/div/div[3]/img').get_attribute("src")
+            item['product_img'] = site.find_element_by_xpath('//div[@class="wrapper"]/ul/li[1]/div/div[3]/img').get_attribute("src")
             items.append(item)
 
         self.selenium.quit()

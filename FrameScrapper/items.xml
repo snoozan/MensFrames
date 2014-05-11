@@ -1,479 +1,197 @@
 <?xml version="1.0" encoding="utf-8"?>
 <items>
-<items><item><url>setLocation('http://www.eyefly.com/grafton-street-6.html')</url><brand>Grafton Street            </brand><product_name>Grafton Street            </product_name><width>
-                        SIZE: 51 - 19 - 145 · WIDTH: Array                    </width><colors>#Gunmetal #Black #Walnut</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/blackburn-cove-5.html')</url><brand>Watling Street            </brand><product_name>Watling Street            </product_name><width>
-                        SIZE: 49 - 22.5 - 145 · WIDTH: Medium                    </width><colors>#Black_Crystal #Light_Tortoise #Grey_Crystal #Dark_Tortoise #Purple_Crystal #Nude</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/blackburn-cove-5.html')</url><brand>Abbey Road            </brand><product_name>Abbey Road            </product_name><width>
-                        SIZE: 50 - 19 - 145 · WIDTH: Medium                    </width><colors>#Black #Grey_Crystal #Light_Tortoise #Dark_Tortoise #Blue_Crystal</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/watling-street.html')</url><brand>Woodward Avenue            </brand><product_name>Woodward Avenue            </product_name><width>
-                        SIZE: 46 - 21 - 140 · WIDTH: Medium                    </width><colors>#Light_Tortoise #Black #Dark_Tortoise #Grey_Crystal #Honey</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/rue-saint-catherine.html')</url><brand>The Ridgeway            </brand><product_name>The Ridgeway            </product_name><width>
-                        SIZE: 50 - 20 - 140 · WIDTH: Medium                    </width><colors>#Black #Dark_Tortoise #Light_Tortoise #Nude #Honey #Grey_Crystal</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/watling-street.html')</url><brand>Mensah Jomo            </brand><product_name>Mensah Jomo            </product_name><width>
-                        SIZE: 50 - 19 - 143 · WIDTH: Medium                    </width><colors>#Eggplant #Yellow_Crystal #Olive_Crystal #Black</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/blackburn-cove-5.html')</url><brand>Blackburn Cove            </brand><product_name>Blackburn Cove            </product_name><width>
-                        SIZE: 48 - 21 - 150 · WIDTH: Medium                    </width><colors>#Black #Dark_Tortoise #Blue_Crystal #Light_Tortoise #Aqua_Crystal #Red_Horn #Olive_Gradient</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/oak-street-6.html')</url><brand>Oak Street            </brand><product_name>Oak Street            </product_name><width>
-                        SIZE: 48 - 19 - 145 · WIDTH: Narrow                    </width><colors>#Black_/_Tortoise #Matte_Black #Bark #Grey_Crystal #Yellow_Crystal</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/kalverstraat-6.html')</url><brand>Kalverstraat            </brand><product_name>Kalverstraat            </product_name><width>
-                        SIZE: 53 - 20 - 145 · WIDTH: Wide                    </width><colors>#Black_/_Tortoise #Topaz #Matte_Black #Light_Tortoise #Blue_Crystal #Crystal_Green</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/marvin-gardens-4.html')</url><brand>Marvin Gardens            </brand><product_name>Marvin Gardens            </product_name><width>
-                        SIZE: 53 - 16 - 145 · WIDTH: Wide                    </width><colors>#Black #Tortoise #Light_Tortoise #Blue_Crystal</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/corso-como-6.html')</url><brand>Corso Como            </brand><product_name>Corso Como            </product_name><width>
-                        SIZE: 53 - 19 - 145 · WIDTH: Wide                    </width><colors>#Tortoise_Green #Black #Tortoise</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/calle-de-serrano-6.html')</url><brand>Calle de Serrano            </brand><product_name>Calle de Serrano            </product_name><width>
-                        SIZE: 47 - 21 - 140 · WIDTH: Narrow                    </width><colors>#Tortoise #Matte_Black #Nude #Rose_Crystal #Purple_Crystal #Matte_Topaz</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/boulevard-saint-michel-6.html')</url><brand>Boul Saint-Michel            </brand><product_name>Boul Saint-Michel            </product_name><width>
-                        SIZE: 54 - 16 - 145 · WIDTH: Wide                    </width><colors>#Matte_Black #Matte_Tortoise #Bark</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/charing-cross-road-6.html')</url><brand>Charing Cross Rd            </brand><product_name>Charing Cross Rd            </product_name><width>
-                        SIZE: 54 - 15 - 140 · WIDTH: Wide                    </width><colors>#Black #Smoke #Bark</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/petrovka-street-4.html')</url><brand>Petrovka Street            </brand><product_name>Petrovka Street            </product_name><width>
-                        SIZE: 54 - 17 - 145 · WIDTH: Wide                    </width><colors>#Green_Tortoise #Matte_Tortoise #Black</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/alexanderplatz-5.html')</url><brand>Alexanderplatz            </brand><product_name>Alexanderplatz            </product_name><width>
-                        SIZE: 44 - 22 - 140 · WIDTH: Narrow                    </width><colors>#Olive #Red_Tortoise #Bark</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/mott-street-6.html')</url><brand>Mott Street            </brand><product_name>Mott Street            </product_name><width>
-                        SIZE: 55 - 15 - 140 · WIDTH: Wide                    </width><colors>#Black #Gunmetal #Walnut</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/rampart-street-8.html')</url><brand>Rampart Street            </brand><product_name>Rampart Street            </product_name><width>
-                        SIZE: 53 - 19 - 140 · WIDTH: Wide                    </width><colors>#Olive #Black #Ink #Matte_Brown</colors><price>94</price></item></items>
-<items><item><width>
-                        SIZE: 49 - 17 - 135 · WIDTH: Narrow                    </width><price>94</price><colors>#Matte_Mint_Green #Matte_Black #Matte_Gold</colors><brand>Avenida da Liberdade            </brand><product_name>Avenida da Liberdade            </product_name></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/the-ginza-6.html')</url><brand>The Ginza            </brand><product_name>The Ginza            </product_name><width>
-                        SIZE: 44 - 21 - 140 · WIDTH: Narrow                    </width><colors>#Silver #Black #Brown</colors><price>94</price></item></items>
-<items><item><url>setLocation('http://www.eyefly.com/central-park-west-6.html')</url><brand>Central Park West            </brand><product_name>Central Park West            </product_name><width>
-                        SIZE: 43 - 20 - 140 · WIDTH: Narrow                    </width><colors>#Matte_Mint_Green #Matte_Gun #Matte_Gold</colors><price>94</price></item></items>
-<items><item><url>http://www.coastal.com/r-hardy-9016-black</url><brand>http://www.coastal.com/glasses/catalog/refinedSearch?brand=Hardy</brand><product_name>R. Hardy 9016 Black</product_name><width>55 mm</width><colors>Black</colors><price>$98.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/r-hardy/r-hardy-9016-black+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/r-hardy-9014-black</url><brand>http://www.coastal.com/glasses/catalog/refinedSearch?brand=Hardy</brand><product_name>R. Hardy 9014 Black</product_name><width>54 mm</width><colors>Black</colors><price>$98.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/r-hardy/r-hardy-9014-black+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/trevor-linden-102-brown-n9k</url><brand>http://www.coastal.com/trevor-linden-glasses</brand><product_name>Trevor Linden 102 Brown N9K</product_name><width>54 mm</width><colors>Brown</colors><price>$69.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/trevor-linden/trevor-linden-102-brown-n9k+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/trevor-linden-105-black-a42an</url><brand>http://www.coastal.com/trevor-linden-glasses</brand><product_name>Trevor Linden 105 Black A42AN</product_name><width>56 mm</width><colors>Black</colors><price>$69.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/trevor-linden/trevor-linden-105-black-a42an+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/kam-dhillon-3012-gunmetal</url><brand>http://www.coastal.com/kam-dhillon</brand><product_name>Kam Dhillon 3012 Gunmetal</product_name><width>55 mm</width><colors>Gunmetal</colors><price>$59.99</price><product_img>http://imgs.coastal.com/Product/glasses/img/kam-dhillon/kam-dhillon-3012-gunmetal+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/frames/derek-cardigan-7012-smoke/prod27044.html</url><brand>http://www.coastal.com/derek-cardigan</brand><product_name>Derek Cardigan 7012 Smoke</product_name><width>48 mm</width><colors>Grey</colors><price>$79.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/derek-cardigan/derek-cardigan-7012-smoke+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/derek-cardigan-7004-fog</url><brand>http://www.coastal.com/derek-cardigan</brand><product_name>Derek Cardigan 7004 Fog</product_name><width>51 mm</width><colors>Grey</colors><price>$78.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/derek-cardigan/derek-cardigan-7004-fog+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/frames/derek-cardigan-7014-black/prod27053.html</url><brand>http://www.coastal.com/derek-cardigan</brand><product_name>Derek Cardigan 7014 Black</product_name><width>51 mm</width><colors>Black</colors><price>$98.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/derek-cardigan/derek-cardigan-7014-black+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/frames/oliver-and-mac-andover-gun/prod24414.html</url><brand>http://www.coastal.com/glasses/catalog/refinedSearch?brand=OliverandMac</brand><product_name>Oliver and Mac Andover Gun</product_name><width>50 mm</width><colors>Gun</colors><price>$88.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/oliver-and-mac/oliver-and-mac-andover-gun+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/r-hardy-9011-blue</url><brand>http://www.coastal.com/glasses/catalog/refinedSearch?brand=Hardy</brand><product_name>R. Hardy 9011 Blue</product_name><width>52 mm</width><colors>Blue</colors><price>$78.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/r-hardy/r-hardy-9011-blue+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/3-1-phillip-lim-ashe-gunmetal</url><brand>http://www.coastal.com/phillip-lim</brand><product_name>3.1 Phillip Lim Ashe Gunmetal</product_name><width>50 mm</width><colors>Gunmetal</colors><price>$129.99</price><product_img>http://imgs.coastal.com/Product/glasses/img/3-1-phillip-lim/3-1-phillip-lim-ashe-gunmetal+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/r-hardy-9028-havana</url><brand>http://www.coastal.com/glasses/catalog/refinedSearch?brand=Hardy</brand><product_name>R. Hardy 9028 Havana</product_name><width>53 mm</width><colors>Havana</colors><price>$78.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/r-hardy/r-hardy-9028-havana+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/joseph-marc-4111-azure-blue</url><brand>http://www.coastal.com/joseph-marc</brand><product_name>Joseph Marc 4111 Azure Blue</product_name><width>52 mm</width><colors>Azure Blue</colors><price>$118.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/joseph-marc/joseph-marc-4111-azure-blue+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/joseph-marc-4080-brown-green</url><brand>http://www.coastal.com/joseph-marc</brand><product_name>Joseph Marc 4080 Brown Green</product_name><width>54 mm</width><colors>Brown Green</colors><price>$98.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/joseph-marc/joseph-marc-4080-brown-green+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/trevor-linden-101-black-a20</url><brand>http://www.coastal.com/trevor-linden-glasses</brand><product_name>Trevor Linden 101 Black A20</product_name><width>53 mm</width><colors>Black</colors><price>$89.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/trevor-linden/trevor-linden-101-black-a20+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/vintage-vn0109-001-shiny-black-silver</url><brand>http://www.coastal.com/glasses/catalog/refinedSearch?brand=Vintage</brand><product_name>Vintage VN0109 001 Shiny Black Silver</product_name><width>45 mm</width><colors>Shiny Black Silver</colors><price>$88.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/vintage/vintage-vn0109-001-shiny-black-silver+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/frames/derek-cardigan-7023-black/prod27643.html</url><brand>http://www.coastal.com/derek-cardigan</brand><product_name>Derek Cardigan 7023 Black</product_name><width>50 mm</width><colors>Black</colors><price>$79.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/derek-cardigan/derek-cardigan-7023-black+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/frames/derek-cardigan-7026-dark-timber/prod27646.html</url><brand>http://www.coastal.com/derek-cardigan</brand><product_name>Derek Cardigan 7026 Dark Timber</product_name><width>49 mm</width><colors>Dark Timber</colors><price>$89.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/derek-cardigan/derek-cardigan-7026-dark-timber+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/r-hardy-9030-black</url><brand>http://www.coastal.com/glasses/catalog/refinedSearch?brand=Hardy</brand><product_name>R. Hardy 9030 Black</product_name><width>56 mm</width><colors>Black</colors><price>$88.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/r-hardy/r-hardy-9030-black+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/lacoste-2650-218-light-havana</url><brand>http://www.coastal.com/lacoste-glasses</brand><product_name>Lacoste L2650 218 Light Havana</product_name><width>56 mm</width><colors>Light Havana</colors><price>$139.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/lacoste/lacoste-2650-218-light-havana+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/trevor-linden-108-gunmetal-aq9</url><brand>http://www.coastal.com/trevor-linden-glasses</brand><product_name>Trevor Linden 108 Gunmetal AQ9</product_name><width>53 mm</width><colors>Gunmetal</colors><price>$89.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/trevor-linden/trevor-linden-108-gunmetal-aq9+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/derek-cardigan-7001-black</url><brand>http://www.coastal.com/derek-cardigan</brand><product_name>Derek Cardigan 7001 Black</product_name><width>46 mm</width><colors>Black</colors><price>$79.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/derek-cardigan/derek-cardigan-7001-black+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.coastal.com/product/ltede-1035-gunmetal</url><brand>http://www.coastal.com/ltede</brand><product_name>Ltede 1035 Gunmetal</product_name><width>51 mm</width><colors>Gunmetal</colors><price>$78.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/ltede/ltede-1035-gunmetal+me++productPageXtraLarge.jpg</product_img></item></items>
-<items><item><url>http://www.mezzmer.com/the-host-eyewear-dark-grey-eyeglass-frame</url><brand>The Host
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Brown Fade Black Honey</colors><product_name>The Host
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/the-host-eyewear-honey-eyeglass-frame</url><brand>The Host
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Dark Grey Black Brown Fade</colors><product_name>The Host
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/big-sky-eyewear-tortoise-eyeglass-frame</url><brand>Big Sky
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black Ash</colors><product_name>Big Sky
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/town-hall-eyewear-dark-grey-eyeglass-frame</url><brand>Town Hall
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black Tortoise-2</colors><product_name>Town Hall
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/town-hall-eyewear-tortoise2-eyeglass-frame</url><brand>Town Hall
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black Dark Grey</colors><product_name>Town Hall
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/havana-eyewear-honey-eyeglasses-frame</url><brand>Havana
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black</colors><product_name>Havana
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/bueller-eyewear-honey-eyeglass-frame</url><brand>Bueller
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black Tortoise</colors><product_name>Bueller
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/astaire-eyewear-honey-eyeglass-frame</url><brand>Astaire
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black Crystal</colors><product_name>Astaire
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/shelby-eyewear-grey-green-eyeglass-frame</url><brand>Shelby
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black Crystal Brown</colors><product_name>Shelby
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/hopper-eyewear-brown-fade-eyeglass-frame</url><brand>Hopper
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black Crystal</colors><product_name>Hopper
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/monterey-eyewear-burgundy-crystal-eyeglass-frame</url><brand>Monterey
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black Crystal Brown Crystal</colors><product_name>Monterey
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/oscar-eyewear-tortoise-eyeglass-frame</url><brand>Oscar
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black Ash</colors><product_name>Oscar
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/rosie-eyewear-burgundy-crystal-eyeglass-frame</url><brand>Rosie
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black Crystal</colors><product_name>Rosie
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/rodeo-eyewear-tortoise-eyeglass-frame</url><brand>Rodeo
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black</colors><product_name>Rodeo
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/dockside-eyewear-black-silver-eyeglass-frame</url><brand>Dockside
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Tortoise/Gold</colors><product_name>Dockside
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/manhattan-eyewear-tortoise-eyeglass-frame</url><brand>Manhattan
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black</colors><product_name>Manhattan
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/crucible-eyewear-black-eyeglass-frame</url><brand>Crucible
-
-
-
-
-</brand><price>
-                    $69                </price><product_name>Crucible
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/flamingo-eyewear-tortoise-eyeglass-frame</url><brand>Flamingo
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black</colors><product_name>Flamingo
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/mickey-eyewear-brown-fade-eyeglass-frame</url><brand>Mickey
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black Tortoise</colors><product_name>Mickey
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/lagos-eyewear-burgundy-eyeglass-frame</url><brand>Lagos
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black</colors><product_name>Lagos
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/gothic-eyewear-black-eyeglass-frame</url><brand>Gothic
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Tortoise</colors><product_name>Gothic
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/brass-eyewear-wine-eyeglass-frame</url><brand>Brass
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Black Brown</colors><product_name>Brass
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/presley-eyewear-black-crystal-eyeglass-frame</url><brand>Presley
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Brown Tortoise/Pink</colors><product_name>Presley
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/herman-eyewear-black-eyeglasses-frame</url><brand>Herman
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Brown</colors><product_name>Herman
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.mezzmer.com/audition-eyewear-black-crystal-eyeglass-frame</url><brand>Audition
-
-
-
-
-</brand><price>
-                    $69                </price><colors>Amber Grey</colors><product_name>Audition
-
-
-
-
-</product_name></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/arnette-fader-an7056/4828.html</url><brand></brand><product_name></product_name><colors><value>Dark Havana</value><value>Grey Havana</value><value>Matte Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_arnette_faderan7056_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.eyefly.com/grafton-street-6.html/</url><brand>GRAFTON STREET - GUNMETAL - $94</brand><product_name>GRAFTON STREET - GUNMETAL - $94</product_name><colors><value>http://www.eyefly.com/grafton-street-6.html/#Gunmetal</value><value>http://www.eyefly.com/grafton-street-6.html/#Black</value><value>http://www.eyefly.com/grafton-street-6.html/#Walnut</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/g/r/grafton_gun_front_5.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/watling-street.html/</url><brand>WATLING STREET - BLACK - $94</brand><product_name>WATLING STREET - BLACK - $94</product_name><colors><value>http://www.eyefly.com/watling-street.html/#Black_Crystal</value><value>http://www.eyefly.com/watling-street.html/#Light_Tortoise</value><value>http://www.eyefly.com/watling-street.html/#Grey_Crystal</value><value>http://www.eyefly.com/watling-street.html/#Dark_Tortoise</value><value>http://www.eyefly.com/watling-street.html/#Purple_Crystal</value><value>http://www.eyefly.com/watling-street.html/#Nude</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/w/a/watling-street_blk.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/abbey-road.html/</url><brand>ABBEY ROAD - BLUE CRYSTAL - $94</brand><product_name>ABBEY ROAD - BLUE CRYSTAL - $94</product_name><colors><value>http://www.eyefly.com/abbey-road.html/#Black</value><value>http://www.eyefly.com/abbey-road.html/#Grey_Crystal</value><value>http://www.eyefly.com/abbey-road.html/#Light_Tortoise</value><value>http://www.eyefly.com/abbey-road.html/#Dark_Tortoise</value><value>http://www.eyefly.com/abbey-road.html/#Blue_Crystal</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/m/o/modo_abbey-road_blk.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/woodward-avenue.html/</url><brand>WOODWARD AVENUE - HONEY - $94</brand><product_name>WOODWARD AVENUE - HONEY - $94</product_name><colors><value>http://www.eyefly.com/woodward-avenue.html/#Light_Tortoise</value><value>http://www.eyefly.com/woodward-avenue.html/#Black</value><value>http://www.eyefly.com/woodward-avenue.html/#Dark_Tortoise</value><value>http://www.eyefly.com/woodward-avenue.html/#Grey_Crystal</value><value>http://www.eyefly.com/woodward-avenue.html/#Honey</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/m/o/modo_woodward-ave._ltort.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/the-ridgeway.html/</url><brand>THE RIDGEWAY - GREY CRYSTAL - $94</brand><product_name>THE RIDGEWAY - GREY CRYSTAL - $94</product_name><colors><value>http://www.eyefly.com/the-ridgeway.html/#Black</value><value>http://www.eyefly.com/the-ridgeway.html/#Dark_Tortoise</value><value>http://www.eyefly.com/the-ridgeway.html/#Light_Tortoise</value><value>http://www.eyefly.com/the-ridgeway.html/#Nude</value><value>http://www.eyefly.com/the-ridgeway.html/#Honey</value><value>http://www.eyefly.com/the-ridgeway.html/#Grey_Crystal</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/m/o/modo_the-ridgeway_blk.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/mensah-jomo-1.html/</url><brand>MENSAH JOMO - BLACK - $94</brand><product_name>MENSAH JOMO - BLACK - $94</product_name><colors><value>http://www.eyefly.com/mensah-jomo-1.html/#Eggplant</value><value>http://www.eyefly.com/mensah-jomo-1.html/#Yellow_Crystal</value><value>http://www.eyefly.com/mensah-jomo-1.html/#Olive_Crystal</value><value>http://www.eyefly.com/mensah-jomo-1.html/#Black</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/m/e/mensahjomost_eggplant_front_3.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/blackburn-cove-5.html/</url><brand>BLACKBURN COVE - DARK TORTOISE - $94</brand><product_name>BLACKBURN COVE - DARK TORTOISE - $94</product_name><colors><value>http://www.eyefly.com/blackburn-cove-5.html/#Black</value><value>http://www.eyefly.com/blackburn-cove-5.html/#Dark_Tortoise</value><value>http://www.eyefly.com/blackburn-cove-5.html/#Blue_Crystal</value><value>http://www.eyefly.com/blackburn-cove-5.html/#Light_Tortoise</value><value>http://www.eyefly.com/blackburn-cove-5.html/#Aqua_Crystal</value><value>http://www.eyefly.com/blackburn-cove-5.html/#Red_Horn</value><value>http://www.eyefly.com/blackburn-cove-5.html/#Olive_Gradient</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/b/l/blackburncove_black_front_5.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/oak-street-6.html/</url><brand>OAK STREET - BLACK / TORTOISE - $94</brand><product_name>OAK STREET - BLACK / TORTOISE - $94</product_name><colors><value>http://www.eyefly.com/oak-street-6.html/#Black_/_Tortoise</value><value>http://www.eyefly.com/oak-street-6.html/#Matte_Black</value><value>http://www.eyefly.com/oak-street-6.html/#Bark</value><value>http://www.eyefly.com/oak-street-6.html/#Grey_Crystal</value><value>http://www.eyefly.com/oak-street-6.html/#Yellow_Crystal</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/o/a/oakst_blacktort_front_6_1.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/kalverstraat-6.html/</url><brand>KALVERSTRAAT - TOPAZ - $94</brand><product_name>KALVERSTRAAT - TOPAZ - $94</product_name><colors><value>http://www.eyefly.com/kalverstraat-6.html/#Black_/_Tortoise</value><value>http://www.eyefly.com/kalverstraat-6.html/#Topaz</value><value>http://www.eyefly.com/kalverstraat-6.html/#Matte_Black</value><value>http://www.eyefly.com/kalverstraat-6.html/#Light_Tortoise</value><value>http://www.eyefly.com/kalverstraat-6.html/#Blue_Crystal</value><value>http://www.eyefly.com/kalverstraat-6.html/#Crystal_Green</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/k/a/kalverstraat_blktort_front_5.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/marvin-gardens-4.html/</url><brand>MARVIN GARDENS - TORTOISE - $94</brand><product_name>MARVIN GARDENS - TORTOISE - $94</product_name><colors><value>http://www.eyefly.com/marvin-gardens-4.html/#Black</value><value>http://www.eyefly.com/marvin-gardens-4.html/#Tortoise</value><value>http://www.eyefly.com/marvin-gardens-4.html/#Light_Tortoise</value><value>http://www.eyefly.com/marvin-gardens-4.html/#Blue_Crystal</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/m/a/marvingardens_black_front_5.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/corso-como-6.html/</url><brand>CORSO COMO - TORTOISE GREEN - $94</brand><product_name>CORSO COMO - TORTOISE GREEN - $94</product_name><colors><value>http://www.eyefly.com/corso-como-6.html/#Tortoise_Green</value><value>http://www.eyefly.com/corso-como-6.html/#Black</value><value>http://www.eyefly.com/corso-como-6.html/#Tortoise</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/l/i/lincolnave_green_front_5_should_be_corso.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/calle-de-serrano-6.html/</url><brand>CALLE DE SERRANO - TORTOISE - $94</brand><product_name>CALLE DE SERRANO - TORTOISE - $94</product_name><colors><value>http://www.eyefly.com/calle-de-serrano-6.html/#Tortoise</value><value>http://www.eyefly.com/calle-de-serrano-6.html/#Matte_Black</value><value>http://www.eyefly.com/calle-de-serrano-6.html/#Nude</value><value>http://www.eyefly.com/calle-de-serrano-6.html/#Rose_Crystal</value><value>http://www.eyefly.com/calle-de-serrano-6.html/#Purple_Crystal</value><value>http://www.eyefly.com/calle-de-serrano-6.html/#Matte_Topaz</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/c/a/calledeserrano_tortoise_front_1.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/boulevard-saint-michel-6.html/</url><brand>BOUL SAINT-MICHEL - MATTE BLACK - $94</brand><product_name>BOUL SAINT-MICHEL - MATTE BLACK - $94</product_name><colors><value>http://www.eyefly.com/boulevard-saint-michel-6.html/#Matte_Black</value><value>http://www.eyefly.com/boulevard-saint-michel-6.html/#Matte_Tortoise</value><value>http://www.eyefly.com/boulevard-saint-michel-6.html/#Bark</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/b/o/boulsaintmichel_black_front_1.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/charing-cross-road-6.html/</url><brand>CHARING CROSS RD - BARK - $94</brand><product_name>CHARING CROSS RD - BARK - $94</product_name><colors><value>http://www.eyefly.com/charing-cross-road-6.html/#Black</value><value>http://www.eyefly.com/charing-cross-road-6.html/#Smoke</value><value>http://www.eyefly.com/charing-cross-road-6.html/#Bark</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/c/h/charneycross_black_front_5.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/petrovka-street-4.html/</url><brand>PETROVKA STREET - MATTE TORTOISE - $94</brand><product_name>PETROVKA STREET - MATTE TORTOISE - $94</product_name><colors><value>http://www.eyefly.com/petrovka-street-4.html/#Green_Tortoise</value><value>http://www.eyefly.com/petrovka-street-4.html/#Matte_Tortoise</value><value>http://www.eyefly.com/petrovka-street-4.html/#Black</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/p/e/petrovskast_greentortoise_front_1.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/alexanderplatz-5.html/</url><brand>ALEXANDERPLATZ - OLIVE - $94</brand><product_name>ALEXANDERPLATZ - OLIVE - $94</product_name><colors><value>http://www.eyefly.com/alexanderplatz-5.html/#Olive</value><value>http://www.eyefly.com/alexanderplatz-5.html/#Red_Tortoise</value><value>http://www.eyefly.com/alexanderplatz-5.html/#Bark</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/a/l/alexanderplatz_olive_front_5.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/mott-street-6.html/</url><brand>MOTT STREET - MATTE BLACK - $94</brand><product_name>MOTT STREET - MATTE BLACK - $94</product_name><colors><value>http://www.eyefly.com/mott-street-6.html/#Black</value><value>http://www.eyefly.com/mott-street-6.html/#Gunmetal</value><value>http://www.eyefly.com/mott-street-6.html/#Walnut</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/m/o/mottst_black_front_5.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/rampart-street-8.html/</url><brand>RAMPART STREET - INK - $94</brand><product_name>RAMPART STREET - INK - $94</product_name><colors><value>http://www.eyefly.com/rampart-street-8.html/#Olive</value><value>http://www.eyefly.com/rampart-street-8.html/#Black</value><value>http://www.eyefly.com/rampart-street-8.html/#Ink</value><value>http://www.eyefly.com/rampart-street-8.html/#Matte_Brown</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/r/a/rampartst_olive_front_1_1.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/avenida-da-liberdade-6.html/</url><brand>AVENIDA DA LIBERDADE - MATTE MINT GREEN - $94</brand><product_name>AVENIDA DA LIBERDADE - MATTE MINT GREEN - $94</product_name><colors><value>http://www.eyefly.com/avenida-da-liberdade-6.html/#Matte_Mint_Green</value><value>http://www.eyefly.com/avenida-da-liberdade-6.html/#Matte_Black</value><value>http://www.eyefly.com/avenida-da-liberdade-6.html/#Matte_Gold</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/a/v/avedaliberdade_mattemintgreen_front_1.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/the-ginza-6.html/</url><brand>THE GINZA - BROWN - $94</brand><product_name>THE GINZA - BROWN - $94</product_name><colors><value>http://www.eyefly.com/the-ginza-6.html/#Silver</value><value>http://www.eyefly.com/the-ginza-6.html/#Black</value><value>http://www.eyefly.com/the-ginza-6.html/#Brown</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/g/i/ginza_silver_front_5.jpg</product_img></item></items>
+<items><item><url>http://www.eyefly.com/central-park-west-6.html/</url><brand>CENTRAL PARK WEST - MATTE MINT GREEN - $94</brand><product_name>CENTRAL PARK WEST - MATTE MINT GREEN - $94</product_name><colors><value>http://www.eyefly.com/central-park-west-6.html/#Matte_Mint_Green</value><value>http://www.eyefly.com/central-park-west-6.html/#Matte_Gun</value><value>http://www.eyefly.com/central-park-west-6.html/#Matte_Gold</value></colors><price>94</price><product_img>http://www.eyefly.com/media/catalog/product/cache/1/image/720x312/9df78eab33525d08d6e5fb8d27136e95/c/e/centralparkwest_mattemintgreen_front_1.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/r-hardy-9016-black</url><brand>Coastal.com</brand><product_name>R. Hardy 9016 Black</product_name><width>55 mm</width><colors>Black</colors><price>$98.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/r-hardy/r-hardy-9016-black+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/r-hardy-9014-black</url><brand>Coastal.com</brand><product_name>R. Hardy 9014 Black</product_name><width>54 mm</width><colors>Black</colors><price>$98.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/r-hardy/r-hardy-9014-black+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/trevor-linden-102-brown-n9k</url><brand>Coastal.com</brand><product_name>Trevor Linden 102 Brown N9K</product_name><width>54 mm</width><colors>Brown</colors><price>$69.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/trevor-linden/trevor-linden-102-brown-n9k+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/trevor-linden-105-black-a42an</url><brand>Coastal.com</brand><product_name>Trevor Linden 105 Black A42AN</product_name><width>56 mm</width><colors>Black</colors><price>$69.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/trevor-linden/trevor-linden-105-black-a42an+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/kam-dhillon-3012-gunmetal</url><brand>Coastal.com</brand><product_name>Kam Dhillon 3012 Gunmetal</product_name><width>55 mm</width><colors>Gunmetal</colors><price>$59.99</price><product_img>http://imgs.coastal.com/Product/glasses/img/kam-dhillon/kam-dhillon-3012-gunmetal+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/frames/derek-cardigan-7012-smoke/prod27044.html</url><brand>Coastal.com</brand><product_name>Derek Cardigan 7012 Smoke</product_name><width>48 mm</width><colors>Grey</colors><price>$79.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/derek-cardigan/derek-cardigan-7012-smoke+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/derek-cardigan-7004-fog</url><brand>Coastal.com</brand><product_name>Derek Cardigan 7004 Fog</product_name><width>51 mm</width><colors>Grey</colors><price>$78.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/derek-cardigan/derek-cardigan-7004-fog+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/frames/derek-cardigan-7014-black/prod27053.html</url><brand>Coastal.com</brand><product_name>Derek Cardigan 7014 Black</product_name><width>51 mm</width><colors>Black</colors><price>$98.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/derek-cardigan/derek-cardigan-7014-black+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/frames/oliver-and-mac-andover-gun/prod24414.html</url><brand>Coastal.com</brand><product_name>Oliver and Mac Andover Gun</product_name><width>50 mm</width><colors>Gun</colors><price>$88.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/oliver-and-mac/oliver-and-mac-andover-gun+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/r-hardy-9011-blue</url><brand>Coastal.com</brand><product_name>R. Hardy 9011 Blue</product_name><width>52 mm</width><colors>Blue</colors><price>$78.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/r-hardy/r-hardy-9011-blue+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/3-1-phillip-lim-ashe-gunmetal</url><brand>Coastal.com</brand><product_name>3.1 Phillip Lim Ashe Gunmetal</product_name><width>50 mm</width><colors>Gunmetal</colors><price>$129.99</price><product_img>http://imgs.coastal.com/Product/glasses/img/3-1-phillip-lim/3-1-phillip-lim-ashe-gunmetal+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/r-hardy-9028-havana</url><brand>Coastal.com</brand><product_name>R. Hardy 9028 Havana</product_name><width>53 mm</width><colors>Havana</colors><price>$78.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/r-hardy/r-hardy-9028-havana+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/trevor-linden-101-black-a20</url><brand>Coastal.com</brand><product_name>Trevor Linden 101 Black A20</product_name><width>53 mm</width><colors>Black</colors><price>$89.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/trevor-linden/trevor-linden-101-black-a20+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/vintage-vn0109-001-shiny-black-silver</url><brand>Coastal.com</brand><product_name>Vintage VN0109 001 Shiny Black Silver</product_name><width>45 mm</width><colors>Shiny Black Silver</colors><price>$88.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/vintage/vintage-vn0109-001-shiny-black-silver+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/lacoste-2650-001-black</url><brand>Coastal.com</brand><product_name>Lacoste L2650 001 Black</product_name><width>56 mm</width><colors>Black</colors><price>$148.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/lacoste/lacoste-2650-001-black+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/frames/derek-cardigan-7023-black/prod27643.html</url><brand>Coastal.com</brand><product_name>Derek Cardigan 7023 Black</product_name><width>50 mm</width><colors>Black</colors><price>$79.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/derek-cardigan/derek-cardigan-7023-black+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/frames/derek-cardigan-7026-dark-timber/prod27646.html</url><brand>Coastal.com</brand><product_name>Derek Cardigan 7026 Dark Timber</product_name><width>49 mm</width><colors>Dark Timber</colors><price>$89.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/derek-cardigan/derek-cardigan-7026-dark-timber+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/r-hardy-9030-black</url><brand>Coastal.com</brand><product_name>R. Hardy 9030 Black</product_name><width>56 mm</width><colors>Black</colors><price>$88.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/r-hardy/r-hardy-9030-black+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/lacoste-2650-218-light-havana</url><brand>Coastal.com</brand><product_name>Lacoste L2650 218 Light Havana</product_name><width>56 mm</width><colors>Light Havana</colors><price>$139.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/lacoste/lacoste-2650-218-light-havana+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/trevor-linden-108-gunmetal-aq9</url><brand>Coastal.com</brand><product_name>Trevor Linden 108 Gunmetal AQ9</product_name><width>53 mm</width><colors>Gunmetal</colors><price>$89.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/trevor-linden/trevor-linden-108-gunmetal-aq9+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/derek-cardigan-7001-black</url><brand>Coastal.com</brand><product_name>Derek Cardigan 7001 Black</product_name><width>46 mm</width><colors>Black</colors><price>$79.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/derek-cardigan/derek-cardigan-7001-black+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/product/ltede-1035-gunmetal</url><brand>Coastal.com</brand><product_name>Ltede 1035 Gunmetal</product_name><width>51 mm</width><colors>Gunmetal</colors><price>$78.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/ltede/ltede-1035-gunmetal+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.coastal.com/colours-by-alexander-julian-imperial-havana</url><brand>Coastal.com</brand><product_name>Colours by Alexander Julian Imperial Havana</product_name><width>48 mm</width><colors>Tortoise</colors><price>$88.00</price><product_img>http://imgs.coastal.com/Product/glasses/img/colours-by-alexander-julian/colours-by-alexander-julian-imperial-havana+me++productPageXtraLarge.jpg</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/the-host-eyewear-dark-grey-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>THE HOST
+$69</product_name><width>Medium</width><colors><value></value><value>Black</value><value>Honey</value><value>Brown Fade</value><value></value><value></value><value></value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-817_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/the-host-eyewear-honey-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>THE HOST
+$69</product_name><width>Medium</width><colors><value></value><value>Brown Fade</value><value>Dark Grey</value><value>Black</value><value></value><value></value><value></value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-846_copy_2.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/big-sky-eyewear-tortoise-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>BIG SKY
+$69</product_name><width>Narrow</width><colors><value>Ash</value><value>Black</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-757_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/town-hall-eyewear-dark-grey-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>TOWN HALL
+$69</product_name><width>Medium</width><colors><value>Black</value><value>Tortoise-2</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-713_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/town-hall-eyewear-tortoise2-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>TOWN HALL
+$69</product_name><width>Medium</width><colors><value>Black</value><value>Dark Grey</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-719_2.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/havana-eyewear-honey-eyeglasses-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>HAVANA
+$69</product_name><width>Medium</width><colors><value>Black</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-765_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/bueller-eyewear-honey-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>BUELLER
+$69</product_name><width>Medium</width><colors><value>Black</value><value>Tortoise</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-772_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/astaire-eyewear-honey-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>ASTAIRE
+$69</product_name><width>Narrow</width><colors><value>Black Crystal</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-767_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/shelby-eyewear-grey-green-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>SHELBY
+$69</product_name><width>Medium</width><colors><value>Black Crystal</value><value>Brown</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer3-1488-3_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/hopper-eyewear-brown-fade-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>HOPPER
+$69</product_name><width>Medium</width><colors><value>Black Crystal</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-748_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/monterey-eyewear-burgundy-crystal-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>MONTEREY
+$69</product_name><width>Medium</width><colors><value>Black Crystal</value><value>Brown Crystal</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-793_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/oscar-eyewear-tortoise-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>OSCAR
+$69</product_name><width>Medium</width><colors><value>Black</value><value>Ash</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-788_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/rosie-eyewear-burgundy-crystal-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>ROSIE
+$69</product_name><width>Narrow</width><colors><value>Black Crystal</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer3-1490-5_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/rodeo-eyewear-tortoise-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>RODEO
+$69</product_name><width>Wide</width><colors><value>Black</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-775_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/dockside-eyewear-black-silver-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>DOCKSIDE
+$69</product_name><width>Medium</width><colors><value>Tortoise/Gold</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/133x79/9df78eab33525d08d6e5fb8d27136e95/d/o/dockside_front_black_s_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/manhattan-eyewear-tortoise-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>MANHATTAN
+$69</product_name><width>Medium</width><colors><value>Black</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-760_copy_1_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/crucible-eyewear-black-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>CRUCIBLE
+$69</product_name><width>Medium</width><colors></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-773_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/flamingo-eyewear-tortoise-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>FLAMINGO
+$69</product_name><width>Narrow</width><colors><value>Black</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-762_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/mickey-eyewear-brown-fade-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>MICKEY
+$69</product_name><width>Medium</width><colors><value>Black</value><value>Tortoise</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-741_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/lagos-eyewear-burgundy-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>LAGOS
+$69</product_name><width>Wide</width><colors><value>Black</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer3-1496-9_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/gothic-eyewear-black-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>GOTHIC
+$69</product_name><width>Medium</width><colors><value>Tortoise</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-777_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/brass-eyewear-wine-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>BRASS
+$69</product_name><width>Medium</width><colors><value>Black</value><value>Brown</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-783_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/presley-eyewear-black-crystal-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>PRESLEY
+$69</product_name><width>Medium</width><colors><value>Brown</value><value>Tortoise/Pink</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-753_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/herman-eyewear-black-eyeglasses-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>HERMAN
+$69</product_name><width>Medium</width><colors><value>Brown</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/121x80/9df78eab33525d08d6e5fb8d27136e95/m/e/mezzmer-779_copy_1.png</product_img></item></items>
+<items><item><url>http://www.mezzmer.com/audition-eyewear-black-crystal-eyeglass-frame/</url><brand>http://www.mezzmer.com/</brand><product_name>AUDITION
+$69</product_name><width>Medium</width><colors><value>Amber</value><value>Grey</value></colors><price>$69</price><product_img>http://www.mezzmer.com/media/catalog/product/cache/1/image/133x79/9df78eab33525d08d6e5fb8d27136e95/a/u/audition_front_black_s_2_2.png</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/arnette-fader-an7056/4828.html</url><brand></brand><product_name></product_name><colors><value>Grey Havana</value><value>Matte Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_arnette_faderan7056_tortoise_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/men-glasses/oakley-halfshock/2801.html</url><brand></brand><product_name></product_name><colors></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_halfshock_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/tag-heuer-trends-8109/1525.html</url><brand></brand><product_name></product_name><colors><value>Havana Black &amp; Matte Chocolate</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=premierevision_tagheuer_trends8109_silver_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/tag-heuer-trends-8109/1525.html</url><brand></brand><product_name></product_name><colors></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=premierevision_tagheuer_trends8109_silver_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/men-glasses/spy-chace/4447.html</url><brand></brand><product_name></product_name><colors><value>Matte Greystone</value><value>Terra Fade</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=orange21_spy_chace_black_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/women-glasses/ernest-hemingway-4617/1029.html</url><brand></brand><product_name></product_name><colors><value>Crystal</value><value>Matte Black</value><value>Matte Black &amp; Pink</value><value>Matte Burgundy</value><value>Matte Tortoise</value><value>Purple Black</value><value>Shiny Black &amp; Crystal</value><value>Shiny Black &amp; Red</value><value>Shiny Cobalt &amp; Black</value><value>Shiny Red Crystal &amp; Black</value><value>Tortoise</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=newyorkeye_ernesthemingway_4617_tortoise_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/women-glasses/ray-ban-rx5228/3809.html</url><brand></brand><product_name></product_name><colors><value>Blue</value><value>Brown &amp; Pink</value><value>Dark Havana</value><value>Dark Red Transparent</value><value>Shiny Black</value><value>Violet Transparent</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5228_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/oakley-crosslink-medium-with-extra-temples/2798.html</url><brand></brand><product_name></product_name><colors><value>Grey Smoke &amp; Team Cardinal</value><value>Pearle &amp; Team Cardinal</value><value>Satin Black &amp; Black</value><value>Satin Black &amp; Sky Blue</value><value>Satin Root Beer &amp; Team Orange</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_crosslinkmediumwithextratemples_grey3_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/men-glasses/ernest-hemingway-4629/2051.html</url><brand></brand><product_name></product_name><colors><value>Matte Black &amp; Gunmetal</value><value>Matte Tortoise &amp; Gunmetal</value><value>Silver Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=newyorkeye_ernesthemingway_4629_tortoise_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/women-glasses/ray-ban-rx5154/3804.html</url><brand></brand><product_name></product_name><colors><value>Havana &amp; Orange</value><value>Matte Black</value><value>Matte Grey</value><value>Red Havana</value><value>Shiny Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5154_black_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/men-glasses/oakley-crosslink-switch-with-extra-lens-kit/3699.html</url><brand></brand><product_name></product_name><colors><value>Pewter</value><value>Satin Black</value><value>Sky Blue</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_crosslinkswitchwithextralenskit_silver_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/oakley-servo-medium/2803.html</url><brand></brand><product_name></product_name><colors><value>Polished Black</value><value>Satin Steel</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_servomedium_black6_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/women-glasses/ray-ban-rx5279-large/4596.html</url><brand></brand><product_name></product_name><colors><value>Tortoise</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5279large_black2_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/women-glasses/paolo-visconti-glu02/148.html</url><brand></brand><product_name></product_name><colors></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=glasses_paolovisconti_glu02_tortoise_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/women-glasses/ray-ban-rx5286/4414.html</url><brand></brand><product_name></product_name><colors><value>Blue &amp; Horn Grey</value><value>Havana &amp; Transparent</value><value>Red &amp; Beige Horn</value><value>White &amp; Grey Horn</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5286_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/oakley-keel-medium/3513.html</url><brand></brand><product_name></product_name><colors><value>Polished Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_keelmedium_brown_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/oakley-crosslink-medium-with-extra-temples/2798.html</url><brand></brand><product_name></product_name><colors><value>Grey Smoke &amp; Team Cardinal</value><value>Pearle &amp; Team Cardinal</value><value>Satin Black &amp; Black</value><value>Satin Black &amp; Sky Blue</value><value>Satin Root Beer &amp; Team Orange</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_crosslinkmediumwithextratemples_grey3_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/oakley-servo-medium/2803.html</url><brand></brand><product_name></product_name><colors><value>Polished Black</value><value>Satin Steel</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_servomedium_black6_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/oakley-drill-bit-0.5/2799.html</url><brand></brand><product_name></product_name><colors><value>Pewter</value><value>Polished Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_drillbit05_silver_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/men-glasses/oakley-gasket/179.html</url><brand></brand><product_name></product_name><colors><value>Brown Tortoise</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_gasket_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/women-glasses/ray-ban-rx5294/4418.html</url><brand></brand><product_name></product_name><colors><value>Matte Black &amp; Black</value><value>Black &amp; Silver</value><value>Havana &amp; Green &amp; Gunmetal</value><value>Havana &amp; Orange &amp; Gunmetal</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5294_silver_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/women-glasses/ernest-hemingway-4610/1026.html</url><brand></brand><product_name></product_name><colors><value>Honey</value><value>Tortoise</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=newyorkeye_ernesthemingway_4610_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/oakley-drill-bit-0.5/2799.html</url><brand></brand><product_name></product_name><colors><value>Polished Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_drillbit05_gunmetal_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/oakley-servo-large/2804.html</url><brand></brand><product_name></product_name><colors><value>Grey Tortoise</value><value>Polished Black</value><value>Satin Black &amp; White</value><value>Satin Olive</value><value>Satin Smoke</value><value>Satin Steel</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_servolarge_black2_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx5169-large/4594.html</url><brand></brand><product_name></product_name><colors><value>Blue &amp; Havana</value><value>Havana &amp; Green Transparent</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5169large_black2_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/women-glasses/ernest-hemingway-4612/1027.html</url><brand></brand><product_name></product_name><colors><value>Leopard</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=newyorkeye_ernesthemingway_4612_tortoise2_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/women-glasses/paolo-visconti-glu05/151.html</url><brand></brand><product_name></product_name><colors></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=glasses_paolovisconti_glu05_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/women-glasses/ray-ban-rx5279-large/4596.html</url><brand></brand><product_name></product_name><colors><value>Tortoise</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5279large_black2_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx5277/3813.html</url><brand></brand><product_name></product_name><colors><value>Oil &amp; Blue</value><value>Shiny Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5277_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/women-glasses/ray-ban-rx5294/4418.html</url><brand></brand><product_name></product_name><colors><value>Matte Black &amp; Black</value><value>Black &amp; Silver</value><value>Havana &amp; Green &amp; Gunmetal</value><value>Havana &amp; Orange &amp; Gunmetal</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5294_silver_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/oakley-keel-medium/3513.html</url><brand></brand><product_name></product_name><colors><value>Polished Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_keelmedium_brown_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/women-glasses/eddie-bauer-8212/2073.html</url><brand></brand><product_name></product_name><colors><value>Tortoise &amp; Cream</value><value>Tortoise &amp; Sapphire</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=newyorkeye_eddiebauer_8212_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/women-glasses/ernest-hemingway-4610/1026.html</url><brand></brand><product_name></product_name><colors><value>Honey</value><value>Tortoise</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=newyorkeye_ernesthemingway_4610_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/oakley-servo-large/2804.html</url><brand></brand><product_name></product_name><colors><value>Grey Tortoise</value><value>Polished Black</value><value>Satin Black &amp; White</value><value>Satin Olive</value><value>Satin Smoke</value><value>Satin Steel</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_servolarge_black2_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/women-glasses/paolo-visconti-glu03/149.html</url><brand></brand><product_name></product_name><colors><value>Matte Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=glasses_paolovisconti_glu03_black2_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/men-glasses/paolo-visconti-glm15/167.html</url><brand></brand><product_name></product_name><colors><value>Dark Brown</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=glasses_paolovisconti_glm15_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/women-glasses/ray-ban-rx5121/3803.html</url><brand></brand><product_name></product_name><colors><value>Yellow Havana</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5121_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/women-glasses/paolo-visconti-glu05/151.html</url><brand></brand><product_name></product_name><colors><value>Matte Brown</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=glasses_paolovisconti_glu05_black_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx5169-medium/3805.html</url><brand></brand><product_name></product_name><colors><value>Havana Green</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5169medium_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/women-glasses/ray-ban-rx5279/3814.html</url><brand></brand><product_name></product_name><colors><value>Blue &amp; Beige</value><value>Brown</value><value>Grey &amp; Brown</value><value>Havana</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5279_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/women-glasses/ernest-hemingway-4631/4095.html</url><brand></brand><product_name></product_name><colors><value>Tortoise</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=newyorkeye_ernesthemingway_4631_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/smith-optics-broadcast/90.html</url><brand></brand><product_name></product_name><colors><value>Havana</value><value>Matte Black</value><value>Matte Crystal Brown</value><value>Matte Crystal Green</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=smithoptics_smithoptics_broadcast_black2_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/men-glasses/oakley-yarddog-ii/4616.html</url><brand></brand><product_name></product_name><colors><value>Polished Flint</value><value>Satin Black Dark Grey</value><value>Satin Black Retina Burn</value><value>Satin Black Silver</value><value>Satin Flint</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_yarddogii_black6_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/women-glasses/paolo-visconti-glu04/150.html</url><brand></brand><product_name></product_name><colors><value>Tortoise</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=glasses_paolovisconti_glu04_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx5277/3813.html</url><brand></brand><product_name></product_name><colors><value>Oil &amp; Blue</value><value>Shiny Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5277_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx7017/4425.html</url><brand></brand><product_name></product_name><colors><value>Grey &amp; Blue</value><value>Matte Black</value><value>Matte Havana</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx7017_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/women-glasses/ray-ban-rx5121/3803.html</url><brand></brand><product_name></product_name><colors><value>Yellow Havana</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5121_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/women-glasses/ray-ban-rx5289/4417.html</url><brand></brand><product_name></product_name><colors><value>Black &amp; Violet</value><value>Blue &amp; Green</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5289_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/oakley-blender-6b/4860.html</url><brand></brand><product_name></product_name><colors><value>Light</value><value>Pewter</value><value>Polished Black</value><value>Polished Midnight</value><value>Satin Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_blender6b_silver_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/women-glasses/ray-ban-rx5268/5119.html</url><brand></brand><product_name></product_name><colors><value>Black &amp; Violet</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5268_black2_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx5288/4416.html</url><brand></brand><product_name></product_name><colors><value>Black &amp; Green</value><value>Dark Havana</value><value>Grey &amp; Blue</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5288_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/women-glasses/paolo-visconti-glu03/149.html</url><brand></brand><product_name></product_name><colors><value>Matte Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=glasses_paolovisconti_glu03_black2_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx5284/4413.html</url><brand></brand><product_name></product_name><colors><value>Oil &amp; Blue</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5284_blue_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/men-glasses/oakley-servo-xl/2805.html</url><brand></brand><product_name></product_name><colors><value>Grey Tortoise</value><value>Polished Black</value><value>Satin Black &amp; White</value><value>Satin Olive</value><value>Satin Smoke</value><value>Satin Steel</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_servoxl_black8_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/women-glasses/armani-exchange-ax3007/4942.html</url><brand></brand><product_name></product_name><colors><value>Samba Transparent</value><value>Tortoise</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_armaniexchange_ax3007_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/oakley-bucket/174.html</url><brand></brand><product_name></product_name><colors><value>Polished Black</value><value>Polished Steel</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_bucket_black2_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/oakley-tailspin-large/4877.html</url><brand></brand><product_name></product_name><colors><value>Satin Black</value><value>Satin Black &amp; Orange</value><value>Satin Black &amp; White</value><value>Satin Smoke</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_tailspinlarge_gunmetal_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/paolo-visconti-glm14/166.html</url><brand></brand><product_name></product_name><colors><value>Tortoise</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=glasses_paolovisconti_glm14_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/women-glasses/eddie-bauer-8211/2072.html</url><brand></brand><product_name></product_name><colors><value>Dark Tortoise</value><value>Olive</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=newyorkeye_eddiebauer_8211_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx6238/3819.html</url><brand></brand><product_name></product_name><colors><value>Shiny Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx6238_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/women-glasses/paolo-visconti-glu06/152.html</url><brand></brand><product_name></product_name><colors><value>Red &amp; Purple</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=glasses_paolovisconti_glu06_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/criterion-cm09/678.html</url><brand></brand><product_name></product_name><colors><value>Brown</value><value>Gun</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=glasses_criterion_cm09_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx8412/4427.html</url><brand></brand><product_name></product_name><colors><value>Matte Black</value><value>Matte Gunmetal</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx8412_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx5287/4415.html</url><brand></brand><product_name></product_name><colors><value>Blue &amp; Beige</value><value>Dark Havana</value><value>Grey &amp; Brown</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5287_black_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/women-glasses/ernest-hemingway-4622/1032.html</url><brand></brand><product_name></product_name><colors><value>Tortoise</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=newyorkeye_ernesthemingway_4622_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/oakley-socket-4.0/4285.html</url><brand></brand><product_name></product_name><colors><value>Olive Chrome</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_socket40_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/women-glasses/lucky-brand-emery-large/4732.html</url><brand></brand><product_name></product_name><colors><value>Olive Horn</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=remeyewear_luckybrand_emerylarge_brown_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/oakley-keel-large/5002.html</url><brand></brand><product_name></product_name><colors><value>Pewter</value><value>Polished Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_keellarge_silver_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/nike-6032/3857.html</url><brand></brand><product_name></product_name><colors><value>Shiny Chrome</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=marchon_nike_6032_brown_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.glasses.com/men-glasses/oakley-currency/172.html</url><brand></brand><product_name></product_name><colors><value>Polished Black</value><value>Satin Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_currency_brown_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx6238/3819.html</url><brand></brand><product_name></product_name><colors></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx6238_gunmetal_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx5169-large/4594.html</url><brand></brand><product_name></product_name><colors><value>Blue &amp; Havana</value><value>Havana &amp; Green Transparent</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5169large_black2_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/women-glasses/ray-ban-rx5289/4417.html</url><brand></brand><product_name></product_name><colors><value>Black &amp; Violet</value><value>Blue &amp; Green</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5289_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/oakley-crosslink-large-with-extra-temples/4554.html</url><brand></brand><product_name></product_name><colors><value>Grey Smoke &amp; Team Cardinal</value><value>Pearl &amp; Team Cardinal</value><value>Rootbeer &amp; Team Orange</value><value>Satin Black &amp; Black</value><value>Satin Black &amp; Sky Blue</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_crosslinklargewithextratemples_grey2_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/oakley-whisker-rx/121.html</url><brand></brand><product_name></product_name><colors><value>Pewter</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_whiskerrx_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx7017/4425.html</url><brand></brand><product_name></product_name><colors><value>Grey &amp; Blue</value><value>Matte Black</value><value>Matte Havana</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx7017_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/criterion-cm09/678.html</url><brand></brand><product_name></product_name><colors><value>Brown</value><value>Gun</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=glasses_criterion_cm09_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/women-glasses/armani-exchange-ax3007/4942.html</url><brand></brand><product_name></product_name><colors></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_armaniexchange_ax3007_tortoise_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx5284/4413.html</url><brand></brand><product_name></product_name><colors><value>Oil &amp; Blue</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5284_blue_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/women-glasses/ray-ban-rx5184/3806.html</url><brand></brand><product_name></product_name><colors><value>Dark Havana &amp; Orange</value><value>Dark Havana &amp; Violet</value><value>Light Havana &amp; Green</value><value>Shiny Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5184_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/women-glasses/ernest-hemingway-4631/4095.html</url><brand></brand><product_name></product_name><colors><value>Tortoise</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=newyorkeye_ernesthemingway_4631_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx8412/4427.html</url><brand></brand><product_name></product_name><colors><value>Matte Black</value><value>Matte Gunmetal</value><value>Shiny Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx8412_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/oakley-tailspin-large/4877.html</url><brand></brand><product_name></product_name><colors><value>Satin Black</value><value>Satin Black &amp; Orange</value><value>Satin Black &amp; White</value><value>Satin Smoke</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_tailspinlarge_gunmetal_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx6211/3817.html</url><brand></brand><product_name></product_name><colors><value>Gunmetal</value><value>Shiny Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx6211_gunmetal_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/women-glasses/ray-ban-rx5279/3814.html</url><brand></brand><product_name></product_name><colors><value>Blue &amp; Beige</value><value>Brown</value><value>Grey &amp; Brown</value><value>Havana</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5279_black_01&amp;$gpdpzoom$</product_img></item></items>
 <items><item><url>http://www.glasses.com/men-glasses/polo-ralph-lauren-ph2065/4520.html</url><brand></brand><product_name></product_name><colors><value>Black Red</value><value>Blue</value><value>Havana</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_poloralphlauren_ph2065_black_01&amp;$gpdpzoom$</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/burke</url><brand>Burke</brand><product_name>Burke</product_name><width>Medium</width><colors><value>Tennessee Whiskey</value><value>Sugar Maple</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/891e16a641a6712bb0f60352333d6310f207b2d2/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/bensen</url><brand>Bensen</brand><product_name>Bensen</product_name><width>Wide</width><colors><value>Whiskey Tortoise</value><value>Olivewood</value><value>Greystone</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/677aee1c64b673b024869a5b13111dd20cf03a8d/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/walker</url><brand>Walker</brand><product_name>Walker</product_name><width>Medium</width><colors><value>Canton Blue</value><value>Whiskey Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/87ab187e4c9150ab8c6e4d31b4359254f24d3023/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/crane</url><brand>Crane</brand><product_name>Crane</product_name><width>Wide</width><colors><value>Sugar Maple</value><value>Whiskey Tortoise</value><value>Mallard Green</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/ef3cd42fd2eb2e4917742a3b7eb3ca2c685bc5a6/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/ramsay</url><brand>Ramsay</brand><product_name>Ramsay</product_name><width>Wide</width><colors><value>Jet Silver</value><value>Brushed Bark</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/831dfb2bfbe3291860d7c1ce367f49f86c9e98d2/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/ames</url><brand>Ames</brand><product_name>Ames</product_name><width>Wide</width><colors><value>Whiskey Tortoise</value><value>Graphite Fog</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/4fba39694a46654b7b6c40e08b264f0fce8d4c19/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/sibley</url><brand>Sibley</brand><product_name>Sibley</product_name><width>Medium</width><colors><value>Revolver Black</value><value>Amber</value><value>Whiskey Tortoise Matte</value><value>Catalina Blue</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/6a1d2aad863c940d34ae1afb12373d9c6c0b58b2/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/durand</url><brand>Durand</brand><product_name>Durand</product_name><width>Wide</width><colors><value>Saddle Russet</value><value>Woodland Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/4009f1bbe98d7934a51df811801c8a35c66cbdd8/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/felton</url><brand>Felton</brand><product_name>Felton</product_name><width>Medium</width><colors><value>Striped Maple</value><value>Old Fashioned Fade</value><value>Revolver Black</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/454e47932dca9f813e400ce1dd2e03edd7bbe2c9/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/watts</url><brand>Watts</brand><product_name>Watts</product_name><width>Medium</width><colors><value>Newsprint Grey</value><value>Sugar Maple</value><value>Blue Sapphire</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/07248749b8d610865c7f9c69a8896dc20b04f277/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/seymour</url><brand>Seymour</brand><product_name>Seymour</product_name><width>Medium</width><colors><value>Whiskey Tortoise</value><value>Sage</value><value>Tennessee Whiskey</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/fdfc69c60a41aeb2247a66fa16890ddac325e663/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/chamberlain</url><brand>Chamberlain</brand><product_name>Chamberlain</product_name><width>Medium</width><colors><value>Saddle Sage</value><value>Whiskey Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/06e7d20932a2b056076ce70e51392849c3f0d495/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/winston</url><brand>Winston</brand><product_name>Winston</product_name><width>Medium</width><colors><value>Lunar Fade</value><value>Old Fashioned Fade</value><value>Revolver Black</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/63e27f1ae57ff948f4e76372a2d557491c2eaa9d/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/aslin</url><brand>Aslin</brand><product_name>Aslin</product_name><width>Medium</width><colors><value>Oak Barrel</value><value>English Oak</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/5ea74e3435402775ad0020ac6a81843bcd2e5a27/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/fillmore</url><brand>Fillmore</brand><product_name>Fillmore</product_name><width>Medium</width><colors><value>Tennessee Whiskey</value><value>Redwood Ash</value><value>Revolver Black</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/61e55c96fe458b980aa9e010320897a0c52f3cc0/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/ryder</url><brand>Ryder</brand><product_name>Ryder</product_name><width>Medium</width><colors><value>Obsidian</value><value>Brushed Bark</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/5ff8c5e69b169ee490f93c9aceb737fb10235bbc/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/reynold</url><brand>Reynold</brand><product_name>Reynold</product_name><width>Medium</width><colors><value>Revolver Black</value><value>Striped Evergreen</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/a8c116e6d198fc564622ac3ec2c9002f88e602fe/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/nash</url><brand>Nash</brand><product_name>Nash</product_name><width>Wide</width><colors><value>Greystone</value><value>Whiskey Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/cfc4707a3be495f04f8c2bc4d099eebfe11b3d56/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/wiloughby</url><brand>Wiloughby</brand><product_name>Wiloughby</product_name><width>Medium</width><colors><value>Tennessee Whiskey</value><value>Striped Chestnut</value><value>Revolver Black</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/0d7ebe33ad7cd170091d51e0dcd2db430c715cc7/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/chandler</url><brand>Chandler</brand><product_name>Chandler</product_name><width>Medium</width><colors><value>Whiskey Tortoise</value><value>Pinot Noir</value><value>Olivewood</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/e1473c0e82ef6b53d896db7a40899050e850ec08/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/langhorne</url><brand>Langhorne</brand><product_name>Langhorne</product_name><width>Wide</width><colors><value>Striped Evergreen</value><value>Whiskey Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/867433568f3bf157e2a6ec8e431fdf2e72cc089b/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/theo</url><brand>Theo</brand><product_name>Theo</product_name><width>Medium</width><colors><value>Blue Marblewood</value><value>Whiskey Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/892456649537eaf6e6cc1829f2270d81e1c7e76e/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/beckett</url><brand>Beckett</brand><product_name>Beckett</product_name><width>Medium</width><colors><value>Striped Evergreen</value><value>Revolver Black Matte</value><value>Striped Chestnut</value><value></value><value></value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/16452cd13d9c624308084aaa65c3afaa03902fbd/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/percey</url><brand>Percey</brand><product_name>Percey</product_name><width>Medium</width><colors><value>Charcoal Fade</value><value>Striped Sassafras</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/8eb8ec260f3328490d3b82b8fad166a9f9e87999/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/duckworth</url><brand>Duckworth</brand><product_name>Duckworth</product_name><width>Medium</width><colors><value>Oak Barrel</value><value>Marine Slate</value><value>Revolver Black Matte</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/9dfaed5eb144673e4ec777ade0a7f773d250526c/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/roosevelt</url><brand>Roosevelt</brand><product_name>Roosevelt</product_name><width>Wide</width><colors><value>Chocolate Soda</value><value>Revolver Black Matte</value><value>Striped Chestnut</value><value></value><value></value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/e3714bb83a3749546141d43a186544fc043e7b47/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/fitz</url><brand>Fitz</brand><product_name>Fitz</product_name><width>Medium</width><colors><value>Whiskey Tortoise</value><value>Blonde Tortoise</value><value>Walnut Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/a25b0bd639bcfb73b2a33e3ed6e9fe337edde385/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/arthur</url><brand>Arthur</brand><product_name>Arthur</product_name><width>Medium</width><colors><value>Green Spruce</value><value>Sugar Maple</value><value>Gimlet Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/a915daa9adb960ee992e84fa17064cc44d53de2d/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/linwood</url><brand>Linwood</brand><product_name>Linwood</product_name><width>Medium</width><colors><value>Striped Chestnut</value><value>Revolver Black</value><value>Violet Magnolia</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/8f62b0f446c0e471ad2a91a85f6c806c47f1db17/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/ripley</url><brand>Ripley</brand><product_name>Ripley</product_name><width>Medium</width><colors><value>Oak Barrel</value><value>Whiskey Tortoise</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/b30f4d60dd60d502052716670d548ab7eb3a58f7/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/huxley</url><brand>Huxley</brand><product_name>Huxley</product_name><width>Medium</width><colors><value>Revolver Black</value><value>Tennessee Whiskey</value><value>Whiskey Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/78334144d81770c06fb1ba62df6ea2b34256066d/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/northcote</url><brand>Northcote</brand><product_name>Northcote</product_name><width>Wide</width><colors><value>Whiskey Tortoise</value><value>Catalina Blue</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/18e55de2acc94926b1c5f5260ff230c2d724b444/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/baxter</url><brand>Baxter</brand><product_name>Baxter</product_name><width>Medium</width><colors><value>Striped Sassafras</value><value>Catalina Blue</value><value>Pinot Noir</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/200000a18a2a6d5fc376efe9432fe869f7ee3a8a/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/pierce</url><brand>Pierce</brand><product_name>Pierce</product_name><width>Medium</width><colors><value>Greystone</value><value>Oakwood Brown</value><value>Revolver Black</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/a9e1d5663ecca6fd98e9951f83fe4ae4c2163757/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/crosby</url><brand>Crosby</brand><product_name>Crosby</product_name><width>Wide</width><colors><value>Burgundy Fade</value><value>Greystone</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/6718b7e883af45670368a8d8d39fd251a32b55d4/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/thompson</url><brand>Thompson</brand><product_name>Thompson</product_name><width>Medium</width><colors><value>Whiskey Tortoise</value><value>Revolver Black</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/1bb6b2dfd59a7723ecdb7621ba69983e1c92c9e3/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/kimball</url><brand>Kimball</brand><product_name>Kimball</product_name><width>Medium</width><colors><value>Whiskey Tortoise</value><value>Marzipan Tortoise</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/f28557d3ab4385b81cc4cf8a58f37c821de0303b/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/edgeworth</url><brand>Edgeworth</brand><product_name>Edgeworth</product_name><width>Medium</width><colors><value>Whiskey Tortoise</value><value>Sage</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/2478be4492606713f85623b7d377fe7b1dbf125a/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/begley</url><brand>Begley</brand><product_name>Begley</product_name><width>Medium</width><colors><value>Whiskey Tortoise</value><value>Cedar Tortoise</value><value>Midnight Blue</value><value></value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/9791b6184a69b31a3c23915ce7ee3a060342b01c/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/japhy</url><brand>Japhy</brand><product_name>Japhy</product_name><width>Medium</width><colors><value>Revolver Black Crystal</value><value>Whiskey Tortoise</value><value>Sandalwood Matte</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/0cf7fbd0bd09b27469c1c94e152bac3ea39b2e9f/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/holt</url><brand>Holt</brand><product_name>Holt</product_name><width>Medium</width><colors><value>Striped Sassafras</value><value>Blue Slate Fade</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/81c4131da53a71c13cff43ed83a42980e9acee86/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/stewart</url><brand>Stewart</brand><product_name>Stewart</product_name><width>Wide</width><colors><value>Brushed Ink</value><value>Obsidian</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/3ad595b98da32fdede58b3250cc4470cd2e2a11d/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/miles</url><brand>Miles</brand><product_name>Miles</product_name><width>Medium</width><colors><value>Sandalwood Matte</value><value>Amber</value><value>Revolver Black</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/96e61841f40f0563de0ac49908b02aa67f0f0da5/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/zagg</url><brand>Zagg</brand><product_name>Zagg</product_name><width>Medium</width><colors><value>Tennessee Whiskey</value><value>Striped Sassafras</value><value>Striped Chestnut</value><value>Revolver Black Matte</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/bbc147232dd3e32f370a6ebb09a54233bb4ec576/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/owen</url><brand>Owen</brand><product_name>Owen</product_name><width>Medium</width><colors><value>Striped Chestnut</value><value>Revolver Black Matte</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/2717abb75f4984bfa2a5ace91f7612937d5592f7/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/langston</url><brand>Langston</brand><product_name>Langston</product_name><width>Medium</width><colors><value>Whiskey Tortoise Matte</value><value>Revolver Black Crystal</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/480b42803ffed968605862ca25eeddd9f4509f26/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/downing</url><brand>Downing</brand><product_name>Downing</product_name><width>Medium</width><colors><value>Walnut Tortoise</value><value>Revolver Black</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/bdcd17f284c2cbd8d92e22a93884f1f222226dfd/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/webb</url><brand>Webb</brand><product_name>Webb</product_name><width>Medium</width><colors><value>Saddle Russet</value><value>Revolver Black Crystal</value><value>Whiskey Tortoise Matte</value><value></value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/fde970677d5ccefd3091004b36ef0cb2d53b0966/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/raleigh</url><brand>Raleigh</brand><product_name>Raleigh</product_name><width>Medium</width><colors><value>Brushed Bark</value><value>Jet Silver</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/3559aec2734c4f156235d402315fc8c30c3e6fb4/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/nedwin</url><brand>Nedwin</brand><product_name>Nedwin</product_name><width>Narrow</width><colors><value>Revolver Black Crystal</value><value>Cedar Tortoise</value><value>Amber</value><value>Summer Green</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/ded3cda46bb4f83fb6ee2c037b18b98b419ca05c/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/lyle</url><brand>Lyle</brand><product_name>Lyle</product_name><width>Narrow</width><colors><value>English Oak</value><value>Plum Marblewood</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/d4437def04fdf539aa810644ba2b0b08a67be6fd/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/sinclair</url><brand>Sinclair</brand><product_name>Sinclair</product_name><width>Medium</width><colors><value>Burgundy Fade</value><value>Midnight Blue</value><value>Greystone</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/f2ab0c2cf64242edd5e0ede80b73354a2b49dbd3/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/colton</url><brand>Colton</brand><product_name>Colton</product_name><width>Narrow</width><colors><value>Sandalwood Matte</value><value>Tangerine</value><value>Whiskey Tortoise</value><value>Revolver Black Crystal</value></colors><price>95</price><product_img>http://i.warbyparker.com/d/f/c6ba29e922e9f9045caa8e46aaf9cb6ec8dc7d33/1000x500</product_img></item></items>
-<items><item><url>http://www.warbyparker.com/eyeglasses/men/dixon</url><brand>Dixon</brand><product_name>Dixon</product_name><width>Wide</width><colors><value>Jet Silver</value><value>Brushed Ink</value></colors><price>145</price><product_img>http://i.warbyparker.com/d/f/ce289c7a49544ebd09d3935a2b407d5b45912808/1000x500</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/smith-optics-broadcast/90.html</url><brand></brand><product_name></product_name><colors><value>Havana</value><value>Matte Black</value><value>Matte Crystal Brown</value><value>Matte Crystal Green</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=smithoptics_smithoptics_broadcast_black2_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/oakley-keel-large/5002.html</url><brand></brand><product_name></product_name><colors><value>Polished Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_keellarge_gunmetal_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx6248/4422.html</url><brand></brand><product_name></product_name><colors><value>Gunmetal &amp; Grey</value><value>Gunmetal &amp; Tortoise</value><value>Matte Gunmetal</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx6248_silver_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/criterion-cm13/682.html</url><brand></brand><product_name></product_name><colors><value>Gun</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=glasses_criterion_cm13_brown_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/nike-6032/3857.html</url><brand></brand><product_name></product_name><colors><value>Shiny Chrome</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=marchon_nike_6032_brown_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/criterion-cm07/676.html</url><brand></brand><product_name></product_name><colors><value>Brown</value><value>Gun</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=glasses_criterion_cm07_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/oakley-blender-6b/4860.html</url><brand></brand><product_name></product_name><colors><value>Light</value><value>Pewter</value><value>Polished Black</value><value>Polished Midnight</value><value>Satin Black</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_blender6b_silver_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/ray-ban-rx5287/4415.html</url><brand></brand><product_name></product_name><colors><value>Blue &amp; Beige</value><value>Dark Havana</value><value>Grey &amp; Brown</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=luxottica_rayban_rx5287_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/men-glasses/oakley-socket-4.0/4285.html</url><brand></brand><product_name></product_name><colors><value>Olive Chrome</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=oakley_oakley_socket40_black_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.glasses.com/women-glasses/lucky-brand-emery-medium/4733.html</url><brand></brand><product_name></product_name><colors><value>Brown &amp; Blue</value><value>Olive Horn</value></colors><price></price><product_img>http://media.glasses.com/is/image/Glasses/gpdpzoom?$product=remeyewear_luckybrand_emerymedium_black2_01&amp;$gpdpzoom$</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/ray-ban/8053672122138/</url><brand>RAY-BAN RX5308</brand><product_name>RAY-BAN RX5308</product_name><colors>Colors:
+Black</colors><price>$159.95</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/8053672122138_shad_qt?$jpegdefault$&amp;wid=680</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/ray-ban/8053672188868/</url><brand>RAY-BAN RB4202 55 ANDY</brand><product_name>RAY-BAN RB4202 55 ANDY</product_name><colors>Colors:
+Black</colors><price>$124.95</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/8053672188868_shad_qt?$jpegdefault$&amp;wid=580</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/ray-ban/8053672189148/</url><brand>RAY-BAN RB3515 61</brand><product_name>RAY-BAN RB3515 61</product_name><colors>Colors:
+Silver/Gunmetal/Grey</colors><price>$150.95</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/8053672189148_shad_qt?$jpegdefault$&amp;wid=580</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/ray-ban/805289602057/</url><brand>RAY-BAN RB3025 58 ORIGINAL AVIATOR</brand><product_name>RAY-BAN RB3025 58 ORIGINAL AVIATOR</product_name><colors>Colors:
+Gold</colors><price>$149.95</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/805289602057_shad_qt?$jpegdefault$&amp;wid=580</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/polo-ralph-lauren/713132332511/</url><brand>POLO RALPH LAUREN PH2065</brand><product_name>POLO RALPH LAUREN PH2065</product_name><colors>Colors:
+Black</colors><price>$199.00</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/713132332511_shad_qt?$jpegdefault$&amp;wid=680</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/oakley/700285854823/</url><brand>OAKLEY OX3173</brand><product_name>OAKLEY OX3173</product_name><colors>Colors:
+Silver/Gunmetal/Grey</colors><price>$200.00</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/700285854823_shad_qt?$jpegdefault$&amp;wid=680</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/essential-eyewear/8053672204117/</url><brand>ESSENTIAL EYEWEAR EN1135</brand><product_name>ESSENTIAL EYEWEAR EN1135</product_name><colors>Colors:
+Black</colors><price>$119.95</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/8053672204117_shad_qt?$jpegdefault$&amp;wid=680</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/essential-eyewear/8053672204179/</url><brand>ESSENTIAL EYEWEAR EN1134</brand><product_name>ESSENTIAL EYEWEAR EN1134</product_name><colors>Colors:
+Silver/Gunmetal/Grey</colors><price>$119.95</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/8053672204179_shad_qt?$jpegdefault$&amp;wid=680</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/essential-eyewear/8053672215533/</url><brand>ESSENTIAL EYEWEAR EN1139</brand><product_name>ESSENTIAL EYEWEAR EN1139</product_name><colors>Colors:
+Black</colors><price>$119.95</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/8053672215533_shad_qt?$jpegdefault$&amp;wid=680</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/essential-eyewear/8053672215557/</url><brand>ESSENTIAL EYEWEAR EN1138</brand><product_name>ESSENTIAL EYEWEAR EN1138</product_name><colors>Colors:
+Silver/Gunmetal/Grey</colors><price>$119.95</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/8053672215557_shad_qt?$jpegdefault$&amp;wid=680</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/essential-eyewear/8053672215632/</url><brand>ESSENTIAL EYEWEAR EN2066</brand><product_name>ESSENTIAL EYEWEAR EN2066</product_name><colors>Colors:
+Black</colors><price>$119.95</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/8053672215632_shad_qt?$jpegdefault$&amp;wid=680</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/ray-ban/8053672187236/</url><brand>RAY-BAN RX6285</brand><product_name>RAY-BAN RX6285</product_name><colors>Colors:
+Black</colors><price>$159.95</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/8053672187236_shad_qt?$jpegdefault$&amp;wid=680</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/ray-ban/805289384519/</url><brand>RAY-BAN RX5206</brand><product_name>RAY-BAN RX5206</product_name><colors>Colors:
+Black</colors><price>$159.95</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/805289384519_shad_qt?$jpegdefault$&amp;wid=680</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/emporio-armani/8053672199574/</url><brand>EMPORIO ARMANI EA1018</brand><product_name>EMPORIO ARMANI EA1018</product_name><colors>Colors:
+Black</colors><price>$230.00</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/8053672199574_shad_qt?$jpegdefault$&amp;wid=680</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/oakley/700285913384/</url><brand>OAKLEY OO9009 FLAK JACKET XLJ</brand><product_name>OAKLEY OO9009 FLAK JACKET XLJ</product_name><colors>Colors:
+Black</colors><price>$150.00</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/700285913384_shad_qt?$jpegdefault$&amp;wid=580</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/ray-ban/8053672188233/</url><brand>RAY-BAN RX7023</brand><product_name>RAY-BAN RX7023</product_name><colors>Colors:
+Black</colors><price>$159.95</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/8053672188233_shad_qt?$jpegdefault$&amp;wid=680</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/ray-ban/8053672231724/</url><brand>RAY-BAN RX7024</brand><product_name>RAY-BAN RX7024</product_name><colors>Colors:
+Silver/Gunmetal/Grey</colors><price>$179.95</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/8053672231724_shad_qt?$jpegdefault$&amp;wid=680</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/brooks-brothers/8053672096781/</url><brand>BROOKS BROTHERS BB4021</brand><product_name>BROOKS BROTHERS BB4021</product_name><colors>Colors:
+Brown/Tan</colors><price>$95.00</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/8053672096781_shad_qt?$jpegdefault$&amp;wid=580</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/ray-ban/713132410745/</url><brand>RAY-BAN RB3483 60</brand><product_name>RAY-BAN RB3483 60</product_name><colors>Colors:
+Gold</colors><price>$159.95</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/713132410745_shad_qt?$jpegdefault$&amp;wid=580</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/ray-ban/8053672187748/</url><brand>RAY-BAN RX7021</brand><product_name>RAY-BAN RX7021</product_name><colors>Colors:
+Tortoise</colors><price>$115.95</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/8053672187748_shad_qt?$jpegdefault$&amp;wid=680</product_img></item></items>
+<items><item><url>http://www.lenscrafters.com/lc-us/emporio-armani/8053672217551/</url><brand>EMPORIO ARMANI EA3025</brand><product_name>EMPORIO ARMANI EA3025</product_name><colors>Colors:
+Blue</colors><price>$200.00</price><product_img>http://s7d9.scene7.com/is/image/Lenscrafters/8053672217551_shad_qt?$jpegdefault$&amp;wid=680</product_img></item></items>
 </items>
