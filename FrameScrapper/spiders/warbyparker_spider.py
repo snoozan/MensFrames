@@ -10,7 +10,7 @@ class WarByParkerSpider(Spider):
     allowed_domains=["http://www.warbyparker.com/"]
     start_urls = ["http://www.warbyparker.com/eyeglasses/men"]
 
-    urls_list_xpath = '//ul[@class="products-grid"]/li/a'
+    urls_list_xpath = '//*[@id="product_listing"]/li/div/a'
     item_fields = {'url': './@href'}
 
     def parse(self, response):

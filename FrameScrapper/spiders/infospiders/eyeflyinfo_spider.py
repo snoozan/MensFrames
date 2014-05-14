@@ -60,12 +60,12 @@ class EyeFlyInfoSpider(Spider):
         for site in sites:
             item = FramescrapperItem()
             item['url'] = self.start_urls[0]
-            item['brand'] = site.find_element_by_xpath('//*[@id="pdp-title"]/h1').text
-            item['product_name'] = site.find_element_by_xpath('//*[@id="pdp-title"]/h1').text
+            item['brand'] = "Eyefly"
+            item['product_name'] = site.find_element_by_xpath('/html/head/meta[8]').get_attribute("content")
             item['price'] = site.find_element_by_xpath('//*[@id="pdp-add-to-cart-prd-price"]/*[@id="pdp-price-block"]').text
             colors = []
-            for color in site.find_elements_by_xpath('//*[@id="body-prd-colors"]/a'):
-                colors.append(color.get_attribute("href"))
+            for color in site.find_elements_by_xpath('//*[@id="body-prd-colors"]/a/div'):
+                colors.append(color.get_attribute("id"))
             item['colors'] = colors
             item['product_img'] = site.find_element_by_xpath('//div[@class="wrapper"]/ul/li[1]/div/div[3]/img').get_attribute("src")
             items.append(item)

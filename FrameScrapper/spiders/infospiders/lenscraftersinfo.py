@@ -53,7 +53,7 @@ class LensCraftersInfoSpider(Spider):
         for site in sites:
             item = FramescrapperItem()
             item['url'] = self.start_urls[0]
-            item['brand'] = site.find_element_by_xpath('//*[@id="catalog_link"]').text
+            item['brand'] = site.find_element_by_xpath('//*[@id="brand-logo"]/img').get_attribute("alt")
             item['product_name'] = site.find_element_by_xpath('//*[@id="catalog_link"]').text
             item['price'] = site.find_element_by_xpath('//*[@id="price"]').text
             item['colors'] = site.find_element_by_xpath('//*[@id="WC_CachedItemDisplay_div_15"]/div[2]/ul/li[1]').text

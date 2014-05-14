@@ -28,9 +28,12 @@ class AutoRunURLs():
 
     if __name__ == "__main__":
 
+
+        deletejson("json")
+        deletejson("xml")
+
         spiders = ['eyefly', 'coastal', 'mezzmer', 'glasses', 'thirtynine', 'warbyparker', 'lenscrafters', 'lookmatic']
         for spider in spiders:
-            deletejson("xml")
             bashspider(spider, "json")
 
         __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(sys.argv[0])))
@@ -45,7 +48,6 @@ class AutoRunURLs():
         for url in urls:
             newurls.append(jsonsplitter(url))
 
-        deletejson("json")
 
         for url in newurls:
             if "http://www.coastal.com" in url:
@@ -82,13 +84,6 @@ class AutoRunURLs():
                 bashspider("warbyparkerinfo -a url=%s" % urlstripped, "xml")
                 print("warbyparker")
 
-            elif "glasses" in url:
-                urlstripped = url.split("http://")
-                urlstripped = urlstripped[1].strip('\"')
-
-                bashspider("glassesinfo -a url=%s" % urlstripped,"xml")
-                print("glasses")
-
             elif "lenscrafters" in url:
                 urlstripped = url.split("http://")
                 urlstripped = urlstripped[1].strip('\"')
@@ -96,4 +91,12 @@ class AutoRunURLs():
                 bashspider("lenscraftersinfo -a url=%s" % urlstripped,"xml")
                 print("lenscrafters")
 
+            """
+            elif "glasses" in url:
+                urlstripped = url.split("http://")
+                urlstripped = urlstripped[1].strip('\"')
+
+                bashspider("glassesinfo -a url=%s" % urlstripped,"xml")
+                print("glasses")
+            """
 

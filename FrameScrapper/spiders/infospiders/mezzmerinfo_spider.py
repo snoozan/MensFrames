@@ -59,7 +59,7 @@ class MezzmerSpider(Spider):
         for site in sites:
             item = FramescrapperItem()
             item['url'] = self.start_urls[0]
-            item['brand'] = site.find_element_by_xpath('/html/body/header/div[1]/a').get_attribute('href')
+            item['brand'] = 'Mezzmer'
             item['product_name'] = site.find_element_by_xpath('//*[@id="container"]/div[2]/div[2]/div[1]/aside/h1').text
             item['price'] = site.find_element_by_xpath('//*[@id="container"]/div[2]/div[2]/div[1]/aside/h1/div/span').text
             colors = []

@@ -51,19 +51,17 @@ class GlassesInfoSpider(Spider):
 
     def parse(self, response):
 
-        hxs = HtmlXPathSelector(response)
         sel = self.selenium
         sel.get(response.url)
         sel.implicitly_wait(10)
         sites = sel.find_elements_by_xpath('//*[@id="pdpMain"]')
-        print(sites)
         items = []
         for site in sites:
             item = FramescrapperItem()
             item['url'] = site.find_element_by_xpath('/html/head/link[5]').get_attribute("href")
-            item['brand'] = site.find_element_by_xpath('//*[@id="product-content-wrapper"]/div[1]/div[1]/h1/span[1]').text
-            item['product_name'] = site.find_element_by_xpath('//*[@id="product-content-wrapper"]/div[1]/div[1]/h1/span[2]').text
-            item['price'] = site.find_element_by_xpath('//*[@id="product-content-wrapper"]/div[1]/div[2]/span').text
+            item['brand'] = site.find_element_by_xpath('//*[@id="product2_dw"]/ul/li[1]/div[2]/h6[@itemprop="brand"]').text
+            item['product_name'] = site.find_element_by_xpath('//*[@id="pdpMain"]/div[1]/div/div[1]/ol/li[4]/span').text
+            item['price'] = site.find_element_by_xpath('//*[@id="frame-price"]').get_attribute("text")
             colors = []
             for color in site.find_elements_by_xpath('//*[@id="thumbnails"]/ul/li[2]/div/div/div/ul/li[@class="thumb with-label"]/a'):
                 colors.append(color.get_attribute("data-color"))
