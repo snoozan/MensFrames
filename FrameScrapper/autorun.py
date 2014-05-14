@@ -70,12 +70,6 @@ class AutoRunURLs():
                 bashspider("mezzmerinfo -a url=%s" % urlstripped,"xml")
                 print("mezzmer")
 
-            elif "39dollarglasses" in url:
-                urlstripped = url.split("http://")
-                urlstripped = urlstripped[1].strip('\"')
-
-                bashspider("thirtynineinfo -a url=%s" % urlstripped, "xml")
-                print("thirtynine")
 
             elif "warbyparker" in url:
                 urlstripped = url.split("http://")
@@ -98,5 +92,12 @@ class AutoRunURLs():
 
                 bashspider("glassesinfo -a url=%s" % urlstripped,"xml")
                 print("glasses")
+
+            elif "39dollarglasses" in url:
+                urlstripped = url.split("http://")
+                urlstripped = urlstripped[1].strip('\"')
+
+                bashspider("thirtynineinfo -a url=%s" % urlstripped, "xml")
+                print("thirtynine")
             """
 
