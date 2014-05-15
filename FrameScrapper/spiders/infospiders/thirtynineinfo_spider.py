@@ -1,6 +1,6 @@
 from scrapy.spider import Spider
-from scrapy.selector import HtmlXPathSelector
-from scrapy.contrib.loader import XPathItemLoader
+from scrapy.selector import Selector
+from scrapy.contrib.loader import ItemLoader
 from scrapy.contrib.loader.processor import Join, MapCompose
 
 #from models import DBSession, framesInfo
@@ -13,12 +13,15 @@ class ThirtyNineInfoSpider(Spider):
     def __init__(self,  **kwargs):
         super(ThirtyNineInfoSpider, self).__init__(**kwargs)
         url = kwargs.get('url') or kwargs.get('domain')
-        format(url.strip('"'))
         if not url.startswith('http://') and not url.startswith('https://'):
             url = 'http://%s/' % url
+
+        url = url[:-1]
+
         urls = []
         urls.append(url)
         self.start_urls = urls
+        print(self.start_urls)
 
     allowed_domains=["http://www.39dollarglasses.com/"]
 
@@ -33,10 +36,11 @@ class ThirtyNineInfoSpider(Spider):
     }
 
     def parse(self, response):
-        sel = HtmlXPathSelector(response)
+        sel = Selector(response)
+        print(self.start_urls)
 
         for site in sel.select(self.urls_list_xpath):
-            loader = XPathItemLoader(FramescrapperItem(), selector=site)
+            loader = ItemLoader(FramescrapperItem(), selector=site)
 
             #define processes
             loader.dafault_input_processor = MapCompose(unicode.strip)

@@ -50,6 +50,7 @@ class AutoRunURLs():
 
 
         for url in newurls:
+
             if "http://www.coastal.com" in url:
                 urlstripped = url.split("http://")
                 urlstripped = urlstripped[1].strip('\"')
@@ -85,6 +86,12 @@ class AutoRunURLs():
                 bashspider("lenscraftersinfo -a url=%s" % urlstripped,"xml")
                 print("lenscrafters")
 
+            elif "39dollarglasses" in url:
+                urlstripped = url.split("http://")
+                urlstripped = urlstripped[1].strip('\"')
+
+                bashspider("thirtynineinfo -a url=%s" % urlstripped, "xml")
+                print("thirtynine")
             """
             elif "glasses" in url:
                 urlstripped = url.split("http://")
