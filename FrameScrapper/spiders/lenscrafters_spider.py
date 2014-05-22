@@ -1,4 +1,4 @@
- #Using Scrapy with Selenium to scape a rendered page [Updated]
+#Using Scrapy with Selenium to scape a rendered page [Updated]
 
 from scrapy.contrib.spiders.init import InitSpider
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
