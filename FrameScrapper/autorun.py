@@ -37,7 +37,7 @@ class AutoRunURLs():
 
 
 
-        spiders = ['eyefly', 'coastal', 'mezzmer', 'glasses', 'thirtynine', 'warbyparker', 'lenscrafters', 'lookmatic']
+        spiders = ['eyefly', 'coastal','glasses', 'thirtynine', 'warbyparker', 'lenscrafters', 'lookmatic']
         for spider in spiders:
             bashspider(spider, "json")
 
@@ -68,15 +68,6 @@ class AutoRunURLs():
                 urlstripped = urlstripped[1].strip('\"')
 
                 bashinfospider('coastalinfo -a url=%s' % urlstripped)
-
-
-            elif "mezzmer" in url:
-                urlstripped = url.split("http://")
-                urlstripped = urlstripped[1].strip('\"')
-
-                bashinfospider("mezzmerinfo -a url=%s" % urlstripped)
-                print("mezzmer")
-
 
             elif "warbyparker" in url:
                 urlstripped = url.split("http://")
@@ -110,6 +101,8 @@ class AutoRunURLs():
         file.close()
 
         """
+
+
 
             elif "glasses" in url:
                 urlstripped = url.split("http://")

@@ -48,6 +48,21 @@ class MezzmerSpider(Spider):
         print self.verificationErrors
         CrawlSpider.__del__(self)
 
+    def spin_assert(self, msg, assertion):
+            for i in xrange(60):
+                try:
+                    self.assertTrue(assertion())
+                    return
+                except Exception, e:
+                    pass
+                sleep(1)
+                self.fail(msg)
+
+    def wait_for_text_present(self, text, msg=None):
+        msg = msg or " waiting for text %s to appear" % text
+        assertion = lambda: self.selenium.is_text_present(text)
+        self.spin_assert(msg, assertion)
+
     def parse(self, response):
 
         hxs = HtmlXPathSelector(response)
@@ -66,7 +81,7 @@ class MezzmerSpider(Spider):
             for color in site.find_elements_by_xpath('//*[@id="container"]/div[2]/div[2]/div[2]/div/div/ul/li/h3'):
                 colors.append(color.text)
             item['colors'] = colors
-            item['product_img'] = site.find_element_by_xpath('//*[@id="MagicToolboxSelectorsContainer"]/div/div/ul/li[1]/a/img').get_attribute("src")
+            item['product_img'] = site.find_element_by_xpath('//*[@id="container"]/div[2]/div[2]/div[1]/figure/div/div/span').get_attribute("class")
             item['width'] = site.find_element_by_xpath('//*[@id="container"]/div[2]/article[1]/aside/div[1]/dl/dd[1]/strong').text
             items.append(item)
 

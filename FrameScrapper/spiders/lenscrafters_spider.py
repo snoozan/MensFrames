@@ -17,7 +17,7 @@ from FrameScrapper.items import FramescrapperItem
 class LensCraftersSpider(InitSpider):
     name = 'lenscrafters'
     allowed_domains = ['linkedin.com']
-    start_urls = ["http://www.lenscrafters.com/lc-us/mens-frames?sid=ProdStylDDNL2-MENALL-US-112413"]
+    start_urls = ["http://www.lenscrafters.com/lc-us/mens-eyeglasses"]
 
     urls_list_xpath ='//*[@id="product_list_container"]/div[2]/div[@class="item_container"]/div/div[1]/div[@class="names"]/a'
     item_fields = {'url': './@href'}
@@ -33,6 +33,60 @@ class LensCraftersSpider(InitSpider):
         CrawlSpider.__del__(self)
 
     def parse(self, response):
+        sel= self.selenium
+        sel.get(response.url)
+        sel.implicitly_wait(5)
+
+        next = sel.find_element_by_xpath('//*[@id="WC_CategoryOnlyResultsDisplay_links_2"]')
+        print(next.get_attribute("href"))
+
+        items = []
+        sites = sel.find_elements_by_xpath('//div[@class="item_container"]/div/div[@class="container"]/div[@class="names"]/a')
+
+        for site in sites:
+            item = FramescrapperItem()
+            item['url'] = site.get_attribute("href")
+            items.append(item)
+
+        while True:
+            try:
+                next.click()
+
+                sites = sel.find_elements_by_xpath('//*[@id="product_list_container"]/div[2]/div[@class="item_container"]/div/div[1]/div[@class="names"]/a')
+
+                for site in sites:
+                    item = FramescrapperItem()
+                    item['url'] = site.get_attribute("href")
+                    items.append(item)
+
+                next = sel.find_element_by_xpath('//*[@id="WC_CategoryOnlyResultsDisplay_links_2"]')
+
+            except:
+                break
+
+        return items
+
+
+
+
+
+
+
+
+
+
+        """
+        try:
+
+            sites = sel.find_elements_by_xpath('//*[@id="product_list_container"]/div[2]/div[@class="item_container"]/div/div[1]/div[@class="names"]/a')
+
+            for site in sites:
+                item = FramescrapperItem()
+                item['url'] = site.get_attribute("href")
+                items.append(item)
+
+        except:
+            break
         hxs = HtmlXPathSelector(response)
 
         for site in hxs.select(self.urls_list_xpath):
@@ -46,7 +100,6 @@ class LensCraftersSpider(InitSpider):
                 loader.add_xpath(field, xpath)
             yield loader.load_item()
 
-        """
         hxs = HtmlXPathSelector(response)
         sel = self.selenium
         sel.get(response.url)

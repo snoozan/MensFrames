@@ -60,14 +60,16 @@ class GlassesInfoSpider(Spider):
         for site in sites:
             item = FramescrapperItem()
             item['url'] = site.find_element_by_xpath('/html/head/link[5]').get_attribute("href")
-            item['brand'] = site.find_element_by_xpath('//*[@id="product2_dw"]/ul/li[1]/div[2]/h6[@itemprop="brand"]').text
             item['product_name'] = site.find_element_by_xpath('//*[@id="pdpMain"]/div[1]/div/div[1]/ol/li[4]/span').text
-            item['price'] = site.find_element_by_xpath('//*[@id="frame-price"]').get_attribute("text")
             colors = []
-            for color in site.find_elements_by_xpath('//*[@id="thumbnails"]/ul/li[2]/div/div/div/ul/li[@class="thumb with-label"]/a'):
-                colors.append(color.get_attribute("data-color"))
+            for color in site.find_elements_by_xpath('//*[@id="color-selector-container"]/ul/li/a/div'):
+                colors.append(color.get_attribute("class"))
             item['colors'] = colors
+            item['price'] = site.find_element_by_xpath('//div[@class="frame-pricing"]/span[@id="frame-price"]').text
+            """
+            item['brand'] = site.find_element_by_xpath('//*[@id="product2_dw"]/ul/li[1]/div[2]/h6[@itemprop="brand"]').text
             item['product_img'] = site.find_element_by_xpath('//*[@id="alternate-view-wrapper"]/li[1]/a').get_attribute("href")
+            """
             items.append(item)
 
         self.selenium.quit()
