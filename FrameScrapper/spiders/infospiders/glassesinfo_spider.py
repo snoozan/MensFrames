@@ -55,6 +55,7 @@ class GlassesInfoSpider(Spider):
         sel.get(response.url)
         sel.implicitly_wait(10)
         sites = sel.find_elements_by_xpath('//*[@id="pdpMain"]')
+        print(sel.find_element_by_xpath('//*[@id="frame-price"]'))
         items = []
         for site in sites:
             item = FramescrapperItem()

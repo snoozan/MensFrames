@@ -49,7 +49,7 @@ class EyeFlyInfoSpider(Spider):
 
 
     def parse(self, response):
-
+        print("I'm being run")
         hxs = HtmlXPathSelector(response)
         sel = self.selenium
         sel.get(response.url)
