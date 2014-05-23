@@ -91,6 +91,7 @@ class CoastalSpider(InitSpider):
                 break
 
         return items
+        self.selenium.quit()
     """
     def parse(self, response):
         sel = HtmlXPathSelector(response)

@@ -67,6 +67,7 @@ class ThirtyNineSpider(InitSpider):
                 print("I fail here " + sel.find_element_by_xpath('//*[@id="mid"]/div[3]/div[4]/form/ul/li[5]/a'))
                 break
 
+        self.selenium.quit()
         return items
 
 

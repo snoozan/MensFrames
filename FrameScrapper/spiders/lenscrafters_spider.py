@@ -64,6 +64,7 @@ class LensCraftersSpider(InitSpider):
             except:
                 break
 
+        self.selenium.quit()
         return items
 
 
