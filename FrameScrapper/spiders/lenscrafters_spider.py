@@ -52,6 +52,7 @@ class LensCraftersSpider(InitSpider):
             try:
                 next.click()
 
+                sel.implicitly_wait(5)
                 sites = sel.find_elements_by_xpath('//*[@id="product_list_container"]/div[2]/div[@class="item_container"]/div/div[1]/div[@class="names"]/a')
 
                 for site in sites:

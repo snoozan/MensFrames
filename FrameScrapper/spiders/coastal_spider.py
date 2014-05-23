@@ -9,7 +9,7 @@ from scrapy.spider import BaseSpider
 from scrapy.selector import HtmlXPathSelector
 
 from selenium import selenium, webdriver
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
 from scrapy.contrib.loader import XPathItemLoader
 from scrapy.contrib.loader.processor import Join, MapCompose
 
@@ -33,17 +33,21 @@ class CoastalSpider(InitSpider):
         print self.verificationErrors
         CrawlSpider.__del__(self)
 
-    def wait_for_visibility(self, xpath_path, timeout_seconds=10):
+    def wait_for_visibility(self, selector, timeout_seconds=10):
         retries = timeout_seconds
         while retries:
-            print("TRYING FOR THE "+ retries +"th TIME")
+            print("TRYING FOR THE "+ str(retries) +"th TIME")
             try:
-                print("I'm running")
-                element = self.selenium.find_element_by_xpath('//*[@id="pagination-nav-right"]').get_attribute("onclick")
+                element = selector.find_element_by_xpath('//div[@class=panes]'+\
+                                                         '/div[@class="tab-content-wrapper"]' + \
+                                                         '/div[@class="pagination-nav"]' +\
+                                                         '/span[@class="pagination-internal"]'+\
+                                                         '/span[@id="pagination-nav-right"]')
                 if element.is_displayed():
+                    print("the element is " + element.get_attribute("onclick"))
                     return element
 
-            except (exceptions.NoSuchElementException, exceptions.StaleElementReferenceException):
+            except (NoSuchElementException, StaleElementReferenceException):
                 if retries <= 0:
                     raise
                 else:
@@ -51,8 +55,8 @@ class CoastalSpider(InitSpider):
 
             retries = retries -1
             time.sleep(10)
-        raise self.ElementNotVisibleException("Element %s not visible despite waiting for %s seconds" (
-        xpath_path, timeout_seconds))
+        raise Exception("Element %s not visible despite waiting for %s seconds" (
+        selector, timeout_seconds))
 
 
 
@@ -61,10 +65,10 @@ class CoastalSpider(InitSpider):
         sel.get(response.url)
         sel.implicitly_wait(5)
 
-        next =  sel.find_element_by_xpath('//*[@id="pagination-nav-right"]')
 
         items = []
         sites = sel.find_elements_by_xpath('//*[@id="browsed-product"]/div[1]/div')
+
 
         for site in sites:
             item = FramescrapperItem()
@@ -73,14 +77,17 @@ class CoastalSpider(InitSpider):
 
         while True:
             try:
+                next = self.wait_for_visibility(sel)
+
                 sel.implicitly_wait(10)
-                print("clicking")
+                print("clicking " + next.get_attribute("onclick"))
                 next.click()
 
 
-                next = sel.find_element_by_xpath('//*[@id="pagination-nav-right"]')
 
-                sites = sel.find_elements_by_xpath('//*[@id="browsed-product"]/div[1]/div')
+                print("current page is " + sel.find_element_by_xpath('//*[@id="pagination-nav-page-numbs"]').text)
+
+                sites = sel.find_elements_by_xpath('//*[@id="browsed-product"]/div[@class="product-container"]/div[@class="product-inner-grid-container"]')
                 for site in sites:
                     item = FramescrapperItem()
                     item['url'] = site.get_attribute("rel")

@@ -38,8 +38,6 @@ class ThirtyNineSpider(InitSpider):
         sel.get(response.url)
         sel.implicitly_wait(5)
 
-        next = sel.find_element_by_xpath('//*[@id="mid"]/div[3]/div[4]/form/ul/li[5]/a')
-        print(next.get_attribute("href"))
 
         items = []
         sites = sel.find_elements_by_xpath(self.urls_list_xpath)
@@ -51,9 +49,22 @@ class ThirtyNineSpider(InitSpider):
 
         while True:
             try:
+                nextbuttons = sel.find_elements_by_xpath('//*[@id="mid"]/div[3]/div[4]/form/ul/li/a')
+
+                for nextbutton in nextbuttons:
+                    if 'Next' in nextbutton.text:
+                        print("The next page is "+ nextbutton.text)
+                        next = nextbutton
+                    else:
+                        print("This is button " + nextbutton.text)
+
+
                 next.click()
 
                 sites = sel.find_elements_by_xpath(self.urls_list_xpath)
+
+                print("I'm on page number "+ sel.find_element_by_xpath('//a[@class="active notLink"]').text)
+
 
                 for site in sites:
                     item = FramescrapperItem()
@@ -61,10 +72,9 @@ class ThirtyNineSpider(InitSpider):
                     print(item['url'])
                     items.append(item)
 
-                next = sel.find_element_by_xpath('//*[@id="mid"]/div[3]/div[4]/form/ul/li[5]/a')
 
             except:
-                print("I fail here " + sel.find_element_by_xpath('//*[@id="mid"]/div[3]/div[4]/form/ul/li[5]/a'))
+                print("I fail here " + sel.find_element_by_xpath('//a[@class="active notLink"]').text)
                 break
 
         self.selenium.quit()
