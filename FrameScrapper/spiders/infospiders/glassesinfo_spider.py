@@ -61,10 +61,16 @@ class GlassesInfoSpider(Spider):
             item = FramescrapperItem()
             item['url'] = site.find_element_by_xpath('/html/head/link[5]').get_attribute("href")
             item['product_name'] = site.find_element_by_xpath('//*[@id="pdpMain"]/div[1]/div/div[1]/ol/li[4]/span').text
+
+
+
             colors = []
             for color in site.find_elements_by_xpath('//*[@id="color-selector-container"]/ul/li/a/div'):
                 colors.append(color.get_attribute("class"))
             item['colors'] = colors
+
+
+            #price = wait_for_visibility(self, '//div[@class="frame-pricing"]/span[@id="frame-price"]')
             item['price'] = site.find_element_by_xpath('//div[@class="frame-pricing"]/span[@id="frame-price"]').text
             """
             item['brand'] = site.find_element_by_xpath('//*[@id="product2_dw"]/ul/li[1]/div[2]/h6[@itemprop="brand"]').text

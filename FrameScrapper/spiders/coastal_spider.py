@@ -9,6 +9,7 @@ from scrapy.spider import BaseSpider
 from scrapy.selector import HtmlXPathSelector
 
 from selenium import selenium, webdriver
+from selenium.common.exceptions import NoSuchElementException
 from scrapy.contrib.loader import XPathItemLoader
 from scrapy.contrib.loader.processor import Join, MapCompose
 
@@ -32,12 +33,35 @@ class CoastalSpider(InitSpider):
         print self.verificationErrors
         CrawlSpider.__del__(self)
 
+    def wait_for_visibility(self, xpath_path, timeout_seconds=10):
+        retries = timeout_seconds
+        while retries:
+            print("TRYING FOR THE "+ retries +"th TIME")
+            try:
+                print("I'm running")
+                element = self.selenium.find_element_by_xpath('//*[@id="pagination-nav-right"]').get_attribute("onclick")
+                if element.is_displayed():
+                    return element
+
+            except (exceptions.NoSuchElementException, exceptions.StaleElementReferenceException):
+                if retries <= 0:
+                    raise
+                else:
+                    pass
+
+            retries = retries -1
+            time.sleep(10)
+        raise self.ElementNotVisibleException("Element %s not visible despite waiting for %s seconds" (
+        xpath_path, timeout_seconds))
+
+
+
     def parse(self, response):
         sel= self.selenium
         sel.get(response.url)
         sel.implicitly_wait(5)
 
-        next = sel.find_element_by_xpath('//*[@id="pagination-nav-right"]')
+        next =  sel.find_element_by_xpath('//*[@id="pagination-nav-right"]')
 
         items = []
         sites = sel.find_elements_by_xpath('//*[@id="browsed-product"]/div[1]/div')
@@ -50,16 +74,17 @@ class CoastalSpider(InitSpider):
         while True:
             try:
                 sel.implicitly_wait(10)
-                print(sel.find_element_by_xpath('//*[@id="pagination-nav-right"]').get_attribute("onclick"))
+                print("clicking")
                 next.click()
+
+
+                next = sel.find_element_by_xpath('//*[@id="pagination-nav-right"]')
 
                 sites = sel.find_elements_by_xpath('//*[@id="browsed-product"]/div[1]/div')
                 for site in sites:
                     item = FramescrapperItem()
                     item['url'] = site.get_attribute("rel")
                     items.append(item)
-
-                next = sel.find_element_by_xpath('//*[@id="pagination-nav-right"]')
 
             except:
                 print("I fail here " + sel.find_element_by_xpath('//*[@id="pagination-nav-right"]').get_attribute("onclick"))
