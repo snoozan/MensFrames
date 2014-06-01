@@ -29,7 +29,7 @@ class ThirtyNineInfoSpider(Spider):
     item_fields = {'url': '/html/head/link[@rel="canonical"]/@href',
                    'brand': '//*[@id="mid"]/div[1]/h1[1]/text()',
                    'product_name': '//*[@id="mid"]/div[1]/h1[1]/text()',
-                   'product_img': '//*[@id="frame_tab1"]/div/div[1]/img[1]/@src',
+                   'product_img': '/html/head/meta[@property="og:image"]/@content',
                    'width': '//*[@id="orderform"]/div/div[3]/div[1]/div[1]/div[1]/span[1]/text()',
                    'price': '//*[@id="orderform"]/div/div[2]/div[1]/text()',
                    'colors': '//*[@id="orderform"]/div/div[1]/div[1]/div[@class="selectframe_colortext red_text"]/label/a/text()'

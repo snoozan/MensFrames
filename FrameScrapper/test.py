@@ -1,9 +1,7 @@
-import fileinput
+import json
+import codecs
 
+json_data = json.loads(open('items.xml').read().decode('utf-8-sig'))
 
-for line in fileinput.input('items.xml', inplace=True):
-    if '<?xml version="1.0" encoding="utf-8"?>' in line:
-        continue
-    print(line)
 
 

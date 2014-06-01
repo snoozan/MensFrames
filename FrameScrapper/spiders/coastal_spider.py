@@ -14,6 +14,7 @@ from scrapy.contrib.loader import XPathItemLoader
 from scrapy.contrib.loader.processor import Join, MapCompose
 
 from FrameScrapper.items import FramescrapperItem
+import time
 
 class CoastalSpider(InitSpider):
     name = "coastal"
@@ -60,6 +61,7 @@ class CoastalSpider(InitSpider):
 
 
 
+    """
     def parse(self, response):
         sel= self.selenium
         sel.get(response.url)
@@ -113,4 +115,5 @@ class CoastalSpider(InitSpider):
             for field, xpath in self.item_fields.iteritems():
                 loader.add_xpath(field, xpath)
             yield loader.load_item()
-    """
+
+        self.selenium.quit()

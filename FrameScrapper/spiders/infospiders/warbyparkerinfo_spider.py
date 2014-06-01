@@ -27,18 +27,19 @@ class WarByParkerInfoSpider(Spider):
         url = kwargs.get('url') or kwargs.get('domain')
         format(url.strip('"'))
         if not url.startswith('http://') and not url.startswith('https://'):
-            url = 'http://%s/' % url
+            url = 'http://www.warbyparker.com%s' % url
         urls = []
         urls.append(url)
         self.start_urls = urls
 
+    rules = ( Rule(SgmlLinkExtractor(allow=('\.html', )), callback='parse_page',follow=True),         )
 
-    allowed_domains=["http://www.warbyparker.com/"]
 
     urls_list_xpath = '//*[@id="pdp"]/div[4]/div[1]'
     item_fields = {'url': '/html/head/link[1]/@href',
-                   'brand': '//*[@id="js-product-purchase-section"]/div/h3[1]/text()',
+                   'brand': '//*[@id="header"]/div/div[1]/div/strong/text()',
                    'product_name': '//*[@id="js-product-purchase-section"]/div/h3[1]/text()',
+                   'product_img': '//*[@id="pdp"]/div[4]/div[1]/div[1]/div[1]/div/div[1]/div/img/@src',
                    'price': '//*[@id="js-product-purchase-section"]/div/p/span/span/text()',
                    'colors': '//*[@id="pdp"]/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li/div/p/a/text()',
                    'width': '//*[@id="pdp"]/div[4]/div[1]/div[2]/ul[1]/li[1]/p/text()'
@@ -49,14 +50,17 @@ class WarByParkerInfoSpider(Spider):
         print self.verificationErrors
         CrawlSpider.__del__(self)
 
+    """
     def parse(self, response):
 
-        hxs = HtmlXPathSelector(response)
+        print("I'm doing things")
         sel = self.selenium
         sel.get(response.url)
         sel.implicitly_wait(10)
         sites = sel.find_elements_by_xpath('//*[@id="pdp"]/div[@class="product-optical"]')
+        print sites
         items = []
+
         for site in sites:
             item = FramescrapperItem()
             item['url'] = site.find_element_by_xpath('/html/head/link[1]').get_attribute("href")
@@ -74,6 +78,7 @@ class WarByParkerInfoSpider(Spider):
         self.selenium.quit()
         return items
     """
+
     def parse(self, response):
         sel = HtmlXPathSelector(response)
 
@@ -87,5 +92,6 @@ class WarByParkerInfoSpider(Spider):
             for field, xpath in self.item_fields.iteritems():
                 loader.add_xpath(field, xpath)
             yield loader.load_item()
-    """
+
+        self.selenium.quit()
 

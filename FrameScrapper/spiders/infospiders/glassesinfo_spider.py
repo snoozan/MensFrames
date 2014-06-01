@@ -1,4 +1,5 @@
 from selenium import selenium, webdriver
+from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
 
 from scrapy.contrib.spiders.init import InitSpider
 from scrapy.spider import Spider
@@ -9,6 +10,7 @@ from scrapy.contrib.loader import XPathItemLoader
 from scrapy.contrib.loader.processor import Join, MapCompose
 from scrapy.http import Request
 
+import time
 #from models import DBSession, framesInfo
 
 from FrameScrapper.items import FramescrapperItem
@@ -49,17 +51,42 @@ class GlassesInfoSpider(Spider):
         print self.verificationErrors
         CrawlSpider.__del__(self)
 
+    def wait_for_visibility(self, selector, the_xpath, timeout_seconds=10):
+        retries = timeout_seconds
+        while retries:
+            print("TRYING FOR THE "+ str(retries) +"th TIME")
+            try:
+                elements = selector.find_elements_by_xpath(the_xpath)
+
+
+                for element in elements:
+                    if element.is_displayed():
+                        print("the element is " + element.text)
+                        return element
+
+            except (NoSuchElementException, StaleElementReferenceException):
+                if retries <= 0:
+                    raise
+                else:
+                    pass
+
+            retries = retries -1
+            time.sleep(10)
+        raise Exception("Element %s not visible despite waiting for %s seconds" (
+        selector, timeout_seconds))
+
+
     def parse(self, response):
 
         sel = self.selenium
         sel.get(response.url)
         sel.implicitly_wait(10)
-        sites = sel.find_elements_by_xpath('//*[@id="pdpMain"]')
-        print(sel.find_element_by_xpath('//*[@id="frame-price"]'))
+        sites = sel.find_elements_by_css_selector('#pdpMain > div.product-detail-wrap.product-image-container')
+        print(sites)
         items = []
         for site in sites:
             item = FramescrapperItem()
-            item['url'] = site.find_element_by_xpath('/html/head/link[5]').get_attribute("href")
+            item['url'] = response.url
             item['product_name'] = site.find_element_by_xpath('//*[@id="pdpMain"]/div[1]/div/div[1]/ol/li[4]/span').text
 
 
@@ -67,17 +94,17 @@ class GlassesInfoSpider(Spider):
             colors = []
             for color in site.find_elements_by_xpath('//*[@id="color-selector-container"]/ul/li/a/div'):
                 colors.append(color.get_attribute("class"))
-            item['colors'] = colors
+            colorset = set()
+            for color in colors:
+                colorset.add(color)
 
 
-            #price = wait_for_visibility(self, '//div[@class="frame-pricing"]/span[@id="frame-price"]')
-            item['price'] = site.find_element_by_xpath('//div[@class="frame-pricing"]/span[@id="frame-price"]').text
-            """
-            item['brand'] = site.find_element_by_xpath('//*[@id="product2_dw"]/ul/li[1]/div[2]/h6[@itemprop="brand"]').text
+            item['colors'] = list(colorset)
+
+            item['price'] = site.find_element_by_css_selector('#frame-price').get_attribute("innerHTML")
+            item['brand'] = site.find_element_by_xpath('//*[@id="pdpMain"]/div[1]/div/div[1]/ol/li[4]/span').text.split()[1]
             item['product_img'] = site.find_element_by_xpath('//*[@id="alternate-view-wrapper"]/li[1]/a').get_attribute("href")
-            """
             items.append(item)
-
         self.selenium.quit()
         return items
 

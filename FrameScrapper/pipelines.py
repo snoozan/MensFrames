@@ -4,7 +4,7 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 from scrapy import signals
-from scrapy.contrib.exporter import XmlItemExporter
+from scrapy.contrib.exporter import XmlItemExporter, JsonItemExporter
 
 class XmlExportPipeline(object):
 
@@ -29,6 +29,34 @@ class XmlExportPipeline(object):
 
     def process_item(self, item, spider):
         if spider.name not in ['eyeflyinfo', 'coastalinfo', 'mezzmerinfo', 'glassesinfo', 'thirtynineinfo', 'warbyparkerinfo', 'lenscraftersinfo', 'lookmaticinfo']:
+            return item
+        self.exporter.export_item(item)
+        return item
+
+
+class JsonExportPipeline(object):
+
+    def __init__(self):
+        self.files = {}
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        pipeline = cls()
+        crawler.signals.connect(pipeline.spider_opened, signals.spider_opened)
+        crawler.signals.connect(pipeline.spider_closed, signals.spider_closed)
+        return pipeline
+
+    def spider_opened(self, spider):
+        file = open('items.json', 'a')
+        self.files[spider] = file
+        self.exporter = JsonItemExporter(file)
+
+    def spider_closed(self, spider):
+        file = self.files.pop(spider)
+        file.close()
+
+    def process_item(self, item, spider):
+        if spider.name not in ['eyefly', 'coastal', 'glasses', 'thirtynine', 'warbyparker', 'lenscrafters', 'lookmatic']:
             return item
         self.exporter.export_item(item)
         return item

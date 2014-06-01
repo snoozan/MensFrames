@@ -12,7 +12,8 @@ SPIDER_MODULES = ['FrameScrapper.spiders']
 NEWSPIDER_MODULE = 'FrameScrapper.spiders'
 
 ITEM_PIPELINES = {
-    'FrameScrapper.pipelines.XmlExportPipeline'
+    'FrameScrapper.pipelines.XmlExportPipeline',
+    #'FrameScrapper.pipelines.JsonExportPipeline'
 }
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'FrameScrapper (+http://www.yourdomain.com)'

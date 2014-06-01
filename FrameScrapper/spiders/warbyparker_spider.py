@@ -31,6 +31,7 @@ class WarByParkerSpider(InitSpider):
         print self.verificationErrors
         CrawlSpider.__del__(self)
 
+    """
     def parse(self, response):
         sel = self.selenium
         sel.get(response.url)
@@ -45,3 +46,20 @@ class WarByParkerSpider(InitSpider):
 
         self.selenium.quit()
         return items
+    """
+
+    def parse(self, response):
+        sel = HtmlXPathSelector(response)
+
+        for site in sel.select(self.urls_list_xpath):
+            loader = XPathItemLoader(FramescrapperItem(), selector=site)
+
+            #define processes
+            loader.dafault_input_processor = MapCompose(unicode.strip)
+            loader.default_output_processor = Join()
+
+            for field, xpath in self.item_fields.iteritems():
+                loader.add_xpath(field, xpath)
+            yield loader.load_item()
+
+        self.selenium.quit()
