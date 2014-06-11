@@ -1,6 +1,12 @@
 PhantomJS is launching GhostDriver...
-[INFO  - 2014-06-01T02:00:39.711Z] GhostDriver - Main - running on port 51560
-[INFO  - 2014-06-01T02:00:39.962Z] Session [87ef8450-e930-11e3-b97f-b94e863cfc7d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34","webSecurityEnabled":true}
-[INFO  - 2014-06-01T02:00:39.962Z] Session [87ef8450-e930-11e3-b97f-b94e863cfc7d] - page.customHeaders:  - {}
-[INFO  - 2014-06-01T02:00:39.962Z] Session [87ef8450-e930-11e3-b97f-b94e863cfc7d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.7","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2014-06-01T02:00:39.962Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 87ef8450-e930-11e3-b97f-b94e863cfc7d
+[INFO  - 2014-06-02T20:05:33.946Z] GhostDriver - Main - running on port 49369
+[INFO  - 2014-06-02T20:05:34.169Z] Session [41850140-ea91-11e3-8ab3-67cc3bbd89c0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-02T20:05:34.169Z] Session [41850140-ea91-11e3-8ab3-67cc3bbd89c0] - page.customHeaders:  - {}
+[INFO  - 2014-06-02T20:05:34.169Z] Session [41850140-ea91-11e3-8ab3-67cc3bbd89c0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.7","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-06-02T20:05:34.169Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 41850140-ea91-11e3-8ab3-67cc3bbd89c0
+[ERROR - 2014-06-02T20:05:36.064Z] Session [41850140-ea91-11e3-8ab3-67cc3bbd89c0] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2014-06-02T20:05:36.064Z] Session [41850140-ea91-11e3-8ab3-67cc3bbd89c0] - page.onError - stack:
+
+[ERROR - 2014-06-02T20:05:37.184Z] Session [41850140-ea91-11e3-8ab3-67cc3bbd89c0] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2014-06-02T20:05:37.184Z] Session [41850140-ea91-11e3-8ab3-67cc3bbd89c0] - page.onError - stack:
+

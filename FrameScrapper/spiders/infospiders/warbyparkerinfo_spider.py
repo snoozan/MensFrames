@@ -50,7 +50,6 @@ class WarByParkerInfoSpider(Spider):
         print self.verificationErrors
         CrawlSpider.__del__(self)
 
-    """
     def parse(self, response):
 
         print("I'm doing things")
@@ -94,4 +93,6 @@ class WarByParkerInfoSpider(Spider):
             yield loader.load_item()
 
         self.selenium.quit()
+    """
+
 

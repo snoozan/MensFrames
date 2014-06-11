@@ -14,7 +14,8 @@ class AutoRunURLs():
 
 
     def bashspider(spider, dump):
-        bashCommand = "scrapy crawl " + spider + " -o items.%s -t %s" % (dump, dump)
+        bashCommand = "scrapy crawl " + spider + " -o items.json -t json"
+        #% (dump, dump)
         process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
         output = process.communicate()[0]
 
@@ -33,15 +34,6 @@ class AutoRunURLs():
     if __name__ == "__main__":
 
 
-        deletejson("json")
-
-
-
-        spiders = ['eyefly', 'coastal','glasses', 'thirtynine', 'warbyparker', 'lenscrafters', 'lookmatic']
-        for spider in spiders:
-            bashspider(spider, "json")
-
-
         __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(sys.argv[0])))
 
         urls = []
@@ -55,46 +47,21 @@ class AutoRunURLs():
             newurls.append(jsonsplitter(url))
 
 
-        file = open('items.xml', 'w+b')
-        file.write('<?xml version="1.0" encoding="utf-8"?>')
-        file.write('\n<root>\n')
-        file.close()
+
 
 
         for url in newurls:
+
 
             if "http://www.coastal.com" in url:
                 urlstripped = url.split("http://")
                 urlstripped = urlstripped[1].strip('\"')
 
                 bashinfospider('coastalinfo -a url=%s' % urlstripped)
+                file = open('items.xml', 'a')
+                file.write('\n')
+                file.close()
 
-            elif "warbyparker" in url:
-                urlstripped = url.split("http://")
-                urlstripped = urlstripped[1].strip('\"')
-
-                bashinfospider("warbyparkerinfo -a url=%s" % urlstripped)
-                print("warbyparker")
-
-            elif "lenscrafters" in url:
-                urlstripped = url.split("http://")
-                urlstripped = urlstripped[1].strip('\"')
-
-                bashinfospider("lenscraftersinfo -a url=%s" % urlstripped)
-                print("lenscrafters")
-
-            elif "39dollarglasses" in url:
-                urlstripped = url.split("http://")
-                urlstripped = urlstripped[1].strip('\"')
-
-                bashinfospider("thirtynineinfo -a url=%s" % urlstripped)
-                print("thirtynine")
-
-            elif "eyefly" in url:
-                urlstripped = url.split("http://")
-                urlstripped = urlstripped[1].strip('\"')
-
-                bashinfospider("eyeflyinfo -a url=%s" % urlstripped)
 
         file = open('items.xml', 'a')
         file.write('\n</root>\n')
@@ -102,14 +69,77 @@ class AutoRunURLs():
 
         """
 
+        file = open('items.xml', 'w+b')
+        file.write('<?xml version="1.0" encoding="utf-8"?>')
+        file.write('\n<root>\n')
+        file.close()
+        deletejson("json")
 
 
-            elif "glasses" in url:
+        spiders = ['eyefly', 'coastal', 'warbyparker', 'lenscrafters', 'lookmatic']
+        for spider in spiders:
+            bashspider(spider, "json")
+
+            if "http://www.coastal.com" in url:
+                urlstripped = url.split("http://")
+                urlstripped = urlstripped[1].strip('\"')
+
+                bashinfospider('coastalinfo -a url=%s' % urlstripped)
+                file = open('items.xml', 'a')
+                file.write('\n')
+                file.close()
+
+            elif "eyeglasses" in url:
+                urlstripped = url.strip('\"')
+                urlstripped = urlstripped[2:]
+
+                bashinfospider("warbyparkerinfo -a url=%s" % urlstripped)
+                print("warbyparker")
+                file = open('items.xml', 'a')
+                file.write('\n')
+                file.close()
+
+            elif "39dollarglasses" in url:
+                urlstripped = url.split("http://")
+                urlstripped = urlstripped[1].strip('\"')
+
+                bashinfospider("thirtynineinfo -a url=%s" % urlstripped)
+                print("thirtynine")
+                file = open('items.xml', 'a')
+                file.write('\n')
+                file.close()
+
+            elif "eyefly" in url:
+                urlstripped = url.split("http://")
+                urlstripped = urlstripped[1].strip('\"')
+
+                bashinfospider("eyeflyinfo -a url=%s" % urlstripped)
+                file = open('items.xml', 'a')
+                file.write('\n')
+                file.close()
+
+
+
+            elif "www.glasses.com" in url:
                 urlstripped = url.split("http://")
                 urlstripped = urlstripped[1].strip('\"')
 
                 bashspider("glassesinfo -a url=%s" % urlstripped,"xml")
                 print("glasses")
+                file = open('items.xml', 'a')
+                file.write('\n')
+                file.close()
+            elif "lenscrafters" in url:
+                urlstripped = url.split("http://")
+                urlstripped = urlstripped[1].strip('\"')
+
+                bashinfospider("lenscraftersinfo -a url=%s" % urlstripped)
+                print("lenscrafters")
+
+                file = open('items.xml', 'a')
+                file.write('\n')
+                file.close()
+
 
         """
 

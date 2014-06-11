@@ -13,6 +13,8 @@ from selenium.common.exceptions import NoSuchElementException, StaleElementRefer
 from scrapy.contrib.loader import XPathItemLoader
 from scrapy.contrib.loader.processor import Join, MapCompose
 
+import urlparse
+
 from FrameScrapper.items import FramescrapperItem
 import time
 
@@ -27,82 +29,23 @@ class CoastalSpider(InitSpider):
     def __init__(self):
         InitSpider.__init__(self)
         self.verificationErrors = []
-        self.selenium = webdriver.PhantomJS()
 
     def __del__(self):
-        self.selenium.quit()
         print self.verificationErrors
         CrawlSpider.__del__(self)
 
-    def wait_for_visibility(self, selector, timeout_seconds=10):
-        retries = timeout_seconds
-        while retries:
-            print("TRYING FOR THE "+ str(retries) +"th TIME")
-            try:
-                element = selector.find_element_by_xpath('//div[@class=panes]'+\
-                                                         '/div[@class="tab-content-wrapper"]' + \
-                                                         '/div[@class="pagination-nav"]' +\
-                                                         '/span[@class="pagination-internal"]'+\
-                                                         '/span[@id="pagination-nav-right"]')
-                if element.is_displayed():
-                    print("the element is " + element.get_attribute("onclick"))
-                    return element
-
-            except (NoSuchElementException, StaleElementReferenceException):
-                if retries <= 0:
-                    raise
-                else:
-                    pass
-
-            retries = retries -1
-            time.sleep(10)
-        raise Exception("Element %s not visible despite waiting for %s seconds" (
-        selector, timeout_seconds))
-
-
-
-    """
     def parse(self, response):
-        sel= self.selenium
-        sel.get(response.url)
-        sel.implicitly_wait(5)
+        urls = []
+        i = 1
+        while i < 46:
+            urls.append('http://www.coastal.com/mens-frames?ilid=tnav#attr_searchGenders=[Men]&minPrice=0&maxPrice=500&sorting=featuredAnywhere-asc&page=%s&searchFamily=glasses&categoryCode=MaleFrames&filterGroup=&pdi_=[]&widgetExpanded=false&perfectFitExpanded=false&requestIdentifier=16139&hotSpotsEnabled=true&order=[searchGenders_Men]' % i)
+            i+=1
+        for url in urls:
+            url = urlparse.urljoin(response.url, url)
+            self.log('Found item link: %s' %url)
+            yield Request(url, callback=self.parseGlasses, dont_filter=True)
 
-
-        items = []
-        sites = sel.find_elements_by_xpath('//*[@id="browsed-product"]/div[1]/div')
-
-
-        for site in sites:
-            item = FramescrapperItem()
-            item['url'] = site.get_attribute("rel")
-            items.append(item)
-
-        while True:
-            try:
-                next = self.wait_for_visibility(sel)
-
-                sel.implicitly_wait(10)
-                print("clicking " + next.get_attribute("onclick"))
-                next.click()
-
-
-
-                print("current page is " + sel.find_element_by_xpath('//*[@id="pagination-nav-page-numbs"]').text)
-
-                sites = sel.find_elements_by_xpath('//*[@id="browsed-product"]/div[@class="product-container"]/div[@class="product-inner-grid-container"]')
-                for site in sites:
-                    item = FramescrapperItem()
-                    item['url'] = site.get_attribute("rel")
-                    items.append(item)
-
-            except:
-                print("I fail here " + sel.find_element_by_xpath('//*[@id="pagination-nav-right"]').get_attribute("onclick"))
-                break
-
-        return items
-        self.selenium.quit()
-    """
-    def parse(self, response):
+    def parseGlasses(self, response):
         sel = HtmlXPathSelector(response)
 
         for site in sel.select(self.urls_list_xpath):
@@ -116,4 +59,3 @@ class CoastalSpider(InitSpider):
                 loader.add_xpath(field, xpath)
             yield loader.load_item()
 
-        self.selenium.quit()
